@@ -1,31 +1,71 @@
 Outils
 ======
 
-Déplacement
+Les outils sont regroupés sur la barre verticale à droite de l’interface.
+
+
+Mesure & Dessin
+---------------
+
+Des outils de mesure et de dessin permettent d’effectuer des annotations et mesures sur la
+carte.
+
+=======  ====================  =====  =====================
+Icône    Action                Icône  Action
+=======  ====================  =====  =====================
+ x       Dessiner un point       x    Dessiner un cercle
+ x       Dessiner une ligne      x    Dessiner un rectangle
+  x      Dessiner un polygone    x    Ecrire un texte
+=======  ====================  =====  =====================
+
+Un double clic permet de terminer la saisie d’une ligne ou d’un polygone. Certaines propriétés
+des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.
+
+L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
+complète les annotations et fait office d’outil de mesure.
+
+Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le supprimer alors qu’un
+clic droit sur un sommet permet de le supprimer.
+
+Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
+GPX.
+
+Profil altimétrique
+-------------------
+
+Il est possible de tracer un profil en long en se basant sur les modèles numériques de terrain
+et de surface (MNT et MNS).
+
+Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
+un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
+le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).
+
+Street View
 -----------
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+Pour activer l’affichage Street View, une fois l’outil sélectionné, il faut cliquer sur la carte pour
+charger la vue 3D. La carte est synchronisée avec la vue 3D et vice-versa.
 
+Données externes
+----------------
 
-Zoom
-----
+Il est possible d’ajouter différentes données externes à la carte :
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+* Géoservices (WMS ou WMTS)
 
-* A l’aide de la souris :
+* Fichier local (KML ou GPX)
 
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
+Certains serveurs WMS (confédération, canton) sont préconfigurés (liste accessible en tapant
+la lettre « h ») mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
+entrant leur adresse dans le formulaire.
 
-* A l’aide du clavier et de la souris :
+Statistiques
+------------
 
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
+Un outil de statistiques, accessible uniquement en étant connecté, permet de calculer des
+statistiques sur la population, les emplois, les logements et l’énergie sur un secteur spécifique.
 
+Pour effectuer un calcul, après avoir activé l’outil, il faut dessiner sur la carte un périmètre et
+terminer la saisie par un double clic. Les différentes valeurs vont ensuite être calculées et
+affichées, pour autant que la surface ne soit pas trop petite ni trop grande.
 
-Coordonnées
------------

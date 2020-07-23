@@ -1,31 +1,58 @@
 Localisation et recherche
 =========================
 
-Déplacement
+Un outil de recherche plein texte permet de se localiser sur un emplacement ou sur un objet
+spécifique, ou encore d’ajouter des données (couches et thèmes).
+
+Les résultats sont affichés au fur et à mesure de la saisie, répartis en différents groupes. Un
+clic sur le résultat permet de recentrer la carte sur l’objet ou d’ajouter la donnée en question.
+
+La croix à droite de la zone de saisie permet de désactiver la mise en évidence de l’objet.
+
+
+Emplacement
 -----------
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+* Adresse
+
+* Parcelle (mots clés parcelle / egrid)
+
+* PPE (Nyon) (mot clé ppe)
+
+* DDP (mot clé ddp)
+
+* Bâtiment (mots clés eca / egid)
+
+* Rue (mot clé esid)
+
+* Commune (mot clé commune + n° cantonal / OFS)
+
+* Code postal (mot clé npa)
+
+* Coordonnées (CH1903+ / WGS84)
 
 
-Zoom
-----
+Données
+-------
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+* Point fixe (mots clés pfp / pfa)
 
-* A l’aide de la souris :
+* Permis de construire (mots clés permis / camac)
 
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
+* Plan de quartier (mot clé pq)
 
-* A l’aide du clavier et de la souris :
+* Arrêt de transport public (mot clé arret)
 
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
+De plus en étant connecté, d’autres objets sont disponibles (selon les droits) :
 
+* Bornes hydrantes (eau potable) (mot clé bh)
 
-Coordonnées
------------
+* Postes de détente (gaz) (mot clé cd)
+
+* Balises de signalisation (gaz) (mot clé bag)
+
+* Détections (pompiers) (mot clé sdis)
+
+* Clés (pompiers) (mots clés sdis cle)
+
+* Accueillantes en milieu familial (mot clé amf)

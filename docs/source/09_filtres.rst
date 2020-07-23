@@ -1,31 +1,45 @@
 Filtres
 =======
 
-Déplacement
------------
+Un outil de filtres avancés permet de filtrer attributairement et géographiquement certaines
+couches. Si une couche filtrable est présente dans le thème actuel, le bouton filtres apparaît
+dans la barre d’outils.
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
 
 
-Zoom
-----
+Filtrer une couche
+------------------
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+1. Choisir la couche à filtrer
 
-* A l’aide de la souris :
+2. Ajouter un nouveau critère
 
-  * Avec la roulette
+3. Filtre attributaire :
+
+ - Choisir la colonne à filtrer
   
-  * Avec un double clic
+ - Définir l’opérateur (égal, pas égal, contient, supérieur, inférieur)
   
-* A l’aide des boutons en haut à gauche de la carte :
+ - Définir la valeur (texte libre, cases à cocher, date)
+  
+4. Filtre spatial :
 
-* A l’aide du clavier et de la souris :
+ - Choisir filtre spatial
+  
+ - Définir le type de relation (contient, intersecte, à l’intérieur de)
+  
+ - Dessiner la géométrie sur la carte
+  
+5. Appliquer le critère
 
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
+6. (Eventuellement ajouter un autre critère et refaire les points précédents)
 
+7. Appliquer le filtre pour rafraîchir la carte
 
-Coordonnées
------------
+Autres fonctionnalités
+----------------------
+
+Il est possible d’enregistrer les filtres pour une utilisation ultérieure (bouton « sauvegarder »)
+ou d’afficher les attributs des objets filtrés (bouton « obtenir données »).
+La combinaison des critères (et, ou, non) peut être modifiée :
+

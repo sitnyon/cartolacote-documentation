@@ -1,31 +1,18 @@
 Connexion
 =========
 
-Déplacement
------------
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+L’authentification permet à l’utilisateur d’accéder à des géodonnées supplémentaires. Selon le
+profil de l’utilisateur, des données restreintes propres à son service sont également
+accessibles.
 
+Bien que le nom du compte du géoportail corresponde à celui pour accéder aux ressources
+informatiques de la Ville de Nyon, le mot de passe n’est pas synchronisé entre ces deux
+systèmes.
 
-Zoom
-----
+Comme indiqué dans le formulaire de connexion, un accès sécurisé peut-être demandé en
+utilisant le formulaire de contact.
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+En cas d’oubli de mot de passe, il est possible de le réinitialiser avec
+le lien « mot de passe oublié » sous le formulaire de connexion :
 
-* A l’aide de la souris :
-
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
-
-* A l’aide du clavier et de la souris :
-
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
-
-
-Coordonnées
------------

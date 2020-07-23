@@ -1,31 +1,26 @@
 Interrogation
 =============
 
-Déplacement
------------
+Données
+-------
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+L’interrogation d’objets peut se faire de deux façons :
 
+* Avec un simple clic
 
-Zoom
-----
+* En dessinant un rectangle avec la touche CTRL enfoncée
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+Les résultats sont affichés en bas à droite de la carte, séparés en groupe selon leur couche. Il
+est possible de faire défiler les résultats avec les flèches précédant et suivant (en bas), l’objet
+sera mis en surbrillance sur la carte. Il est également possible de filtrer les résultats selon leur
+couche.
 
-* A l’aide de la souris :
+Registre foncier
+----------------
 
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
+En choisissant le plan cadastral comme fond de plan, il est
+possible d’obtenir des informations du registre foncier
+(propriétaire, état descriptif) en interrogeant les parcelles.
+En étant connecté, l’extrait complet du registre foncier ainsi que
+l’adresse des propriétaires sont également disponibles.
 
-* A l’aide du clavier et de la souris :
-
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
-
-
-Coordonnées
------------

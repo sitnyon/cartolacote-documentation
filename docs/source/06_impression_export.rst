@@ -1,31 +1,40 @@
 Impression et export
 ====================
 
-Déplacement
+Impression
 -----------
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+Il est possible de définir certaines propriétés de l’impression (format, échelle, rotation, titre)
+et d’afficher une légende pour les couches actives.
+
+Un rectangle montrant l’emprise de l’impression apparaît sur la carte. Ce rectangle peut être
+déplacé, agrandit et tourné à l’aide de la souris (ALT+SHIFT).
 
 
-Zoom
-----
+Lien permanent
+--------------
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+Un moyen efficace de partager une carte est l’utilisation d’un lien permanent (permalien).
+Ce lien permet de recréer l’état de la carte, ce
+qui veut dire que l’emplacement est conservé,
+tout comme les couches affichées avec leur
+ordre d’affichage et même les annotations.
+Une autre utilisation possible du permalien est
+de créer un favori dans le navigateur Internet,
+pour avoir un affichage spécifique propre à
+l’utilisateur.
 
-* A l’aide de la souris :
-
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
-
-* A l’aide du clavier et de la souris :
-
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
+Il est également possible d’envoyer le
+permalien à une adresse email, pour cela il faut
+utiliser les champs du formulaire spécifique.
 
 
-Coordonnées
------------
+Commande de géodonnées
+----------------------
+
+Les données affichées dans le géoportail sont commandables en ligne via le portail de l’ASIT
+VD.
+
+Pour la commande de plans réseaux, l’étendue géographique actuelle est conservée pour
+rendre le processus encore plus simple.
+

@@ -1,31 +1,39 @@
 Edition
 =======
 
-Déplacement
------------
+Un outil d’édition, accessible uniquement en étant connecté, permet de mettre à jour
+certaines couches. Ces couches éditables sont regroupées dans le dernier thème « Edition » (si
+celui-ci n’est pas visible, c’est que l’utilisateur actuel n’a aucun droit d’édition).
 
-Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
+Ajouter un objet
+----------------
+1. Sélectionner la couche dans la liste déroulante
 
+2. Cliquer sur dessiner un nouveau point / une nouvelle ligne / une nouvelle surface
 
-Zoom
-----
+3. Ajouter l’objet sur la carte (double clic pour terminer la saisie d’une ligne ou d’une surface)
 
-Le zoom dans la carte peut se faire de plusieurs façons :
+4. Remplir les valeurs (les champs obligatoires sont marqués avec « * »)
 
-* A l’aide de la souris :
+5. Cliquer sur sauvegarder
 
-  * Avec la roulette
-  
-  * Avec un double clic
-  
-* A l’aide des boutons en haut à gauche de la carte :
+Editer un objet
+---------------
 
-* A l’aide du clavier et de la souris :
+1. Sélectionner la couche dans la liste déroulante
 
-  * En dessinant un rectangle avec la touche SHIFT enfoncée
- 
-* A l’aide du sélecteur d’échelle en bas à gauche de l’interface :
+2. Cliquer sur l’objet sur la carte
 
+3. Mettre à jour les valeurs (les champs obligatoires sont marqués avec « * »)
 
-Coordonnées
------------
+4. Cliquer sur sauvegarder
+
+Supprimer un objet
+------------------
+
+1. Sélectionner la couche dans la liste déroulante
+
+2. Cliquer sur l’objet sur la carte
+
+3. Cliquer sur supprimer
+
