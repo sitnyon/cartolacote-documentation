@@ -90,6 +90,13 @@ html_theme = 'press'
 #
 # html_theme_options = {}
 
+html_theme_options = {
+  "external_links": [
+      ("map.cartolacote.ch", "https://map.cartolacote.ch"),
+      ("cartolacote.ch", "https://cartolacote.ch")
+  ]
+}
+
 html_logo = '_static/logo_cartolacote.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
