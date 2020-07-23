@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cartolacôte'
+project = 'Géoportail Cartolacôte'
 copyright = '2020, Cartolacôte'
 author = 'Cartolacôte'
 
@@ -90,6 +90,8 @@ html_theme = 'press'
 #
 # html_theme_options = {}
 
+html_logo = '_static/logo_cartolacote.png'
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -109,7 +111,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Cartolactedoc'
+htmlhelp_basename = 'Cartolacotedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -146,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cartolacte', 'Cartolacôte Documentation',
+    (master_doc, 'cartolacote', 'Cartolacôte Documentation',
      [author], 1)
 ]
 
@@ -157,8 +159,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Cartolacte', 'Cartolacôte Documentation',
-     author, 'Cartolacte', 'One line description of project.',
+    (master_doc, 'Cartolacote', 'Cartolacôte Documentation',
+     author, 'Cartolacote', 'One line description of project.',
      'Miscellaneous'),
 ]
 
