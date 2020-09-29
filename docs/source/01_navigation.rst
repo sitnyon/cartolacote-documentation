@@ -6,6 +6,9 @@ Déplacement
 
 Le déplacement dans la carte se fait à l’aide de la souris avec le "drag and drop"
 
+.. raw:: html
+
+    <p><video width="840" controls><source src="_static/deplacement_carte.mp4" type="video/mp4"></video></p>
 
 Zoom
 ----
@@ -18,7 +21,9 @@ Le zoom dans la carte peut se faire de plusieurs façons :
   
   * Avec un double clic
   
-* A l’aide des boutons en haut à gauche de la carte :
+* A l’aide des boutons en haut à gauche de la carte : 
+
+.. image:: _static/zoom_bouton.png
 
 * A l’aide du clavier et de la souris :
 

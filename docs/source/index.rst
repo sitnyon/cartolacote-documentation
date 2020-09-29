@@ -6,8 +6,11 @@
 Bienvenue sur la documentation du géoportail Cartolacôte!
 =========================================================
 
+.. image:: _static/geoportail_cartolacote.png
+  :alt: Géoportail Cartolacôte
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Documentation
    
    01_navigation
@@ -21,9 +24,8 @@ Bienvenue sur la documentation du géoportail Cartolacôte!
    09_filtres
    10_version_mobile
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 1
+   :caption: Historique de version
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   historique_version/index
