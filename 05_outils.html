@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html  lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Outils</title>
+    
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+
+      
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Recherche" href="search.html" />
+  <link rel="next" title="Impression et export" href="06_impression_export.html" />
+  <link rel="prev" title="Interrogation" href="04_interrogation.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <div class="home-link-container">
+      <router-link to="index.html" class="home-link">
+      
+        <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
+      
+        <span class="site-name">Géoportail Cartolacôte</span>
+    </router-link>
+  </div>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
+         Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link ">
+         Historique de version
+      </a>
+    </div>
+  
+
+
+
+  
+    <div class="nav-item">
+      <a href="https://map.cartolacote.ch"
+        class="nav-link external">
+          map.cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://cartolacote.ch"
+        class="nav-link external">
+          cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
+         Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link ">
+         Historique de version
+      </a>
+    </div>
+  
+
+
+
+  
+    <div class="nav-item">
+      <a href="https://map.cartolacote.ch"
+        class="nav-link external">
+          map.cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://cartolacote.ch"
+        class="nav-link external">
+          cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Recherche</span>
+    <div class="searchformwrapper">
+      <form autocomplete="off" class="search" action="search.html" method="get">
+        <input type="text" name="q" autocomplete="off" />
+        <input type="submit" value="Go" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Documentation</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Outils</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#mesure-dessin" class="reference internal">Mesure & Dessin</a></li>
+                
+                  <li class="toctree-l2"><a href="#profil-altimetrique" class="reference internal">Profil altimétrique</a></li>
+                
+                  <li class="toctree-l2"><a href="#street-view" class="reference internal">Street View</a></li>
+                
+                  <li class="toctree-l2"><a href="#donnees-externes" class="reference internal">Données externes</a></li>
+                
+                  <li class="toctree-l2"><a href="#statistiques" class="reference internal">Statistiques</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="07_connexion.html" class="reference internal ">Connexion</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Historique de version</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="historique_version/index.html" class="reference internal ">Version du 28 septembre 2020</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+    <li>Outils</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="04_interrogation.html"
+       title="Chapitre précédent">← Interrogation</a>
+  </li>
+  <li class="next">
+    <a href="06_impression_export.html"
+       title="Chapitre suivant">Impression et export →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="outils">
+<h1>Outils<a class="headerlink" href="#outils" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Les outils sont regroupés sur la barre verticale à droite de l’interface.</p>
+<div class="section" id="mesure-dessin">
+<h2>Mesure &amp; Dessin<a class="headerlink" href="#mesure-dessin" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Des outils de mesure et de dessin permettent d’effectuer des annotations et mesures sur la
+carte.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 38%" />
+<col style="width: 9%" />
+<col style="width: 40%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Icône</p></th>
+<th class="head"><p>Action</p></th>
+<th class="head"><p>Icône</p></th>
+<th class="head"><p>Action</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>x</p></td>
+<td><p>Dessiner un point</p></td>
+<td><p>x</p></td>
+<td><p>Dessiner un cercle</p></td>
+</tr>
+<tr class="row-odd"><td><p>x</p></td>
+<td><p>Dessiner une ligne</p></td>
+<td><p>x</p></td>
+<td><p>Dessiner un rectangle</p></td>
+</tr>
+<tr class="row-even"><td><p>x</p></td>
+<td><p>Dessiner un polygone</p></td>
+<td><p>x</p></td>
+<td><p>Ecrire un texte</p></td>
+</tr>
+</tbody>
+</table>
+<p>Un double clic permet de terminer la saisie d’une ligne ou d’un polygone. Certaines propriétés
+des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.</p>
+<p>L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
+complète les annotations et fait office d’outil de mesure.</p>
+<p>Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le supprimer alors qu’un
+clic droit sur un sommet permet de le supprimer.</p>
+<p>Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
+GPX.</p>
+</div>
+<div class="section" id="profil-altimetrique">
+<h2>Profil altimétrique<a class="headerlink" href="#profil-altimetrique" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible de tracer un profil en long en se basant sur les modèles numériques de terrain
+et de surface (MNT et MNS).</p>
+<p>Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
+un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
+le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).</p>
+</div>
+<div class="section" id="street-view">
+<h2>Street View<a class="headerlink" href="#street-view" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour activer l’affichage Street View, une fois l’outil sélectionné, il faut cliquer sur la carte pour
+charger la vue 3D. La carte est synchronisée avec la vue 3D et vice-versa.</p>
+</div>
+<div class="section" id="donnees-externes">
+<h2>Données externes<a class="headerlink" href="#donnees-externes" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible d’ajouter différentes données externes à la carte :</p>
+<ul class="simple">
+<li><p>Géoservices (WMS ou WMTS)</p></li>
+<li><p>Fichier local (KML ou GPX)</p></li>
+</ul>
+<p>Certains serveurs WMS (confédération, canton) sont préconfigurés (liste accessible en tapant
+la lettre « h ») mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
+entrant leur adresse dans le formulaire.</p>
+</div>
+<div class="section" id="statistiques">
+<h2>Statistiques<a class="headerlink" href="#statistiques" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Un outil de statistiques, accessible uniquement en étant connecté, permet de calculer des
+statistiques sur la population, les emplois, les logements et l’énergie sur un secteur spécifique.</p>
+<p>Pour effectuer un calcul, après avoir activé l’outil, il faut dessiner sur la carte un périmètre et
+terminer la saisie par un double clic. Les différentes valeurs vont ensuite être calculées et
+affichées, pour autant que la surface ne soit pas trop petite ni trop grande.</p>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="04_interrogation.html"
+       title="Chapitre précédent">← Interrogation</a>
+  </li>
+  <li class="next">
+    <a href="06_impression_export.html"
+       title="Chapitre suivant">Impression et export →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2020, Cartolacôte.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>

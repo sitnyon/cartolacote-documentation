@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html  lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Impression et export</title>
+    
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+
+      
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Recherche" href="search.html" />
+  <link rel="next" title="Connexion" href="07_connexion.html" />
+  <link rel="prev" title="Outils" href="05_outils.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <div class="home-link-container">
+      <router-link to="index.html" class="home-link">
+      
+        <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
+      
+        <span class="site-name">Géoportail Cartolacôte</span>
+    </router-link>
+  </div>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
+         Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link ">
+         Historique de version
+      </a>
+    </div>
+  
+
+
+
+  
+    <div class="nav-item">
+      <a href="https://map.cartolacote.ch"
+        class="nav-link external">
+          map.cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://cartolacote.ch"
+        class="nav-link external">
+          cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
+         Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link ">
+         Historique de version
+      </a>
+    </div>
+  
+
+
+
+  
+    <div class="nav-item">
+      <a href="https://map.cartolacote.ch"
+        class="nav-link external">
+          map.cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://cartolacote.ch"
+        class="nav-link external">
+          cartolacote.ch <outboundlink/>
+      </a>
+    </div>
+  
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Recherche</span>
+    <div class="searchformwrapper">
+      <form autocomplete="off" class="search" action="search.html" method="get">
+        <input type="text" name="q" autocomplete="off" />
+        <input type="submit" value="Go" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Documentation</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="05_outils.html" class="reference internal ">Outils</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Impression et export</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#impression" class="reference internal">Impression</a></li>
+                
+                  <li class="toctree-l2"><a href="#lien-permanent" class="reference internal">Lien permanent</a></li>
+                
+                  <li class="toctree-l2"><a href="#commande-de-geodonnees" class="reference internal">Commande de géodonnées</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="07_connexion.html" class="reference internal ">Connexion</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Historique de version</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="historique_version/index.html" class="reference internal ">Version du 28 septembre 2020</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+    <li>Impression et export</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="05_outils.html"
+       title="Chapitre précédent">← Outils</a>
+  </li>
+  <li class="next">
+    <a href="07_connexion.html"
+       title="Chapitre suivant">Connexion →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="impression-et-export">
+<h1>Impression et export<a class="headerlink" href="#impression-et-export" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="impression">
+<h2>Impression<a class="headerlink" href="#impression" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible de définir certaines propriétés de l’impression (format, échelle, rotation, titre)
+et d’afficher une légende pour les couches actives.</p>
+<p>Un rectangle montrant l’emprise de l’impression apparaît sur la carte. Ce rectangle peut être
+déplacé, agrandit et tourné à l’aide de la souris (ALT+SHIFT).</p>
+</div>
+<div class="section" id="lien-permanent">
+<h2>Lien permanent<a class="headerlink" href="#lien-permanent" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Un moyen efficace de partager une carte est l’utilisation d’un lien permanent (permalien).
+Ce lien permet de recréer l’état de la carte, ce
+qui veut dire que l’emplacement est conservé,
+tout comme les couches affichées avec leur
+ordre d’affichage et même les annotations.
+Une autre utilisation possible du permalien est
+de créer un favori dans le navigateur Internet,
+pour avoir un affichage spécifique propre à
+l’utilisateur.</p>
+<p>Il est également possible d’envoyer le
+permalien à une adresse email, pour cela il faut
+utiliser les champs du formulaire spécifique.</p>
+</div>
+<div class="section" id="commande-de-geodonnees">
+<h2>Commande de géodonnées<a class="headerlink" href="#commande-de-geodonnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Les données affichées dans le géoportail sont commandables en ligne via le portail de l’ASIT
+VD.</p>
+<p>Pour la commande de plans réseaux, l’étendue géographique actuelle est conservée pour
+rendre le processus encore plus simple.</p>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="05_outils.html"
+       title="Chapitre précédent">← Outils</a>
+  </li>
+  <li class="next">
+    <a href="07_connexion.html"
+       title="Chapitre suivant">Connexion →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2020, Cartolacôte.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>
