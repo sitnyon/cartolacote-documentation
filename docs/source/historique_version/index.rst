@@ -6,8 +6,8 @@ Version du 28 septembre 2020
 Application
 ***********
 
-`Géoportail Cartolacôte <//map.cartolacote.ch>`__
-'''''''''''''''''''''''''''''''''''''''''''''''''
+`Géoportail Cartolacôte <https://map.cartolacote.ch>`__
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 .. raw:: html
 
