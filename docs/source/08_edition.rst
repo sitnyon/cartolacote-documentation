@@ -5,6 +5,8 @@ Un outil d’édition, accessible uniquement en étant connecté, permet de mett
 certaines couches. Ces couches éditables sont regroupées dans le dernier thème « Edition » (si
 celui-ci n’est pas visible, c’est que l’utilisateur actuel n’a aucun droit d’édition).
 
+.. image:: _static/edition.png
+
 Ajouter un objet
 ----------------
 1. Sélectionner la couche dans la liste déroulante
