@@ -11,15 +11,15 @@ version mobile.
 Interface
 ---------
 
-
+.. image:: _static/mobile.png
 
 Gestes
 ------
 
-=====  ===========  ==========  =================
-Geste  Action       Geste       Action
-=====  ===========  ==========  =================
-x      Se déplacer              Zommer en avant
-x      Interroger               Zoomer en arrière
-=====  ===========  ==========  =================
+==========================  ===========  ==========================  =================
+Geste                       Action       Geste                       Action
+==========================  ===========  ==========================  =================
+.. image:: _static/i20.png  Se déplacer  .. image:: _static/i22.png  Zommer en avant
+.. image:: _static/i21.png  Interroger   .. image:: _static/i23.png  Zoomer en arrière
+==========================  ===========  ==========================  =================
 

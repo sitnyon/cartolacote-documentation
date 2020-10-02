@@ -4,11 +4,15 @@ Impression et export
 Impression
 -----------
 
-Il est possible de définir certaines propriétés de l’impression (format, échelle, rotation, titre)
+Il est possible de définir certaines propriétés de l’impression (format, logo, échelle, rotation, titre)
 et d’afficher une légende pour les couches actives.
 
 Un rectangle montrant l’emprise de l’impression apparaît sur la carte. Ce rectangle peut être
 déplacé, agrandit et tourné à l’aide de la souris (ALT+SHIFT).
+
+.. raw:: html
+
+    <p><video width="600" controls><source src="_static/impression.mp4" type="video/mp4"></video></p>
 
 
 Lien permanent
@@ -37,4 +41,6 @@ VD.
 
 Pour la commande de plans réseaux, l’étendue géographique actuelle est conservée pour
 rendre le processus encore plus simple.
+
+.. image:: _static/commande_geodonnees.png
 

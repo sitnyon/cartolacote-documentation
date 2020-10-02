@@ -5,7 +5,9 @@ Un outil de filtres avancés permet de filtrer attributairement et géographique
 couches. Si une couche filtrable est présente dans le thème actuel, le bouton filtres apparaît
 dans la barre d’outils.
 
+.. raw:: html
 
+    <p><video width="600" controls><source src="_static/filtre.mp4" type="video/mp4"></video></p>
 
 Filtrer une couche
 ------------------
