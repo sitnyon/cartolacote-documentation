@@ -15,6 +15,8 @@ est possible de faire défiler les résultats avec les flèches précédant et s
 sera mis en surbrillance sur la carte. Il est également possible de filtrer les résultats selon leur
 couche.
 
+.. image:: _static/interrogation_resultats.png
+
 Registre foncier
 ----------------
 
@@ -23,4 +25,6 @@ possible d’obtenir des informations du registre foncier
 (propriétaire, état descriptif) en interrogeant les parcelles.
 En étant connecté, l’extrait complet du registre foncier ainsi que
 l’adresse des propriétaires sont également disponibles.
+
+.. image:: _static/interrogation_rf.png
 
