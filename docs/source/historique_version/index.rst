@@ -18,8 +18,8 @@ Application
   
     <li>Mise en production du géoportail Cartolacôte</li>
     <li>Ajout d'un nouveau thème <a href="https://map.cartolacote.ch/theme/cartolacote" target=_blank><i>Cartolacôte</i></a></li>
-	<li>Nouvelle fonctionnalité pour recentrer sur l'étendue d'une commune</li>
-	<li>Nouvelle fonctionnalité pour l'impression avec le logo d'un partenaire</li>
+	<li>Nouvelle fonctionnalité pour se déplacer vers l'étendue d'une commune</li>
+	<li>Nouvelle fonctionnalité pour imprimer avec le logo d'un partenaire</li>
 
 .. _historique_version_20200928:
 
