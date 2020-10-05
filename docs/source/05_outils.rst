@@ -88,3 +88,10 @@ affichées, pour autant que la surface ne soit pas trop petite ni trop grande.
 
     <p><video width="600" controls><source src="_static/statistiques.mp4" type="video/mp4"></video></p>
 
+
+Recentrer
+---------
+
+Il est possible de recentrer la carte selon l'étendue d'une commune du district. 
+
+.. image:: _static/recentrer.png
