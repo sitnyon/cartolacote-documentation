@@ -4,11 +4,11 @@ Cartolacote documentation
 Requirements
 ------------
 
-sudo apt-get install python3-sphinx
-sudo apt install make
-sudo apt-get update
-sudo apt install python3-pip
-pip3 install PyStemmer
+* sudo apt-get install python3-sphinx
+* sudo apt install make
+* sudo apt-get update
+* sudo apt install python3-pip
+* pip3 install PyStemmer
 
 Installation
 ------------
