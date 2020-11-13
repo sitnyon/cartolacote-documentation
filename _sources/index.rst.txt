@@ -24,6 +24,7 @@ Bienvenue sur la documentation du géoportail Cartolacôte!
    09_filtres
    10_version_mobile
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Historique de version

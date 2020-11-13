@@ -19,7 +19,7 @@ Gestes
 ==========================  ===========  ==========================  =================
 Geste                       Action       Geste                       Action
 ==========================  ===========  ==========================  =================
-.. image:: _static/i20.png  Se déplacer  .. image:: _static/i22.png  Zommer en avant
+.. image:: _static/i20.png  Se déplacer  .. image:: _static/i22.png  Zoomer en avant
 .. image:: _static/i21.png  Interroger   .. image:: _static/i23.png  Zoomer en arrière
 ==========================  ===========  ==========================  =================
 

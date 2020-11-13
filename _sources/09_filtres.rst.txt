@@ -43,5 +43,5 @@ Autres fonctionnalités
 
 Il est possible d’enregistrer les filtres pour une utilisation ultérieure (bouton « sauvegarder »)
 ou d’afficher les attributs des objets filtrés (bouton « obtenir données »).
-La combinaison des critères (et, ou, non) peut être modifiée :
+La combinaison des critères (et, ou, non) peut être modifiée.
 

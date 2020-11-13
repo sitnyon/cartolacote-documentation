@@ -5,6 +5,21 @@ Versions
 
 .. _historique_version_20201014:
 
+Version du 13 novembre 2020
+---------------------------
+
+Application
+***********
+
+.. raw:: html
+
+    <li>Mise à jour de l'applicatiom GMF à la version 2.4.2.17 (Résolution de l'erreur de l'impression avec les couches du Canton de Vaud)</li>
+	<li>Mise à jour des métadonnées des copyrights</li>
+	<li>Nouvelle bannière avec ajout d'un lien vers la documentation</li>
+	<li>Affichage de la légende désactivé lorsqu'une couche n'est pas visible</li>
+	
+.. _historique_version_20201014:
+
 Version du 14 octobre 2020
 --------------------------
 
