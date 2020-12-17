@@ -3,7 +3,37 @@
 Versions
 ========
 
-.. _historique_version_20201014:
+.. _historique_version_20201217:
+
+Version du 17 décembre 2020
+---------------------------
+
+Application
+***********
+
+.. raw:: html
+
+	<li>Migration du thème Patrimoine communal vers un nouveau thème <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Patrimoine</a></li>
+	<li>Nouvelles couches : <a href="https://map.cartolacote.ch/s/8ZKL" target=_blank>Salles communales</a>, <a href="https://map.cartolacote.ch/s/EBuB" target=_blank>Permis de construire - Projeté</a>, <a href="https://map.cartolacote.ch/s/vzg5" target=_blank>Périmètre fondés sur l'ISOS</a></li>
+	<li>Nouveau thème <a href="https://map.cartolacote.ch/theme/documents" target=_blank>Documents</a></li>
+	<li>Mise à jour des données (ensemble du district) du <a href="https://map.cartolacote.ch/s/Fqtf" target=_blank>Recensement architectural</a></li>
+	<li>Nouvelles images des thèmes</li>
+	
+
+.. _historique_version_20201203:
+
+Version du 3 décembre 2020
+---------------------------
+
+Application
+***********
+
+.. raw:: html
+
+    <li>Nouvelle symbologie pour le groupe de couche <a href="https://map.cartolacote.ch/s/GvGG" target=_blank>Stationnement public</a></li>
+	<li>Ajout d'un nouvelle classe  <a href="https://map.cartolacote.ch/s/ME7p" target=_blank>Arbres remarquables</a></li>
+
+.. _historique_version_20201113:
 
 Version du 13 novembre 2020
 ---------------------------
