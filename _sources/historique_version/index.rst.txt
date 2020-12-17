@@ -14,7 +14,7 @@ Application
 .. raw:: html
 
 	<li>Migration du thème Patrimoine communal vers un nouveau thème <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Patrimoine</a></li>
-	<li>Nouvelles couches : <a href="https://map.cartolacote.ch/s/8ZKL" target=_blank>Salles communales</a>,<a href="https://map.cartolacote.ch/s/EBuB" target=_blank>Permis de construire - Projeté</a>, <a href="https://map.cartolacote.ch/s/vzg5" target=_blank>Périmètre fondés sur l'ISOS</a></li>
+	<li>Nouvelles couches : <a href="https://map.cartolacote.ch/s/8ZKL" target=_blank>Salles communales</a>, <a href="https://map.cartolacote.ch/s/EBuB" target=_blank>Permis de construire - Projeté</a>, <a href="https://map.cartolacote.ch/s/vzg5" target=_blank>Périmètre fondés sur l'ISOS</a></li>
 	<li>Nouveau thème <a href="https://map.cartolacote.ch/theme/documents" target=_blank>Documents</a></li>
 	<li>Mise à jour des données (ensemble du district) du <a href="https://map.cartolacote.ch/s/Fqtf" target=_blank>Recensement architectural</a></li>
 	<li>Nouvelles images des thèmes</li>
