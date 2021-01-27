@@ -3,6 +3,20 @@
 Versions
 ========
 
+.. _historique_version_20210127:
+
+Version du 27 janvier 2021
+--------------------------
+
+Application
+***********
+
+.. raw:: html
+
+	<li>Nouveau thème <a href="https://map.cartolacote.ch/theme/covid" target=_blank>COVID</a></li>
+	<li>Ajout du lien CAMAC pour les permis de construire</li>
+	<li>Adaptation de la symbologie pour les points d'intérêt "Santé, sécurité"</li>
+
 .. _historique_version_20201217:
 
 Version du 17 décembre 2020
