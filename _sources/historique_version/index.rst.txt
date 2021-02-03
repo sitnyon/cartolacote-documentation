@@ -3,13 +3,22 @@
 Versions
 ========
 
+.. _historique_version_20210203:
+
+Version du 3 février 2021
+-------------------------
+
+.. raw:: html
+
+	<li>Nouvelles couches d'édition <a href="https://map.cartolacote.ch/s/swur" target=_blank>Clés</a> et <a href="https://map.cartolacote.ch/s/7MeN" target=_blank>Dossiers d'intervention</a></li>
+	<li>Ajout de la fonctionnalité "Partage de la carte" pour la version mobile</li>
+	<li>Ajout de la sélection de fond de plan sur la carte pour la version mobile</li>
+
+
 .. _historique_version_20210127:
 
 Version du 27 janvier 2021
 --------------------------
-
-Application
-***********
 
 .. raw:: html
 
@@ -21,9 +30,6 @@ Application
 
 Version du 17 décembre 2020
 ---------------------------
-
-Application
-***********
 
 .. raw:: html
 
@@ -39,9 +45,6 @@ Application
 Version du 3 décembre 2020
 ---------------------------
 
-Application
-***********
-
 .. raw:: html
 
     <li>Nouvelle symbologie pour le groupe de couche <a href="https://map.cartolacote.ch/s/GvGG" target=_blank>Stationnement public</a></li>
@@ -51,9 +54,6 @@ Application
 
 Version du 13 novembre 2020
 ---------------------------
-
-Application
-***********
 
 .. raw:: html
 
@@ -67,19 +67,10 @@ Application
 Version du 14 octobre 2020
 --------------------------
 
-Application
-***********
-
 .. raw:: html
 
     <li>Résolution du style du bouton pour l'export GPX</li>
 	<li>Changement du nom des couches ASIT VD à ASIT</li>
-
-Données
-*******
-
-.. raw:: html
-  
     <li>Refonte du thème <a href="https://map.cartolacote.ch/theme/altimetrie" target=_blank>Altimétrie</a></li>
 	<li>Ajout d'une nouvelle couche <a href="https://map.cartolacote.ch/theme/altimetrie" target=_blank>Courbes de niveau 2015</a></li>
 	<li>Ajout d'une nouvelle couche <a href="https://map.cartolacote.ch/theme/altimetrie" target=_blank>Ombrage de surface 2019</a></li>
@@ -90,12 +81,6 @@ Données
 
 Version du 5 octobre 2020
 -------------------------
-
-Application
-***********
-
-`Géoportail Cartolacôte <https://map.cartolacote.ch>`__
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 .. raw:: html
   
@@ -108,9 +93,6 @@ Application
 
 Version du 28 septembre 2020
 ----------------------------
-
-Application
-***********
 
 .. raw:: html
 
