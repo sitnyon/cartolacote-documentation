@@ -3,6 +3,28 @@
 Versions
 ========
 
+.. _historique_version_20210304:
+
+Version du 4 mars 2021
+----------------------
+
+.. raw:: html
+
+	<li>Nouvelles fonctionnalités : Intégrer la carte et ajout du QR code dans l'outil de partage</a></li>
+	<li>Changement des urls pour les services de l'ASIT</a></li>
+	<li>Ajout d'un service pour les métadonnées des copyrights</a></li>
+
+.. _historique_version_20210210:
+
+Version du 10 février 2021
+--------------------------
+
+.. raw:: html
+
+	<li>Nouvelles couches Organisation pompiers : <a href="https://map.cartolacote.ch/s/udYA" target=_blank>Sites</a> et <a href="https://map.cartolacote.ch/s/udYA" target=_blank>Secteurs d'organisation</a></li>
+	<li>Nouvelle couche <a href="https://map.cartolacote.ch/s/JoyH" target=_blank>Bornes hydrantes ECA</a></li>
+	<li>Ajout de l'attribut photo pour les couches du groupe <a href="https://map.cartolacote.ch/theme/espaces_publics" target=_blank>Affichage sur domaine public</a></li>
+
 .. _historique_version_20210203:
 
 Version du 3 février 2021

@@ -3,6 +3,15 @@ Outils
 
 Les outils sont regroupés sur la barre verticale à droite de l’interface.
 
+Intégrer la carte
+-----------------
+
+Le géoportail Cartolacôte peut etre intégrer dans n'inporte quelle page internet sous forme d'iframe.
+
+.. raw:: html
+
+    <p><video width="600" controls><source src="_static/integrer_la_carte.mp4" type="video/mp4"></video></p>
+
 
 Mesure & Dessin
 ---------------
