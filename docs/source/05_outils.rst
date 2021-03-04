@@ -6,7 +6,7 @@ Les outils sont regroupés sur la barre verticale à droite de l’interface.
 Intégrer la carte
 -----------------
 
-Le géoportail Cartolacôte peut etre intégrer dans n'inporte quelle page internet sous forme d'iframe.
+Le géoportail Cartolacôte peut être intégré dans n'importe quelle page internet sous forme d'iframe.
 
 .. raw:: html
 
