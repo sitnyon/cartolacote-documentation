@@ -15,8 +15,8 @@ déplacé, agrandit et tourné à l’aide de la souris (ALT+SHIFT).
     <p><video width="600" controls><source src="_static/impression.mp4" type="video/mp4"></video></p>
 
 
-Lien permanent
---------------
+Lien permanent et QR code
+-------------------------
 
 Un moyen efficace de partager une carte est l’utilisation d’un lien permanent (permalien).
 Ce lien permet de recréer l’état de la carte, ce
@@ -31,6 +31,8 @@ l’utilisateur.
 Il est également possible d’envoyer le
 permalien à une adresse email, pour cela il faut
 utiliser les champs du formulaire spécifique.
+
+L'outil de partage permet aussi de conserver le permalien sous forme de QR Code.
 
 
 Commande de géodonnées
