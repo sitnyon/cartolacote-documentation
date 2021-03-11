@@ -2,7 +2,7 @@ Impression et export
 ====================
 
 Impression
------------
+----------
 
 Il est possible de définir certaines propriétés de l’impression (format, logo, échelle, rotation, titre)
 et d’afficher une légende pour les couches actives.

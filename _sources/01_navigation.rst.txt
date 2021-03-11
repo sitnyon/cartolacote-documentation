@@ -15,17 +15,17 @@ Zoom
 
 Le zoom dans la carte peut se faire de plusieurs façons :
 
-* À l’aide de la souris
-* À l’aide des boutons en haut à gauche de la carte
-* À l’aide du clavier et de la souris
-* À l’aide du sélecteur d’échelle en bas à gauche de l’interface
+- À l’aide de la souris
+- À l’aide des boutons en haut à gauche de la carte
+- À l’aide du clavier et de la souris
+- À l’aide du sélecteur d’échelle en bas à gauche de l’interface
 
 
 À l’aide de la souris
 *********************
 
-* Avec la roulette
-* Avec un double clic
+- Avec la roulette
+- Avec un double clic
   
 .. raw:: html
 
@@ -41,7 +41,7 @@ Le zoom dans la carte peut se faire de plusieurs façons :
 À l’aide du clavier et de la souris
 ***********************************
 
-* En dessinant un rectangle avec la touche SHIFT enfoncée
+- En dessinant un rectangle avec la touche SHIFT enfoncée
 
 .. raw:: html
 

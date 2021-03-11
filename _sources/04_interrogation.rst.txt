@@ -6,9 +6,9 @@ Données
 
 L’interrogation d’objets peut se faire de deux façons :
 
-* Avec un simple clic
+- Avec un simple clic
 
-* En dessinant un rectangle avec la touche CTRL enfoncée
+- En dessinant un rectangle avec la touche CTRL enfoncée
 
 Les résultats sont affichés en bas à droite de la carte, séparés en groupe selon leur couche. Il
 est possible de faire défiler les résultats avec les flèches précédant et suivant (en bas), l’objet

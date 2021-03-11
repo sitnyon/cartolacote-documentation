@@ -5,6 +5,14 @@ Versions
 
 .. _historique_version_20210304:
 
+Version du 11 mars 2021
+-----------------------
+
+.. raw:: html
+
+	<li>Amélioration du QR code dans l'outil de partage</a></li>
+
+
 Version du 4 mars 2021
 ----------------------
 

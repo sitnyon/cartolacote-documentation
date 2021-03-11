@@ -17,46 +17,46 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 Emplacement
 -----------
 
-* Adresse
+- Adresse
 
-* Parcelle (mots clés parcelle / egrid)
+- Parcelle (mots clés parcelle / egrid)
 
-* PPE (Nyon) (mot clé ppe)
+- PPE (Nyon) (mot clé ppe)
 
-* DDP (mot clé ddp)
+- DDP (mot clé ddp)
 
-* Bâtiment (mots clés eca / egid)
+- Bâtiment (mots clés eca / egid)
 
-* Rue (mot clé esid)
+- Rue (mot clé esid)
 
-* Commune (mot clé commune + n° cantonal / OFS)
+- Commune (mot clé commune + n° cantonal / OFS)
 
-* Code postal (mot clé npa)
+- Code postal (mot clé npa)
 
-* Coordonnées (CH1903+ / WGS84)
+- Coordonnées (CH1903+ / WGS84)
 
 
 Données
 -------
 
-* Point fixe (mots clés pfp / pfa)
+- Point fixe (mots clés pfp / pfa)
 
-* Permis de construire (mots clés permis / camac)
+- Permis de construire (mots clés permis / camac)
 
-* Plan de quartier (mot clé pq)
+- Plan de quartier (mot clé pq)
 
-* Arrêt de transport public (mot clé arret)
+- Arrêt de transport public (mot clé arret)
 
 De plus en étant connecté, d’autres objets sont disponibles (selon les droits) :
 
-* Bornes hydrantes (eau potable) (mot clé bh)
+- Bornes hydrantes (eau potable) (mot clé bh)
 
-* Postes de détente (gaz) (mot clé cd)
+- Postes de détente (gaz) (mot clé cd)
 
-* Balises de signalisation (gaz) (mot clé bag)
+- Balises de signalisation (gaz) (mot clé bag)
 
-* Détections (pompiers) (mot clé sdis)
+- Détections (pompiers) (mot clé sdis)
 
-* Clés (pompiers) (mots clés sdis cle)
+- Clés (pompiers) (mots clés sdis cle)
 
-* Accueillantes en milieu familial (mot clé amf)
+- Accueillantes en milieu familial (mot clé amf)
