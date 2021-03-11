@@ -8,17 +8,17 @@ Le choix du fond de plan se fait à l’aide de la liste de vignettes
 se trouvant en bas à gauche de l’interface.
 Les plans disponibles sont :
 
-* Aucun
-* Plan de ville
-* Plan cadastral
-* Plans ASIT VD
-* Carte nationale
-* Carte swissTLM
-* Plan de ville (gris)
-* Plan ASIT VD (gris)
-* Carte nationale (gris)
-* Carte swissTLM (gris)
-* *Photo aérienne en transparence (avec le curseur)*
+- Aucun
+- Plan de ville
+- Plan cadastral
+- Plans ASIT VD
+- Carte nationale
+- Carte swissTLM
+- Plan de ville (gris)
+- Plan ASIT VD (gris)
+- Carte nationale (gris)
+- Carte swissTLM (gris)
+- *Photo aérienne en transparence (avec le curseur)*
 
 .. raw:: html
 
@@ -27,10 +27,10 @@ Les plans disponibles sont :
 Pour connaître la date de mise à jour des données utilisées comme fonds de plan, il suffit de
 placer le curseur de la souris sur le copyright
 
-* OIT : Données cadastrales (VD)
-* SITG : Données cadastrales (GE)
-* Swisstopo : Photos aériennes
-* OSM : Données OpenStreetMap
+- OIT : Données cadastrales (VD)
+- SITG : Données cadastrales (GE)
+- Swisstopo : Photos aériennes
+- OSM : Données OpenStreetMap
 
 Thèmes
 ------
