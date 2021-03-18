@@ -4,7 +4,7 @@ Iframe
 Intégrer une carte
 ------------------
 
-Voir la :ref:`documentation<integrer_la_carte>`.
+Voir la :ref:`documentation<integrer_la_carte>`
 
 .. raw:: html
 
