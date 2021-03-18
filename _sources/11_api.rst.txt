@@ -1,9 +1,12 @@
 API
 ===
 
+Exemples
+--------
+
 .. raw:: html
 
-	<p><a href="https://map.cartolacote.ch/apihelp/index.html" target=_blank>Page d'exemples</a></li>
+	<p>Voir la <a href="https://map.cartolacote.ch/apihelp/index.html" target=_blank>documentation</a></li>
 
 .. raw:: html
 
@@ -15,10 +18,10 @@ API
 	  var counter = 1;
 	  var newInner = "<br><table border=\"0\">";
       for (var i=0; i < layersApi.length; i++) {
-	      if (layersApi[i].layer_type == 'WMTS') {
+	      if (layersApi[i].treegroup == 'background') {
 		     var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=" + layersApi[i].layer;
 		  } else {
-		     var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersApi[i].treegroup;
+		     var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersApi[i].treegroup + "&tree_group_layers_" + layersApi[i].treegroup + "=" + layersApi[i].layer;
 		  }
           newInner += '<tr><td>' + counter + '</td><td>' + layersApi[i].layer + '&nbsp(<a href="' + link + '" target="_blank">' + layersApi[i].translate_name + '</a>)</td></tr>';
           counter++;
@@ -32,8 +35,8 @@ API
    <body onload="init();">
    </body>
 
-Liste des couches 
------------------
+Liste des couches disponibles 
+-----------------------------
 
 .. raw:: html   
 

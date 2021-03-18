@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Bienvenue sur la documentation du géoportail Cartolacôte!</title>
+      <title>Iframe</title>
     
       <link rel="stylesheet" href="_static/pygments.css">
       <link rel="stylesheet" href="_static/theme.css">
@@ -25,13 +25,14 @@
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Recherche" href="search.html" />
-  <link rel="next" title="Navigation" href="01_navigation.html" /> 
+  <link rel="next" title="Versions" href="historique_version/index.html" />
+  <link rel="prev" title="API" href="11_api.html" /> 
   </head>
 
   <body>
     <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
   <div class="home-link-container">
-      <router-link to="#" class="home-link">
+      <router-link to="index.html" class="home-link">
       
         <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
       
@@ -44,14 +45,14 @@
 
   
     <div class="nav-item">
-      <a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
-         class="nav-link ">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
          Documentation
       </a>
     </div>
   
     <div class="nav-item">
-      <a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
          class="nav-link ">
          Historique de version
       </a>
@@ -90,14 +91,14 @@
 
   
     <div class="nav-item">
-      <a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
-         class="nav-link ">
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+         class="nav-link  router-link-active">
          Documentation
       </a>
     </div>
   
     <div class="nav-item">
-      <a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
+      <a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote"
          class="nav-link ">
          Historique de version
       </a>
@@ -138,9 +139,9 @@
   
     <div class="sidebar-group">
       <p class="caption">
-        <span class="caption-text"><a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Documentation</a></span>
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Documentation</a></span>
       </p>
-      <ul class="">
+      <ul class="current">
         
           <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
 
@@ -208,8 +209,16 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="12_iframe.html" class="reference internal ">Iframe</a>
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Iframe</a>
 
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#integrer-une-carte" class="reference internal">Intégrer une carte</a></li>
+                
+                  <li class="toctree-l2"><a href="#liste-des-couches-disponibles" class="reference internal">Liste des couches disponibles</a></li>
+                
+              </ul>
             
           </li>
 
@@ -219,7 +228,7 @@
   
     <div class="sidebar-group">
       <p class="caption">
-        <span class="caption-text"><a href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Historique de version</a></span>
+        <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Historique de version</a></span>
       </p>
       <ul class="">
         
@@ -239,16 +248,20 @@
           <div class="body-header" role="navigation" aria-label="navigation">
   
   <ul class="breadcrumbs">
-    <li><a href="#">Docs</a> &raquo;</li>
+    <li><a href="index.html">Docs</a> &raquo;</li>
     
-    <li>Bienvenue sur la documentation du géoportail Cartolacôte!</li>
+    <li>Iframe</li>
   </ul>
   
 
   <ul class="page-nav">
+  <li class="prev">
+    <a href="11_api.html"
+       title="Chapitre précédent">← API</a>
+  </li>
   <li class="next">
-    <a href="01_navigation.html"
-       title="Chapitre suivant">Navigation →</a>
+    <a href="historique_version/index.html"
+       title="Chapitre suivant">Versions →</a>
   </li>
 </ul>
   
@@ -256,41 +269,53 @@
 <hr>
           <div class="content" role="main">
             
-  <div class="section" id="bienvenue-sur-la-documentation-du-geoportail-cartolacote">
-<h1>Bienvenue sur la documentation du géoportail Cartolacôte!<a class="headerlink" href="#bienvenue-sur-la-documentation-du-geoportail-cartolacote" title="Lien permanent vers ce titre">¶</a></h1>
-<img alt="Géoportail Cartolacôte" src="_images/geoportail_cartolacote.png" />
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Documentation</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="01_navigation.html">Navigation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_donnees.html">Données</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03_localisation_recherche.html">Localisation et recherche</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04_interrogation.html">Interrogation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="05_outils.html">Outils</a></li>
-<li class="toctree-l1"><a class="reference internal" href="06_impression_export.html">Impression et export</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07_connexion.html">Connexion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="08_edition.html">Edition</a></li>
-<li class="toctree-l1"><a class="reference internal" href="09_filtres.html">Filtres</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10_version_mobile.html">Version mobile</a></li>
-<li class="toctree-l1"><a class="reference internal" href="11_api.html">API</a></li>
-<li class="toctree-l1"><a class="reference internal" href="12_iframe.html">Iframe</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Historique de version</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="historique_version/index.html">Versions</a></li>
-</ul>
-</div>
+  <div class="section" id="iframe">
+<h1>Iframe<a class="headerlink" href="#iframe" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="integrer-une-carte">
+<h2>Intégrer une carte<a class="headerlink" href="#integrer-une-carte" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Voir la <a class="reference internal" href="05_outils.html#integrer-la-carte"><span class="std std-ref">documentation</span></a>.</p>
+<script type="text/javascript">
+
+function init() {
+ $.getJSON( "https://map-demo.cartolacote.ch/pfanguin/layer_interface?interface=iframe", function( data ) {
+   var layersIframe = data.layers;
+       var counter = 1;
+       var newInner = "<br><table border=\"0\">";
+   for (var i=0; i < layersIframe.length; i++) {
+           if (layersApi[i].treegroup == 'background') {
+                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=" + layersIframe[i].layer;
+               } else {
+                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersIframe[i].treegroup + "&tree_group_layers_" + layersIframe[i].treegroup + "=" + layersIframe[i].layer;
+               }
+       newInner += '<tr><td>' + counter + '</td><td>' + layersIframe[i].layer + '&nbsp(<a href="' + link + '" target="_blank">' + layersIframe[i].translate_name + '</a>)</td></tr>';
+       counter++;
+   }
+       document.getElementById('iframeLayers').innerHTML = newInner;
+ });
+}
+
+</script>
+
+<body onload="init();">
+</body></div>
+<div class="section" id="liste-des-couches-disponibles">
+<h2>Liste des couches disponibles<a class="headerlink" href="#liste-des-couches-disponibles" title="Lien permanent vers ce titre">¶</a></h2>
+<body>
+  <div id="iframeLayers" style="margin-left:10px;margin-bottom:24px;"></div>
+</body></div>
 </div>
 
 
           </div>
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="11_api.html"
+       title="Chapitre précédent">← API</a>
+  </li>
   <li class="next">
-    <a href="01_navigation.html"
-       title="Chapitre suivant">Navigation →</a>
+    <a href="historique_version/index.html"
+       title="Chapitre suivant">Versions →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.

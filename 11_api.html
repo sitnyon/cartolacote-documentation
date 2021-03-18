@@ -25,7 +25,7 @@
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Recherche" href="search.html" />
-  <link rel="next" title="Versions" href="historique_version/index.html" />
+  <link rel="next" title="Iframe" href="12_iframe.html" />
   <link rel="prev" title="Version mobile" href="10_version_mobile.html" /> 
   </head>
 
@@ -208,9 +208,17 @@
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#liste-des-couches" class="reference internal">Liste des couches</a></li>
+                  <li class="toctree-l2"><a href="#exemples" class="reference internal">Exemples</a></li>
+                
+                  <li class="toctree-l2"><a href="#liste-des-couches-disponibles" class="reference internal">Liste des couches disponibles</a></li>
                 
               </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="12_iframe.html" class="reference internal ">Iframe</a>
+
             
           </li>
 
@@ -252,8 +260,8 @@
        title="Chapitre précédent">← Version mobile</a>
   </li>
   <li class="next">
-    <a href="historique_version/index.html"
-       title="Chapitre suivant">Versions →</a>
+    <a href="12_iframe.html"
+       title="Chapitre suivant">Iframe →</a>
   </li>
 </ul>
   
@@ -263,7 +271,9 @@
             
   <div class="section" id="api">
 <h1>API<a class="headerlink" href="#api" title="Lien permanent vers ce titre">¶</a></h1>
-<p><a href="https://map.cartolacote.ch/apihelp/index.html" target=_blank>Page d'exemples</a></li><script type="text/javascript">
+<div class="section" id="exemples">
+<h2>Exemples<a class="headerlink" href="#exemples" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Voir la <a href="https://map.cartolacote.ch/apihelp/index.html" target=_blank>documentation</a></li><script type="text/javascript">
 
 function init() {
  $.getJSON( "https://map-demo.cartolacote.ch/pfanguin/layer_interface?interface=api", function( data ) {
@@ -271,10 +281,10 @@ function init() {
        var counter = 1;
        var newInner = "<br><table border=\"0\">";
    for (var i=0; i < layersApi.length; i++) {
-           if (layersApi[i].layer_type == 'WMTS') {
+           if (layersApi[i].treegroup == 'background') {
                   var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=" + layersApi[i].layer;
                } else {
-                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersApi[i].treegroup;
+                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersApi[i].treegroup + "&tree_group_layers_" + layersApi[i].treegroup + "=" + layersApi[i].layer;
                }
        newInner += '<tr><td>' + counter + '</td><td>' + layersApi[i].layer + '&nbsp(<a href="' + link + '" target="_blank">' + layersApi[i].translate_name + '</a>)</td></tr>';
        counter++;
@@ -286,8 +296,9 @@ function init() {
 </script>
 
 <body onload="init();">
-</body><div class="section" id="liste-des-couches">
-<h2>Liste des couches<a class="headerlink" href="#liste-des-couches" title="Lien permanent vers ce titre">¶</a></h2>
+</body></div>
+<div class="section" id="liste-des-couches-disponibles">
+<h2>Liste des couches disponibles<a class="headerlink" href="#liste-des-couches-disponibles" title="Lien permanent vers ce titre">¶</a></h2>
 <body>
   <div id="apiLayers" style="margin-left:10px;margin-bottom:24px;"></div>
 </body></div>
@@ -302,8 +313,8 @@ function init() {
        title="Chapitre précédent">← Version mobile</a>
   </li>
   <li class="next">
-    <a href="historique_version/index.html"
-       title="Chapitre suivant">Versions →</a>
+    <a href="12_iframe.html"
+       title="Chapitre suivant">Iframe →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
