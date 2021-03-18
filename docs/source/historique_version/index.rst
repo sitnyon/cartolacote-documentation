@@ -10,7 +10,7 @@ Version du 11 mars 2021
 
 .. raw:: html
 
-	<li>Amélioration du QR code dans l'outil de partage</a></li>
+	<li>Amélioration du QR code dans l'outil de partage</li>
 
 
 Version du 4 mars 2021
@@ -18,9 +18,9 @@ Version du 4 mars 2021
 
 .. raw:: html
 
-	<li>Nouvelles fonctionnalités : Intégrer la carte et ajout du QR code dans l'outil de partage</a></li>
-	<li>Changement des urls pour les services de l'ASIT</a></li>
-	<li>Ajout d'un service pour les métadonnées des copyrights</a></li>
+	<li>Nouvelles fonctionnalités : Intégrer la carte et ajout du QR code dans l'outil de partage</li>
+	<li>Changement des urls pour les services de l'ASIT</li>
+	<li>Ajout d'un service pour les métadonnées des copyrights</li>
 
 .. _historique_version_20210210:
 

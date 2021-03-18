@@ -3,6 +3,8 @@ Outils
 
 Les outils sont regroupés sur la barre verticale à droite de l’interface.
 
+.. _integrer_la_carte:
+
 Intégrer la carte
 -----------------
 
