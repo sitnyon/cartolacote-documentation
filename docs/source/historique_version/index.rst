@@ -3,6 +3,16 @@
 Versions
 ========
 
+.. _historique_version_20210325:
+
+Version du 25 mars 2021
+-----------------------
+
+.. raw:: html
+
+	<li>Edition en ligne pour tous les points d'intérêt</li>
+	<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/GRLC" target=_blank>Réseau potager</a> et <a href="https://map.cartolacote.ch/s/HaOb" target=_blank>Installations</a></li>
+
 .. _historique_version_20210304:
 
 Version du 11 mars 2021

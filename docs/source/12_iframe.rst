@@ -11,7 +11,7 @@ Voir la :ref:`documentation<integrer_la_carte>`
    <script type="text/javascript">
 
    function init() {
-    $.getJSON( "https://map-demo.cartolacote.ch/pfanguin/layer_interface?interface=iframe", function( data ) {
+    $.getJSON( "https://map.cartolacote.ch/layer_interface?interface=iframe", function( data ) {
       var layersIframe = data.layers;
 	  var counter = 1;
 	  var newInner = "<br><table border=\"0\">";
