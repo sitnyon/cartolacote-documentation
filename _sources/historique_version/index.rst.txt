@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20210331:
+
+Version du 31 mars 2021
+-----------------------
+
+.. raw:: html
+
+	<li>Adaptation de la position des boutons pour les outils de mesure pour la version mobile</li>
+    <li>Adapation des points d'intérêt afin d'être intérrogables dans l'API</li>
+	<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore acutelle</a>, <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore historique</a> et <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Renouées du Japon</a></li>
+
 .. _historique_version_20210325:
 
 Version du 25 mars 2021
