@@ -3,6 +3,21 @@
 Versions
 ========
 
+.. _historique_version_20210415:
+
+Version du 15 avril 2021
+------------------------
+
+.. raw:: html
+
+	<li>Mise à jour des données des <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Besoins énergétiques</a></li>
+    <li>Résolution de l'impression avec les données provenant du service WMTS des SITG</li>
+	<li>Ajout des icônes pour les raccourcis (iOS, Windows et Android)</li>
+	<li>Publication des données des communes partenaires Cartolacôte (Coppet, Gland, Mies, Prangins)</li>
+	<li>Suppression du disclaimer sur l'interface Iframe</li>
+	<li>Amélioration du style pour la fenêtre de résultats</li>
+
+
 .. _historique_version_20210331:
 
 Version du 31 mars 2021
