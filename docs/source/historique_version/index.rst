@@ -3,6 +3,18 @@
 Versions
 ========
 
+.. _historique_version_20210428:
+
+Version du 28 avril 2021
+------------------------
+
+.. raw:: html
+
+	<li>Ajout des couches <a href="https://map.cartolacote.ch/s/Rqeh" target=_blank>Ambulances Service SA</a> et <a href="https://map.cartolacote.ch/s/qYoh" target=_blank>SDIS Terre-Sainte</a></li>
+    <li>Résolution de l'impression avec les logos des partenaires</li>
+	<li>Ajout de la catégorie Teqball pour les points d'intérêt Sport, loisirs</li>
+	<li>Résolution de l'affichage pour les changements de fond de plan (petits écrans)</li>
+
 .. _historique_version_20210415:
 
 Version du 15 avril 2021
