@@ -11,7 +11,7 @@ Version du 19 mai 2021
 
 .. raw:: html
 
-	<li>Mise à jour des fonds de plans couleur et gris (agrandissement des numéros d'entrée, nouvel ombrage)</li>
+	<li>Mise à jour des fonds de plan couleur et gris (agrandissement des numéros d'entrée, nouvel ombrage)</li>
     <li>Configuration des couches WMTS avec une dimension DATE</li>
 	<li>Publication des données de l'assaisnissment de la commune de Perroy</li>
 	<li>Mise à jour des données MNT (2019)</li>
