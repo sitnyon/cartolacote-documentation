@@ -15,7 +15,7 @@ Version du 19 mai 2021
     <li>Configuration des couches WMTS avec une dimension DATE</li>
 	<li>Publication des données de l'assaisnissment de la commune de Perroy</li>
 	<li>Mise à jour des données MNT (2019)</li>
-	<li>Nouvelle couches <a href="https://map.cartolacote.ch/s/gvak" target=_blank>Perturbations de trafic en cours (véh. prioritaires)</a></li>
+	<li>Nouvelle couche <a href="https://map.cartolacote.ch/s/gvak" target=_blank>Perturbations de trafic en cours (véh. prioritaires)</a></li>
 
 .. _historique_version_20210428:
 
