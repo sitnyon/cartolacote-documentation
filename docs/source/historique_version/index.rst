@@ -3,6 +3,7 @@
 Versions
 ========
 
+
 .. _historique_version_20210519:
 
 Version du 19 mai 2021
@@ -10,11 +11,23 @@ Version du 19 mai 2021
 
 .. raw:: html
 
-	<li>Mise à jour des fonds de plans couleur et gris (aggrandissement des numéros d'entrée, nouvel ombrage)</li>
+	<li>Mise à jour des fonds de plans couleur et gris (agrandissement des numéros d'entrée, nouvel ombrage)</li>
     <li>Configuration des couches WMTS avec une dimension DATE</li>
 	<li>Publication des données de l'assaisnissment de la commune de Perroy</li>
 	<li>Mise à jour des données MNT (2019)</li>
 	<li>Nouvelles couches <a href="https://map.cartolacote.ch/s/gvak" target=_blank>Perturbations de trafic en cours (véh. prioritaires)</a></li>
+
+.. _historique_version_20210428:
+
+Version du 28 avril 2021
+------------------------
+
+.. raw:: html
+
+	<li>Ajout des couches <a href="https://map.cartolacote.ch/s/Rqeh" target=_blank>Ambulances Service SA</a> et <a href="https://map.cartolacote.ch/s/qYoh" target=_blank>SDIS Terre-Sainte</a></li>
+    <li>Résolution de l'impression avec les logos des partenaires</li>
+	<li>Ajout de la catégorie Teqball pour les points d'intérêt Sport, loisirs</li>
+	<li>Résolution de l'affichage pour les changements de fond de plan (petits écrans)</li>
 
 .. _historique_version_20210415:
 
