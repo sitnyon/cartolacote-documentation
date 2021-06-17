@@ -4,6 +4,23 @@ Versions
 ========
 
 
+.. _historique_version_20210617:
+
+Version du 6 juin 2021
+----------------------
+
+.. raw:: html
+
+	<li>Correction de la date du MNS SITG</li>
+    <li>Nouvelle symbologie pour la couche <a href="https://map.cartolacote.ch/s/ovKp" target=_blank>Personnel d'intervention</a> et ajout des données du SDIS Gland-Serine</li>
+	<li>Nouvelle couche Aires de jeux (disponible uniquement dans l'iframe)</li>
+	<li>Nouvelle couche <a href="https://map.cartolacote.ch/s/y8bx" target=_blank>Affichage évènementiel</a></li>
+	<li>Adaptation de la symbologie pour la couche <a href="https://map.cartolacote.ch/s/uDn3" target=_blank>Zones humides</a></li>
+	<li>Ajout des données de Coppet pour la couche <a href="https://map.cartolacote.ch/s/9ZNo" target=_blank>Arbres sur domaine public</a></li>
+	<li>Changement de l'url pour les services de l'ASIT (asitvd.ch -> viageo.ch)</li>
+	<li>Restriction d'accès pour les couches <a href="https://map.cartolacote.ch/s/642f" target=_blank>Parcelles d'intérêt public</a> et <a href="https://map.cartolacote.ch/s/piIL" target=_blank>Parcelles d'intérêt communales</a></li>
+
+
 .. _historique_version_20210519:
 
 Version du 19 mai 2021
