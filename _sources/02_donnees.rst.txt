@@ -60,6 +60,7 @@ Action                                Icône                      Groupe      Co
 Activer / désactiver                  .. image:: _static/i1.png      X          X
 Afficher les métadonnées              .. image:: _static/i2.png      X          X
 Afficher / masquer la légende         .. image:: _static/i3.png                 X
+Comparer                              .. image:: _static/i9.png      X          X
 Zoomer sur le seuil d’affichage       .. image:: _static/i4.png                 X
 Changer l’affichage temporel          .. image:: _static/i5.png                 X
 Modifier la transparence              .. image:: _static/i6.png      X          X
@@ -70,3 +71,17 @@ Supprimer                             .. image:: _static/i8.png      X
 .. raw:: html
 
     <p><video width="600" controls><source src="_static/organisation_couches.mp4" type="video/mp4"></video></p>
+	
+	
+Comparaison
+-----------
+
+L'outil de comparaison permet de comparer deux cartes différentes, pour cela il faut activer deux couches et cliquer
+sur l'engrenage visible au survol du nom de la première couche activée. Cliquer ensuite sur "Comparer cette couche". 
+
+.. image:: _static/comparaison_couches.png
+
+Une barre verticale apparaît au milieu de la carte. Afin de déplacer ce curseur vertical, il suffit de cliquer dessus 
+et de déplacer la souris à gauche ou à droite.
+
+.. image:: _static/comparaison_couches_curseur.png

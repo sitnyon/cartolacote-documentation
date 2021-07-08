@@ -178,6 +178,8 @@
                 
                   <li class="toctree-l2"><a href="#profil-altimetrique" class="reference internal">Profil altimétrique</a></li>
                 
+                  <li class="toctree-l2"><a href="#selection" class="reference internal">Sélection</a></li>
+                
                   <li class="toctree-l2"><a href="#street-view" class="reference internal">Street View</a></li>
                 
                   <li class="toctree-l2"><a href="#donnees-externes" class="reference internal">Données externes</a></li>
@@ -330,6 +332,9 @@ carte.</p>
 </table>
 <p>Un double clic permet de terminer la saisie d’une ligne ou d’un polygone. Certaines propriétés
 des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.</p>
+<p>Il est possible d’ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner
+le champ ci-dessous :</p>
+<img alt="_images/dessiner_avec_mesure.png" src="_images/dessiner_avec_mesure.png" />
 <p>L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
 complète les annotations et fait office d’outil de mesure.</p>
 <p>Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le supprimer alors qu’un
@@ -345,6 +350,18 @@ et de surface (MNT et MNS).</p>
 <p><video width="600" controls><source src="_static/outils_profil.mp4" type="video/mp4"></video></p><p>Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
 un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
 le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).</p>
+</div>
+<div class="section" id="selection">
+<h2>Sélection<a class="headerlink" href="#selection" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible de sélectionner les objets sur la carte de différentes manières :</p>
+<ul class="simple">
+<li><p>Point : un seul objet est sélectionné</p></li>
+<li><p>Rectanlge : les objets contenus dans le rectangle sont sélectionnés</p></li>
+<li><p>Polygone : les objets contenus dans le polygone sont sélectionnés</p></li>
+</ul>
+<p>Lorsque « Remplacer » est coché, la sélection précédente est remplacée par la nouvelle et
+lorsque « Supprimer » est coché, les objets sont supprimés de la sélection.</p>
+<img alt="_images/selection_polygone.png" src="_images/selection_polygone.png" />
 </div>
 <div class="section" id="street-view">
 <h2>Street View<a class="headerlink" href="#street-view" title="Lien permanent vers ce titre">¶</a></h2>
