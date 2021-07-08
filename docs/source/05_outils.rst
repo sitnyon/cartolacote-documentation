@@ -69,7 +69,7 @@ Sélection
 Il est possible de sélectionner les objets sur la carte de différentes manières : 
 
 - Point : un seul objet est sélectionné
-- Rectanlge : les objets contenus dans le rectangle sont sélectionnés
+- Rectangle : les objets contenus dans le rectangle sont sélectionnés
 - Polygone : les objets contenus dans le polygone sont sélectionnés
 
 Lorsque "Remplacer" est coché, la sélection précédente est remplacée par la nouvelle et 
