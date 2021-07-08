@@ -32,6 +32,11 @@ Icône                       Action                Icône                       
 Un double clic permet de terminer la saisie d’une ligne ou d’un polygone. Certaines propriétés
 des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.
 
+Il est possible d'ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner 
+le champ ci-dessous : 
+
+.. image:: _static/dessiner_avec_mesure.png
+
 L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
 complète les annotations et fait office d’outil de mesure.
 
@@ -56,6 +61,21 @@ et de surface (MNT et MNS).
 Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
 un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
 le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).
+
+
+Sélection
+---------
+
+Il est possible de sélectionner les objets sur la carte de différentes manières : 
+
+- Point : un seul objet est sélectionné
+- Rectanlge : les objets contenus dans le rectangle sont sélectionnés
+- Polygone : les objets contenus dans le polygone sont sélectionnés
+
+Lorsque "Remplacer" est coché, la sélection précédente est remplacée par la nouvelle et 
+lorsque "Supprimer" est coché, les objets sont supprimés de la sélection. 
+
+.. image:: _static/selection_polygone.png
 
 Street View
 -----------

@@ -3,6 +3,14 @@
 Versions
 ========
 
+.. _historique_version_20210708:
+
+Version du 8 juillet 2021
+----------------------
+
+.. raw:: html
+
+	<li>Mise à jour de GMF version 2.5</li>
 
 .. _historique_version_20210617:
 
