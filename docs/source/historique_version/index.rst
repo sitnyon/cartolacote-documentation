@@ -3,6 +3,18 @@
 Versions
 ========
 
+.. _historique_version_20210719:
+
+Version du 19 juillet 2021
+----------------------
+
+.. raw:: html
+
+	<li>Ensemble des données pompier en édition pour le SDIS Terre-Sainte</li>
+        <li>Changement du wmts du sitge en wms</li>
+        <li>Corrections des traductions</li>
+        <li>Corrections sur la database prod</li>
+
 .. _historique_version_20210708:
 
 Version du 8 juillet 2021
