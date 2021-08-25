@@ -3,10 +3,21 @@
 Versions
 ========
 
+.. _historique_version_20210825:
+
+Version du 25 août 2021
+-----------------------
+
+.. raw:: html
+
+	<li>Nouvelles couches <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Lieux géographiques</a>, <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Carrés potagers</a>, 
+	<a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Jardins potagers</a> et <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Jardins collectifs</a></li>
+	<li>Le groupe "Agriculture urbaine" devient "Potagers urbains"</li>
+
 .. _historique_version_20210708:
 
 Version du 8 juillet 2021
-----------------------
+-------------------------
 
 .. raw:: html
 
