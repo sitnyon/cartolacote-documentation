@@ -3,6 +3,16 @@
 Versions
 ========
 
+.. _historique_version_20210929:
+
+Version du 29 septembre 2021
+----------------------------
+
+.. raw:: html
+
+	<li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/ecoles_accueil_jour" target=_blank>Secteurs d'enclassement</a></li>
+	<li>Mise à jour de la couche <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Potentiel photovoltaïque par toiture</a></li>
+	<li>Adaptation des noms des rôles</li>
 
 .. _historique_version_20210825:
 
