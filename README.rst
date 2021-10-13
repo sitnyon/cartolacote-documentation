@@ -18,9 +18,9 @@ Installation
 Le projet github comporte deux branches : 
 
 * ``master`` : contient les fichiers rst et la configuration python
-* ``gh-pages`` : contient les fichiers html générer par la compilation
+* ``gh-pages`` : contient les fichiers html générés par la compilation
 
-La structre des dossiers dans les deux branche n'est pas la même c'est pour cela qu'il est nécessaire d'avoir deux dossiers séparés : 
+La structure des dossiers dans les deux branches n'est pas la même c'est pour cela qu'il est nécessaire d'avoir deux dossiers séparés :
 
 * cartolacote-documentation : les modifications sont faites dans la branche ``master``
 * cartolacote-docs-build : les modifications sont faites dans la branche ``gh-pages``
@@ -43,7 +43,7 @@ La structre des dossiers dans les deux branche n'est pas la même c'est pour cel
 Compiler les fichiers html
 --------------------------
 
-Les modifications fichiers ``rst`` doivent être fait dans le dossier ``cartolacote-documentation``
+Les modifications des fichiers ``rst`` doivent être faites dans le dossier ``cartolacote-documentation``
 
 :: 
 
