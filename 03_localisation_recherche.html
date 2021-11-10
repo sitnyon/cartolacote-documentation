@@ -160,9 +160,7 @@
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#emplacement" class="reference internal">Emplacement</a></li>
-                
-                  <li class="toctree-l2"><a href="#donnees" class="reference internal">Données</a></li>
+                  <li class="toctree-l2"><a href="#localisation-et-recherche" class="reference internal">Localisation et recherche</a></li>
                 
               </ul>
             
@@ -212,6 +210,12 @@
 
         
           <li class="toctree-l1 "><a href="11_api.html" class="reference internal ">API</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="12_iframe.html" class="reference internal ">Iframe</a>
 
             
           </li>
@@ -270,38 +274,427 @@ spécifique, ou encore d’ajouter des données (couches et thèmes).</p>
 <p>Les résultats sont affichés au fur et à mesure de la saisie, répartis en différents groupes. Un
 clic sur le résultat permet de recentrer la carte sur l’objet ou d’ajouter la donnée en question.</p>
 <p>La croix à droite de la zone de saisie permet de désactiver la mise en évidence de l’objet.</p>
-<p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p><div class="section" id="emplacement">
-<h2>Emplacement<a class="headerlink" href="#emplacement" title="Lien permanent vers ce titre">¶</a></h2>
-<ul class="simple">
-<li><p>Adresse</p></li>
-<li><p>Parcelle (mots clés parcelle / egrid)</p></li>
-<li><p>PPE (Nyon) (mot clé ppe)</p></li>
-<li><p>DDP (mot clé ddp)</p></li>
-<li><p>Bâtiment (mots clés eca / egid)</p></li>
-<li><p>Rue (mot clé esid)</p></li>
-<li><p>Commune (mot clé commune + n° cantonal / OFS)</p></li>
-<li><p>Code postal (mot clé npa)</p></li>
-<li><p>Coordonnées (CH1903+ / WGS84)</p></li>
-</ul>
-</div>
-<div class="section" id="donnees">
-<h2>Données<a class="headerlink" href="#donnees" title="Lien permanent vers ce titre">¶</a></h2>
-<ul class="simple">
-<li><p>Point fixe (mots clés pfp / pfa)</p></li>
-<li><p>Permis de construire (mots clés permis / camac)</p></li>
-<li><p>Plan de quartier (mot clé pq)</p></li>
-<li><p>Arrêt de transport public (mot clé arret)</p></li>
-</ul>
-<p>De plus en étant connecté, d’autres objets sont disponibles (selon les droits) :</p>
-<ul class="simple">
-<li><p>Bornes hydrantes (eau potable) (mot clé bh)</p></li>
-<li><p>Postes de détente (gaz) (mot clé cd)</p></li>
-<li><p>Balises de signalisation (gaz) (mot clé bag)</p></li>
-<li><p>Détections (pompiers) (mot clé sdis)</p></li>
-<li><p>Clés (pompiers) (mots clés sdis cle)</p></li>
-<li><p>Accueillantes en milieu familial (mot clé amf)</p></li>
-</ul>
-</div>
+<p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p><br><table class="docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 17%" />
+<col style="width: 16%" />
+<col style="width: 17%" />
+<col style="width: 8%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Thème</p></th>
+<th class="head"><p>Mot-clé</p></th>
+<th class="head"><p>Format de la recherche</p></th>
+<th class="head"><p>Exemple</p></th>
+<th class="head"><p>Action</p></th>
+<th class="head"><p>Accès</p></th>
+<th class="head"><p>Etendue géographique</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Aménagement
+du territoire</p></td>
+<td><p>PQ
+PPA
+PEP</p></td>
+<td><p>PQ ou PPA ou PEP +
+numéro de plan + nom
+de plan</p></td>
+<td><p>PQ 5234 La Poterie
+ou PPA 5358 L’Asse
+ou PEP 3785 A Rive</p></td>
+<td><p>Zoom sur l’emprise
+du plan et activation
+de la couche
+<strong>Plan de zones</strong></p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>x</p></td>
+<td><p>Adresse complète</p></td>
+<td><p>Grand-Rue 1 Coppet</p></td>
+<td><p>Zoom sur l’adresse et
+mise en surbrillance
+du point</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>ECA</p></td>
+<td><p>ECA + numéro ECA
++ Commune</p></td>
+<td><p>ECA 1007
+Prangins</p></td>
+<td><p>Zoom sur l’emplacement
+du bâtiment</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>EGID</p></td>
+<td><p>EGID + numéro EGID</p></td>
+<td><p>EGID 812679</p></td>
+<td><p>Zoom sur l’emplacement
+du bâtiment et
+acitvation de la
+couche <strong>Registre</strong>
+<strong>des bâtiments (RCB)</strong></p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>DDP</p></td>
+<td><p>DDP + numéro du DPP
++ Commune</p></td>
+<td><p>DDP 4306
+Gland</p></td>
+<td><p>Zoom sur l’emplacement
+du DDP et acitvation
+de la couche
+<strong>Droit distinct</strong>
+<strong>et permanent</strong></p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>x</p></td>
+<td><p>Rue + Commune</p></td>
+<td><p>Route de Montelly
+Perroy</p></td>
+<td><p>Zoom sur la rue et
+mise en surbrillance
+du tracé</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>ESID</p></td>
+<td><p>ESID + numéro ESID</p></td>
+<td><p>ESID 10100815</p></td>
+<td><p>Zoom sur la rue,
+mise en surbrillance
+du tracé et activation
+de la couche <strong>Rues</strong></p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>parcelle</p></td>
+<td><p>parcelle + numéro de
+parcelle</p></td>
+<td><p>parcelle 1
+Vich</p></td>
+<td><p>Zoom sur la parcelle et
+mise en surbrillance
+de la parcelle</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>EGRID</p></td>
+<td><p>EGRID + numéro de
+EGRID</p></td>
+<td><p>EGRID CH828282834506</p></td>
+<td><p>Zoom sur la parcelle,
+mise en surbrillance
+de la parcelle et
+activation des couches
+<strong>Domaine public</strong>
+<strong>communal</strong> et
+<strong>Domaine public</strong>
+<strong>cantonal</strong> si la
+parcelle est sur le DP</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>PPE</p></td>
+<td><p>PPE + numéro de PPE
++ Commune</p></td>
+<td><p>PPE 57
+Nyon</p></td>
+<td><p>Zoom sur la parcelle et
+mise en surbrillance
+de la PPE</p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>Commune</p></td>
+<td><p>Commune + numéro OFS
+ou numéro cantonal</p></td>
+<td><p>Mies 5723
+ou
+Mies 245</p></td>
+<td><p>Zoom sur la commune,
+mise en surbrillance
+de la commune et
+activation de la
+couche <strong>Communes</strong></p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>NPA</p></td>
+<td><p>NPA + numéro NPA</p></td>
+<td><p>NPA 1271</p></td>
+<td><p>Zoom sur la commune,
+mise en surbrillance
+de la commune</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>x</p></td>
+<td><p>Coordonnées CH1903+
+ou WGS84</p></td>
+<td><p>2504662 1138354
+ou
+6.19898 46.38976</p></td>
+<td><p>Recentre sur les
+coordonnées</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cadastre</p></td>
+<td><p>PFP</p></td>
+<td><p>PFP + numéro du PFP</p></td>
+<td><p>PFP 1241 121 0</p></td>
+<td><p>Zoom sur le PFP et
+activation de la couche
+<strong>Points fixes</strong>
+<strong>planimétriques</strong></p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Cadastre</p></td>
+<td><p>PFA</p></td>
+<td><p>PFA + numéro du PFA</p></td>
+<td><p>PFA 1241G041A</p></td>
+<td><p>Zoom sur le PFA et
+activation de la couche
+<strong>Points fixes</strong>
+<strong>altimétriques</strong></p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ecoles et
+accueil de
+jour</p></td>
+<td><p>AMF</p></td>
+<td><p>AMF + nom de l’AMF</p></td>
+<td><p>AMF Pierre Martin</p></td>
+<td><p>Zoom sur la
+localisation de l’AMF</p></td>
+<td><p>Restreint</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Environnement</p></td>
+<td><p>x</p></td>
+<td><p>Nom du cours d’eau</p></td>
+<td><p>L’Asse</p></td>
+<td><p>Zoom sur le cours d’eau
+et activation de la
+couche <strong>Cours d’eau</strong></p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mobilité</p></td>
+<td><p>Arrêt</p></td>
+<td><p>Arrêt + nom de l’arrêt
+bus ou nom de la gare</p></td>
+<td><p>Arrêt Changins
+ou Arrêt Arzier</p></td>
+<td><p>Zoom sur l’arrêt ou la
+gare et activation
+de la couche
+<strong>Arrêts de bus</strong> ou
+<strong>Gares</strong></p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Patrimoine</p></td>
+<td><p>x</p></td>
+<td><p>Nom de la Salle
+communale</p></td>
+<td><p>Salle de la Bretèche</p></td>
+<td><p>Zoom sur la salle
+communale et activation
+de la couche <strong>Salles</strong>
+<strong>communales</strong></p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Plan de ville</p></td>
+<td><p>x</p></td>
+<td><p>Nom du point d’intérêt</p></td>
+<td><p>Ranch Zangalisa</p></td>
+<td><p>Zoom sur le point
+d’intérêt et acitvation
+de la couche concernée
+par le point d’intérêt</p></td>
+<td><p>Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Plan de ville</p></td>
+<td><p>x</p></td>
+<td><p>Garage +
+nom du garage</p></td>
+<td><p>Garage Binggeli
+carrosserie</p></td>
+<td><p>Zoom sur le garage
+activation de la couche
+<strong>Stations, garages</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>District de Nyon
+(partiellement)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Police des
+constructions</p></td>
+<td><p>Permis</p></td>
+<td><p>Permis + numéro de
+permis</p></td>
+<td><p>Permis 7225</p></td>
+<td><p>Zoom sur l’emprise
+géographique du permis
+et activation de la
+couche concernée par le
+permis</p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Police des
+constructions</p></td>
+<td><p>CAMAC</p></td>
+<td><p>Permis + numéro de
+permis</p></td>
+<td><p>CAMAC 193955</p></td>
+<td><p>Zoom sur l’emprise
+géographique du permis
+et activation de la
+couche concernée par le
+permis</p></td>
+<td><p>Public</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Réseaux
+souterrains
+(eau)</p></td>
+<td><p>BH</p></td>
+<td><p>BH + numéro de la BH</p></td>
+<td><p>BH 3</p></td>
+<td><p>Zoom sur la BH et
+activation de la couche
+<strong>Hydrantes</strong></p></td>
+<td><p>Restreint
+et
+Public</p></td>
+<td><p>District de Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Réseaux
+souterrains
+(électricité)</p></td>
+<td><p>Station
+électrique</p></td>
+<td><p>Station électrique +
+nom de la station</p></td>
+<td><p>Station électrique
+STAND</p></td>
+<td><p>Zoom sur la station
+électrique et
+activation de la
+couche <strong>Stations</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Réseaux
+souterrains
+(gaz)</p></td>
+<td><p>CD</p></td>
+<td><p>CD + nom de la CD</p></td>
+<td><p>CD 7</p></td>
+<td><p>Zoom sur la CD et
+activation de la couche
+<strong>Postes de détente</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-even"><td><p>Réseaux
+souterrains
+(gaz)</p></td>
+<td><p>BAG</p></td>
+<td><p>BAG + nom de la BAG</p></td>
+<td><p>BAG 601</p></td>
+<td><p>Zoom sur la BAG et
+activation de la couche
+<strong>Balise de</strong>
+<strong>signalisation</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>Nyon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sécurité
+(pompiers)</p></td>
+<td><p>SDIS</p></td>
+<td><p>SDIS + numéro de
+détections +
+localisation</p></td>
+<td><p>A05043 Parking les
+Foulis</p></td>
+<td><p>Zoom sur la détection
+et activation de la
+couche <strong>Détections</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>SDIS Nyon Dôle et
+SDIS Gland-Serine</p></td>
+</tr>
+<tr class="row-even"><td><p>Sécurité
+(pompiers)</p></td>
+<td><p>Clé</p></td>
+<td><p>Clé + numéro de clé
++ localisation</p></td>
+<td><p>Clé 168</p></td>
+<td><p>Zoom sur l’emplacement
+de la clé et activation
+de la couche <strong>Clés</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>SDIS Nyon Dôle et
+SDIS Gland-Serine</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sécurité
+(urgences)</p></td>
+<td><p>Station
+essence</p></td>
+<td><p>Station essence +
+nom de la station</p></td>
+<td><p>Station essence Signy</p></td>
+<td><p>Zoom sur la station
+essence et activation
+de la couche
+<strong>Stations, garages</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>District de Nyon
+(partiellement)</p></td>
+</tr>
+<tr class="row-even"><td><p>Sécurité
+(urgences)</p></td>
+<td><p>Garage</p></td>
+<td><p>Garage +
+nom du garage</p></td>
+<td><p>Garage Binggeli
+carrosserie</p></td>
+<td><p>Zoom sur le garage
+activation de la couche
+<strong>Stations, garages</strong></p></td>
+<td><p>Restreint</p></td>
+<td><p>District de Nyon
+(partiellement)</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
