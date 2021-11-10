@@ -60,3 +60,8 @@ a, p a code {
 .content:not(.custom), .page-nav {
     max-width: 100% !important;
 }
+
+#localisation-et-recherche table p {
+	line-height: unset;
+	font-size: 14px
+}
