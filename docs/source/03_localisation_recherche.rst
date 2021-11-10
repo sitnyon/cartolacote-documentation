@@ -11,7 +11,7 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 
 .. raw:: html
 
-    <p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p>
+    <p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p><br>
 
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Thème         | Mot-clé         | Format de la recherche | Exemple               | Action                  | Accès      | Etendue géographique      |
