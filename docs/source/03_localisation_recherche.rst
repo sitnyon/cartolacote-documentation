@@ -13,50 +13,158 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 
     <p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p>
 
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Mot-clé         | Format de la recherche | Exemple               | Action                  | Accès      | Etendue géographique      |
++=================+========================+=======================+=========================+============+===========================+
+| x               | Adresse complète       | Grand-Rue 1 Coppet    | Zoom sur l'adresse et   | Public     | District de Nyon          |
+|                 |                        |                       | mise en surbrillance    |            |                           |
+|                 |                        |                       | du point                |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| ECA             | ECA + numéro ECA       | ECA 1007              | Zoom sur l'emplacement  | Public     | District de Nyon          |
+|                 | + Commune              | Prangins              | du bâtiment             |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| EGID            | EGID + numéro EGID     | EGID 812679           | Zoom sur l'emplacement  | Public     | Nyon                      |
+|                 |                        |                       | du bâtiment et          |            |                           |
+|                 |                        |                       | acitvation de la        |            |                           |
+|                 |                        |                       | couche **Registre**     |            |                           |
+|                 |                        |                       | **des bâtiments (RCB)** |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| DDP             | DDP + numéro du DPP    | DDP 4306              | Zoom sur l'emplacement  | Public     | District de Nyon          |
+|                 | + Commune              | Gland                 | du DDP et acitvation    |            |                           |
+|                 |                        |                       | de la couche            |            |                           |
+|                 |                        |                       | **Droit distinct**      |            |                           |
+|                 |                        |                       | **et permanent**        |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| x               | Rue + Commune          | Route de Montelly     | Zoom sur la rue et      | Public     | District de Nyon          |
+|                 |                        | Perroy                | mise en surbrillance    |            |                           |
+|                 |                        |                       | du tracé                |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| ESID            | ESID + numéro ESID     | ESID 10100815         | Zoom sur la rue,        | Public     | Nyon                      |
+|                 |                        |                       | mise en surbrillance    |            |                           |
+|                 |                        |                       | du tracé et activation  |            |                           |
+|                 |                        |                       | de la couche **Rues**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| parcelle        | parcelle + numéro de   | parcelle 1            | Zoom sur la parcelle et | Public     | District de Nyon          |
+|                 | parcelle               | Vich                  | mise en surbrillance    |            |                           |
+|                 |                        |                       | de la parcelle          |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| EGRID           | EGRID + numéro de      | EGRID CH828282834506  | Zoom sur la parcelle,   | Public     | District de Nyon          |
+|                 | EGRID                  |                       | mise en surbrillance    |            |                           |
+|                 |                        |                       | de la parcelle et       |            |                           |
+|                 |                        |                       | activation des couches  |            |                           |
+|                 |                        |                       | **Domaine public**      |            |                           |
+|                 |                        |                       | **communal** et         |            |                           |
+|                 |                        |                       | **Domaine public**      |            |                           |
+|                 |                        |                       | **cantonal** si la      |            |                           |
+|                 |                        |                       | parcelle est sur le DP  |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| PPE             | PPE + numéro de PPE    | PPE 57                | Zoom sur la parcelle et | Public     | Nyon                      |
+|                 | + Commune              | Nyon                  | mise en surbrillance    |            |                           |
+|                 |                        |                       | de la PPE               |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Commune         | Commune + numéro OFS   | Mies 5723             | Zoom sur la commune,    | Public     | District de Nyon          |
+|                 | ou numéro cantonal     | ou                    | mise en surbrillance    |            |                           |
+|                 |                        | Mies 245              | de la commune et        |            |                           |
+|                 |                        |                       | activation de la        |            |                           |
+|                 |                        |                       | couche **Communes**     |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| NPA             | NPA + numéro NPA       | NPA 1271              | Zoom sur la commune,    | Public     | District de Nyon          |
+|                 |                        |                       | mise en surbrillance    |            |                           |
+|                 |                        |                       | de la commune           |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| NPA             | NPA + numéro NPA       | NPA 1271              | Zoom sur la commune,    | Public     | District de Nyon          |
+|                 |                        |                       | mise en surbrillance    |            |                           |
+|                 |                        |                       | de la commune           |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| x               | Coordonnées CH1903+    | 2504662 1138354       | Recentre sur les        | Public     | District de Nyon          |
+|                 | ou WGS84               | ou                    | coordonnées             |            |                           |
+|                 |                        | 6.19898 46.38976      |                         |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| PFP             | PFP + numéro du PFP    | PFP 1241 121 0        | Zoom sur le PFP et      | Public     | District de Nyon          |
+|                 |                        |                       | activation de la couche |            |                           |
+|                 |                        |                       | **Points fixes**        |            |                           |
+|                 |                        |                       | **planimétriques**      |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| PFA             | PFA + numéro du PFA    | PFA 1241G041A         | Zoom sur le PFA et      | Public     | District de Nyon          |
+|                 |                        |                       | activation de la couche |            |                           |
+|                 |                        |                       | **Points fixes**        |            |                           |
+|                 |                        |                       | **altimétriques**       |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Permis          | Permis + numéro de     | Permis 7225           | Zoom sur l'emprise      | Public     | Nyon                      |
+|                 | permis                 |                       | géographique du permis  |            |                           |
+|                 |                        |                       | et activation de la     |            |                           |
+|                 |                        |                       | couche concernée par le |            |                           |
+|                 |                        |                       | permis                  |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| CAMAC           | Permis + numéro de     | CAMAC 193955          | Zoom sur l'emprise      | Public     | Nyon                      |
+|                 | permis                 |                       | géographique du permis  |            |                           |
+|                 |                        |                       | et activation de la     |            |                           |
+|                 |                        |                       | couche concernée par le |            |                           |
+|                 |                        |                       | permis                  |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| PQ              | PQ ou PPA ou PEP +     | PQ 5234 La Poterie    | Zoom sur l'emprise      | Public     | Nyon                      |
+| PPA             | numéro de plan + nom   | ou PPA 5358 L'Asse    | du plan et activation   |            |                           |
+| PEP             | de plan                | ou PEP 3785 A Rive    | de la couche            |            |                           |
+|                 |                        |                       | **Plan de zones**       |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Arrêt           | Arrêt + nom de l'arrêt | Arrêt Changins        | Zoom sur l'arrêt ou la  | Public     | District de Nyon          |
+|                 | bus ou nom de la gare  | ou Arrêt Arzier       | gare et activation      |            |                           |
+|                 |                        |                       | de la couche            |            |                           |
+|                 |                        |                       | **Arrêts de bus** ou    |            |                           |
+|                 |                        |                       | **Gares**               |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| BH              | BH + numéro de la BH   | BH 3                  | Zoom sur la BH et       | Restreint  | District de Nyon          |
+|                 |                        |                       | activation de la couche |            | (partiellement)           |
+|                 |                        |                       | **Hydrantes** ou        |            |                           |
+|                 |                        |                       | **Hydrantes**           |            |                           |
+|                 |                        |                       | **souterraines**        |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| CD              | CD + nom de la CD      | CD 7                  | Zoom sur la CD et       | Restreint  | Nyon                      |
+|                 |                        |                       | activation de la couche |            |                           |
+|                 |                        |                       | **Postes de détente**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| BAG             | BAG + nom de la BAG    | BAG 601               | Zoom sur la BAG et      | Restreint  | Nyon                      |
+|                 |                        |                       | activation de la couche |            |                           |
+|                 |                        |                       | **Balise de**           |            |                           |
+|                 |                        |                       | **signalisation**       |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| SDIS            | SDIS + numéro de       | A05043 Parking les    | Zoom sur la détection   | Restreint  | SDIS Nyon Dôle et         |
+|                 | détections +           | Foulis                | et activation de la     |            | SDIS Gland-Serine         |
+|                 | localisation           |                       | couche **Détections**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Clé             | Clé + numéro de clé    | Clé 168               | Zoom sur l'emplacement  | Restreint  | SDIS Nyon Dôle et         |
+|                 | + localisation         |                       | de la clé et activation |            | SDIS Gland-Serine         |
+|                 |                        |                       | de la couche **Clés**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| AMF             | AMF + nom de l'AMF     | AMF Pierre Martin     | Zoom sur la             | Restreint  | Nyon                      |
+|                 |                        |                       | localisation de l'AMF   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| x               | Nom du point d'intérêt | Ranch Zangalisa       | Zoom sur le point       | Public     | District de Nyon          |
+|                 |                        |                       | d'intérêt et acitvation |            |                           |
+|                 |                        |                       | de la couche concernée  |            |                           |
+|                 |                        |                       | par le point d'intérêt  |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| x               | Nom de la Salle        | Salle de la Bretèche  | Zoom sur la salle       | Public     | Nyon                      |
+|                 | communale              |                       | communale et activation |            |                           |
+|                 |                        |                       | de la couche **Salles** |            |                           |
+|                 |                        |                       | **communales**          |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| x               | Nom du cours d'eau     | L'Asse                | Zoom sur le cours d'eau | Public     | Nyon                      |
+|                 |                        |                       | et activation de la     |            |                           |
+|                 |                        |                       | couche **Cours d'eau**  |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Station         | Station électrique +   | Station électrique    | Zoom sur la station     | Restreint  | Nyon                      |
+| électrique      | nom de la station      | STAND                 | électrique et           |            |                           |
+|                 |                        |                       | activation de la        |            |                           |
+|                 |                        |                       | couche **Stations**     |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Station         | Station essence +      | Station essence Signy | Zoom sur la station     | Restreint  | District de Nyon          |
+| essence         | nom de la station      |                       | essence et activation   |            | (partiellement)           |
+|                 |                        |                       | de la couche            |            |                           |
+|                 |                        |                       | **Stations, garages**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Garage          | Garage +               | Garage Binggeli       | Zoom sur le garage      | Restreint  | District de Nyon          |
+|                 | nom du garage          | carrosserie           | activation de la couche |            | (partiellement)           |
+|                 |                        |                       | **Stations, garages**   |            |                           |
++-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 
-Emplacement
------------
-
-- Adresse
-
-- Parcelle (mots clés parcelle / egrid)
-
-- PPE (Nyon) (mot clé ppe)
-
-- DDP (mot clé ddp)
-
-- Bâtiment (mots clés eca / egid)
-
-- Rue (mot clé esid)
-
-- Commune (mot clé commune + n° cantonal / OFS)
-
-- Code postal (mot clé npa)
-
-- Coordonnées (CH1903+ / WGS84)
-
-
-Données
--------
-
-- Point fixe (mots clés pfp / pfa)
-
-- Permis de construire (mots clés permis / camac)
-
-- Plan de quartier (mot clé pq)
-
-- Arrêt de transport public (mot clé arret)
-
-De plus en étant connecté, d’autres objets sont disponibles (selon les droits) :
-
-- Bornes hydrantes (eau potable) (mot clé bh)
-
-- Postes de détente (gaz) (mot clé cd)
-
-- Balises de signalisation (gaz) (mot clé bag)
-
-- Détections (pompiers) (mot clé sdis)
-
-- Clés (pompiers) (mots clés sdis cle)
-
-- Accueillantes en milieu familial (mot clé amf)

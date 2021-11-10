@@ -56,3 +56,7 @@ a, p a code {
     color: #2c3e50;
   }
 }
+
+.content:not(.custom), .page-nav {
+    max-width: 100% !important;
+}
