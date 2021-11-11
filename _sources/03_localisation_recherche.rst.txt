@@ -16,7 +16,7 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Thème         | Mot-clé         | Format de la recherche | Exemple               | Action                  | Accès      | Etendue géographique      |
 +===============+=================+========================+=======================+=========================+============+===========================+
-| Aménagement   | PQ              | PQ ou PPA ou PEP +     | PQ 5234 La Poterie    | Zoom sur l'emprise      | Public     | Nyon                      |
+| Aménagement   | PQ              | PQ ou PPA ou PEP +     | PQ 5234 La Poterie    | Zoom sur l'emprise      | Public     | Coppet, Nyon, Mies        |
 | du territoire | PPA             | numéro de plan + nom   | ou PPA 5358 L'Asse    | du plan et activation   |            |                           |
 |               | PEP             | de plan                | ou PEP 3785 A Rive    | de la couche            |            |                           |
 |               |                 |                        |                       | **Plan de zones**       |            |                           |
@@ -114,10 +114,6 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 |               |                 |                        |                       | d'intérêt et acitvation |            |                           |
 |               |                 |                        |                       | de la couche concernée  |            |                           |
 |               |                 |                        |                       | par le point d'intérêt  |            |                           |
-+---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
-| Plan de ville | x               | Garage +               | Garage Binggeli       | Zoom sur le garage      | Restreint  | District de Nyon          |
-|               |                 | nom du garage          | carrosserie           | activation de la couche |            | (partiellement)           |
-|               |                 |                        |                       | **Stations, garages**   |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Police des    | Permis          | Permis + numéro de     | Permis 7225           | Zoom sur l'emprise      | Public     | Nyon                      |
 | constructions |                 | permis                 |                       | géographique du permis  |            |                           |
