@@ -14,7 +14,7 @@ Version du 4 novembre 2021
     <li>Résolution de l'erreur sur l'arbre des couches dans l'iframe</li>
     <li>Nouvelle fonctionnalité de géolocalisation sur Desktop</li>
 	<li>Adaptation de la symbologie du réseau électrique</li>
-	<li>Activitation de l'outil de filtre pour tous les thèmes</li>
+	<li>Activation de l'outil de filtre pour tous les thèmes</li>
 	<li>Ajout d'images statiques pour les légendes des points d'intérêts (impression)</li>
 
 .. _historique_version_20210929:
