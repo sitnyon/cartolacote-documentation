@@ -3,6 +3,19 @@
 Versions
 ========
 
+.. _historique_version_20211208:
+
+Version du 8 décembre 2021
+----------------------------
+
+.. raw:: html
+
+    <li>Ajout d'une classe "hors-service" pour les bornes hydrantes (thème sécurité)</li>
+    <li>Ajout des statistiques d'utilisation du géoportail pour les mois de juillet à novembre</li>
+    <li>Ajout d'une icône d'information sur la barre de recherche avec redirection vers la doc (recherche)</li>
+	<li>Renommage de deux classes pour la couche "Tracés en service"</li>
+	<li>Adaptation de la full-text search pour les Bornes hydrantes eca, la couche "Détection" et "Plan des zones"</li>
+
 .. _historique_version_20211104:
 
 Version du 4 novembre 2021
