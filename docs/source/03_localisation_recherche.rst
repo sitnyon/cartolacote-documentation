@@ -30,12 +30,12 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | EGID            | EGID + numéro EGID     | EGID 812679           | Zoom sur l'emplacement  | Public     | Nyon                      |
 |               |                 |                        |                       | du bâtiment et          |            |                           |
-|               |                 |                        |                       | acitvation de la        |            |                           |
+|               |                 |                        |                       | activation de la        |            |                           |
 |               |                 |                        |                       | couche **Registre**     |            |                           |
 |               |                 |                        |                       | **des bâtiments (RCB)** |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | DDP             | DDP + numéro du DPP    | DDP 4306              | Zoom sur l'emplacement  | Public     | District de Nyon          |
-|               |                 | + Commune              | Gland                 | du DDP et acitvation    |            |                           |
+|               |                 | + Commune              | Gland                 | du DDP et activation    |            |                           |
 |               |                 |                        |                       | de la couche            |            |                           |
 |               |                 |                        |                       | **Droit distinct**      |            |                           |
 |               |                 |                        |                       | **et permanent**        |            |                           |
@@ -111,9 +111,14 @@ La croix à droite de la zone de saisie permet de désactiver la mise en éviden
 |               |                 |                        |                       | **communales**          |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Plan de ville | x               | Nom du point d'intérêt | Ranch Zangalisa       | Zoom sur le point       | Public     | District de Nyon          |
-|               |                 |                        |                       | d'intérêt et acitvation |            |                           |
+|               |                 |                        |                       | d'intérêt et activation |            |                           |
 |               |                 |                        |                       | de la couche concernée  |            |                           |
 |               |                 |                        |                       | par le point d'intérêt  |            |                           |
++---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Plan de ville | x               | Nom du lieu            | Capite à moto         | Zoom sur le lieu        | Public     | District de Nyon          |
+| (Lieux        |                 | géographique           |                       | géo. et activation      |            |                           |
+| géographiques)|                 |                        |                       | de la couche concernée  |            |                           |
+|               |                 |                        |                       | par le lieu             |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Police des    | Permis          | Permis + numéro de     | Permis 7225           | Zoom sur l'emprise      | Public     | Nyon                      |
 | constructions |                 | permis                 |                       | géographique du permis  |            |                           |
