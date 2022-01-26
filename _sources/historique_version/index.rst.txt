@@ -3,6 +3,37 @@
 Versions
 ========
 
+.. _historique_version_20220126:
+
+Version du 26 janvier 2022
+--------------------------
+
+.. raw:: html
+
+    <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/22PH" target=_blank>Projets de mobilité</a> (en accès sécurisé)</li>
+    <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/WKic" target=_blank>Eléctricité (plan lumière)</a> (en accès sécurisé)</li>
+    <li>Ajout du bouton géolocalisation sur l'iframe</li>
+    <li>Migration des webservices de php à python</li>
+    <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/0Pbw" target=_blank>Inventaire des chemins pédestres et SuisseMobile (randonnée, à vélo et à VTT)</a></li>
+	<li>Renommage du thème Sport en Sports et loisirs</li>
+	<li>Ajout de l'attribut Itinéraires (Google Maps) pour les défibrillateurs</li>
+	<li>Correction du problème d'affichage de la légende de Points d'intérêt</li>
+	<li>Ajout de l'attribut gestionnaire pour le réseau d'eau</li>
+
+
+.. _historique_version_20211208:
+
+Version du 8 décembre 2021
+----------------------------
+
+.. raw:: html
+
+    <li>Ajout d'une classe "hors-service" pour les bornes hydrantes (thème sécurité)</li>
+    <li>Ajout des statistiques d'utilisation du géoportail pour les mois de juillet à novembre</li>
+    <li>Ajout d'une icône d'information sur la barre de recherche avec redirection vers la doc (recherche)</li>
+	<li>Renommage de deux classes pour la couche "Tracés en service"</li>
+	<li>Adaptation de la full-text search pour les Bornes hydrantes eca, la couche "Détection" et "Plan des zones"</li>
+
 .. _historique_version_20211104:
 
 Version du 4 novembre 2021
@@ -14,7 +45,7 @@ Version du 4 novembre 2021
     <li>Résolution de l'erreur sur l'arbre des couches dans l'iframe</li>
     <li>Nouvelle fonctionnalité de géolocalisation sur Desktop</li>
 	<li>Adaptation de la symbologie du réseau électrique</li>
-	<li>Activitation de l'outil de filtre pour tous les thèmes</li>
+	<li>Activation de l'outil de filtre pour tous les thèmes</li>
 	<li>Ajout d'images statiques pour les légendes des points d'intérêts (impression)</li>
 
 .. _historique_version_20210929:

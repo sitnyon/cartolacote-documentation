@@ -20,11 +20,7 @@ couche.
 Registre foncier
 ----------------
 
-En choisissant le plan cadastral comme fond de plan, il est
-possible d’obtenir des informations du registre foncier
-(propriétaire, état descriptif) en interrogeant les parcelles.
-En étant connecté, l’extrait complet du registre foncier ainsi que
-l’adresse des propriétaires sont également disponibles.
+En choisissant le plan cadastral comme fond de plan et en interrogeant la parcelle d'intérêt, un lien renvoie vers la plateforme de consulation des données du registre foncier intercapi sur la parcelle en question. L'utilisateur doit posséder un accès. Pour le grand public, une demande par mail et au moyen d'un formulaire doit être réalisée. Un lien vers le téléchargement de ce formulaire est également proposé lors de l'interrogation de la parcelle.
 
 .. image:: _static/interrogation_rf.png
 
