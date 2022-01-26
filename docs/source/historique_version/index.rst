@@ -12,12 +12,12 @@ Version du 26 janvier 2022
 
     <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/22PH" target=_blank>Projets de mobilité</a> (en accès sécurisé)</li>
     <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/WKic" target=_blank>Eléctricité (plan lumière)</a> (en accès sécurisé)</li>
-    <li>Ajout de bouton géolocalisation sur l'iframe</li>
+    <li>Ajout du bouton géolocalisation sur l'iframe</li>
     <li>Migration des webservices de php à python</li>
     <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/0Pbw" target=_blank>Inventaire des chemins pédestres et SuisseMobile (randonnée, à vélo et à VTT)</a></li>
 	<li>Renommage du thème Sport en Sports et loisirs</li>
 	<li>Ajout de l'attribut Itinéraires (Google Maps) pour les défibrillateurs</li>
-	<li>Correction du problème d'affichage de la légende de POI</li>
+	<li>Correction du problème d'affichage de la légende de Points d'intérêt</li>
 	<li>Ajout de l'attribut gestionnaire pour le réseau d'eau</li>
 
 
