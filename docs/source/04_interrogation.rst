@@ -20,7 +20,9 @@ couche.
 Registre foncier
 ----------------
 
-En choisissant le plan cadastral comme fond de plan et en interrogeant la parcelle d'intérêt, un lien renvoie vers la plateforme de consulation des données du registre foncier intercapi sur la parcelle en question. L'utilisateur doit posséder un accès. Pour le grand public, une demande par mail et au moyen d'un formulaire doit être réalisée. Un lien vers le téléchargement de ce formulaire est également proposé lors de l'interrogation de la parcelle.
+En choisissant le plan cadastral comme fond de plan et en interrogeant la parcelle d'intérêt, un lien renvoie vers la plateforme de consultation des données du registre foncier `intercapi <https://capitastrakk.vd.ch/auth/realms/capitastra/protocol/openid-connect/auth?response_type=id_token%20token&client_id=capitastra-client&state=ycbYydtbkdhyxoEyQNBeUeYYA7cBZBHwX4pfBgCY%3B%252Fhome%252Fdashboard&redirect_uri=https%3A%2F%2Fintercapi.vd.ch%2Fterritoire%2Fintercapi%2Fui%2F&scope=openid%20profile%20email&nonce=ycbYydtbkdhyxoEyQNBeUeYYA7cBZBHwX4pfBgCY&ui_locales=fr>`__ sur la parcelle en question. L'utilisateur doit posséder un accès. Pour ce faire, adresser une demande par mail à rf.inspectorat@vd.ch en mettant en copie la personne responsable (secrétaire municipal pour les employés de la ville, autres pour les externes).
+
+Pour le grand public, une demande par mail et au moyen d'un `formulaire <https://www.vd.ch/fileadmin/user_upload/organisation/dfin/sg-dfin/rf/fichiers_pdf/Formulaire_de_demande_de_renseignements_donn%C3%A9es_publiques_du_registre_foncier_2.pdf>`__ doit être réalisée. Un lien vers le téléchargement de ce formulaire est également proposé lors de l'interrogation de la parcelle.
 
 .. image:: _static/interrogation_rf.png
 
