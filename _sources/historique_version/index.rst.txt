@@ -3,6 +3,16 @@
 Versions
 ========
 
+.. _historique_version_20220209:
+
+Version du 9 février 2022
+-------------------------
+
+.. raw:: html
+
+    <li>Statistiques de décembre 2021 et janvier 2022</li>
+	<li>Publication des données de Vich (aménagement du territoire, réseaux d'assainissement et d'eau, lieux géographiques et propriétés communales)</li>
+
 .. _historique_version_20220126:
 
 Version du 26 janvier 2022
