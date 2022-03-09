@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20220309:
+
+Version du 9 mars 2022
+-------------------------
+
+.. raw:: html
+
+    <li>Statistiques de février 2022</li>
+    <li>Correctifs sur les branchements d'abonnés (plan d'ouvrage et géoschématique)</li>
+
+
 .. _historique_version_20220209:
 
 Version du 9 février 2022
