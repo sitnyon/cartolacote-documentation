@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20220331:
+
+Version du 31 mars 2022
+-----------------------
+
+.. raw:: html
+
+    <li>Extension des données des <a href="https://map.cartolacote.ch/s/UdiH" target=_blank>Adresses</a> et des <a href="https://map.cartolacote.ch/s/UdiH" target=_blank>Rues</a></li>
+	<li>Mise en place du carrousel d'image pour les réseaux souterrains</li>
+    <li>Résolution des erreurs sur les légendes</li>
+
 .. _historique_version_20220323:
 
 Version du 23 mars 2022
