@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20220504:
+
+Version du 4 mai 2022
+---------------------
+
+.. raw:: html
+
+    <li>Amélioration des webservices des pharmacies de garde et de la liste des couches par interface</li>
+	<li>Version 1.1 de planit</li>
+    <li>Adaptation de l'icone de Région de Nyon (couche Points d'intérêt)</li>
+
 .. _historique_version_20220331:
 
 Version du 31 mars 2022
