@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Iframe</title>
+      <title>Iframe / API</title>
     
       <link rel="stylesheet" href="_static/pygments.css">
       <link rel="stylesheet" href="_static/theme.css">
@@ -26,7 +26,7 @@
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Recherche" href="search.html" />
   <link rel="next" title="Versions" href="historique_version/index.html" />
-  <link rel="prev" title="API" href="11_api.html" /> 
+  <link rel="prev" title="Version mobile" href="10_version_mobile.html" /> 
   </head>
 
   <body>
@@ -203,20 +203,14 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="11_api.html" class="reference internal ">API</a>
-
-            
-          </li>
-
-        
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Iframe</a>
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Iframe / API</a>
 
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#integrer-une-carte" class="reference internal">Intégrer une carte</a></li>
+                  <li class="toctree-l2"><a href="#integrer-une-carte-avec-un-iframe" class="reference internal">Intégrer une carte avec un iframe</a></li>
                 
-                  <li class="toctree-l2"><a href="#liste-des-couches-disponibles" class="reference internal">Liste des couches disponibles</a></li>
+                  <li class="toctree-l2"><a href="#integrer-une-carte-l-api" class="reference internal">Intégrer une carte l’api</a></li>
                 
               </ul>
             
@@ -250,14 +244,14 @@
   <ul class="breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
     
-    <li>Iframe</li>
+    <li>Iframe / API</li>
   </ul>
   
 
   <ul class="page-nav">
   <li class="prev">
-    <a href="11_api.html"
-       title="Chapitre précédent">← API</a>
+    <a href="10_version_mobile.html"
+       title="Chapitre précédent">← Version mobile</a>
   </li>
   <li class="next">
     <a href="historique_version/index.html"
@@ -269,40 +263,25 @@
 <hr>
           <div class="content" role="main">
             
-  <div class="section" id="iframe">
-<h1>Iframe<a class="headerlink" href="#iframe" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="section" id="integrer-une-carte">
-<h2>Intégrer une carte<a class="headerlink" href="#integrer-une-carte" title="Lien permanent vers ce titre">¶</a></h2>
+  <div class="section" id="iframe-api">
+<h1>Iframe / API<a class="headerlink" href="#iframe-api" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="integrer-une-carte-avec-un-iframe">
+<h2>Intégrer une carte avec un iframe<a class="headerlink" href="#integrer-une-carte-avec-un-iframe" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Voir la <a class="reference internal" href="05_outils.html#integrer-la-carte"><span class="std std-ref">documentation</span></a></p>
-<script type="text/javascript">
-
-function init() {
- $.getJSON( "https://map.cartolacote.ch/layer_interface?interface=iframe", function( data ) {
-   var layersIframe = data.layers;
-       var counter = 1;
-       var newInner = "<br><table border=\"0\">";
-   for (var i=0; i < layersIframe.length; i++) {
-           if (layersIframe[i].treegroup == 'background') {
-                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=" + layersIframe[i].layer;
-               } else {
-                  var link = "https://map.cartolacote.ch/theme/plan_ville?lang=fr&baselayer_ref=plan_ville&tree_groups=" + layersIframe[i].treegroup + "&tree_group_layers_" + layersIframe[i].treegroup + "=" + layersIframe[i].layer;
-               }
-       newInner += '<tr><td>' + counter + '</td><td>' + layersIframe[i].layer + '&nbsp(<a href="' + link + '" target="_blank">' + layersIframe[i].translate_name + '</a>)</td></tr>';
-       counter++;
-   }
-       document.getElementById('iframeLayers').innerHTML = newInner;
- });
-}
-
-</script>
-
-<body onload="init();">
-</body></div>
 <div class="section" id="liste-des-couches-disponibles">
-<h2>Liste des couches disponibles<a class="headerlink" href="#liste-des-couches-disponibles" title="Lien permanent vers ce titre">¶</a></h2>
-<body>
-  <div id="iframeLayers" style="margin-left:10px;margin-bottom:24px;"></div>
-</body></div>
+<h3>Liste des couches disponibles<a class="headerlink" href="#liste-des-couches-disponibles" title="Lien permanent vers ce titre">¶</a></h3>
+<div style="margin-left:10px;margin-bottom:24px;">
+ <iframe width="100%" height="880" src="https://map-demo.cartolacote.ch/pfanguin/layer_interface?interface=iframe" frameborder="0" style="border:0"></iframe>
+</div></div>
+</div>
+<div class="section" id="integrer-une-carte-l-api">
+<h2>Intégrer une carte l’api<a class="headerlink" href="#integrer-une-carte-l-api" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Voir la <a href="https://map.cartolacote.ch/apihelp/index.html" target=_blank>documentation</a></li><div class="section" id="id1">
+<h3>Liste des couches disponibles<a class="headerlink" href="#id1" title="Lien permanent vers ce titre">¶</a></h3>
+<div style="margin-left:10px;margin-bottom:24px;">
+ <iframe width="100%" height="880" src="https://map-demo.cartolacote.ch/pfanguin/layer_interface?interface=api" frameborder="0" style="border:0"></iframe>
+</div></div>
+</div>
 </div>
 
 
@@ -310,8 +289,8 @@ function init() {
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
   <li class="prev">
-    <a href="11_api.html"
-       title="Chapitre précédent">← API</a>
+    <a href="10_version_mobile.html"
+       title="Chapitre précédent">← Version mobile</a>
   </li>
   <li class="next">
     <a href="historique_version/index.html"
