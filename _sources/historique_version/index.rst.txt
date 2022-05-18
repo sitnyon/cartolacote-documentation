@@ -3,6 +3,20 @@
 Versions
 ========
 
+.. _historique_version_20220518:
+
+Version du 18 mai 2022
+----------------------
+
+.. raw:: html
+
+    <li>Ajout de traductions manquantes pour Nature en ville</li>
+	<li>Résolution de l'erreur d'affichage des Points fixes planimétriques</li>
+    <li>Adaptation des métadonnées des Cartes Siegfried et Dufour</li>
+    <li>Amélioration technique du WMS</li>
+    <li>Electricité : nouvelles couches <a href="https://map.cartolacote.ch/s/OprO" target=_blank>Bornes de recharges</a>, <a href="https://map.cartolacote.ch/s/qSAO" target=_blank>panneaux photovoltaïque</a>, séparation des couches Stations et Distributeurs et refonte des droits d'accès</li>
+
+
 .. _historique_version_20220504:
 
 Version du 4 mai 2022
