@@ -3,6 +3,16 @@
 Versions
 ========
 
+.. _historique_version_20220601:
+
+Version du 1 juin 2022
+----------------------
+
+.. raw:: html
+
+    <li>Nouvelles données : <a href="https://map.cartolacote.ch/s/OHqz" target=_blank>Modèle numérique de surface 2019</a></li>
+	<li>Adaptation de la symbologie des lieux géographiques (ajout de nouvelles catégories de lieux)</li>
+
 .. _historique_version_20220518:
 
 Version du 18 mai 2022
