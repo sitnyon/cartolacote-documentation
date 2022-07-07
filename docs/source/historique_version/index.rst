@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20220706:
+
+Version du 6 juillet 2022
+-------------------------
+
+.. raw:: html
+
+    <li>Nouvelles données : <a href="https://map.cartolacote.ch/s/uCAM" target=_blank>Prise d'arrosage SANE</a></li>
+	<li>Configuration de TinyOws pour les couches WFS-T</li>
+	<li>Uniformisation de la convention de nommage des couches</li>
+
 .. _historique_version_20220601:
 
 Version du 1 juin 2022
