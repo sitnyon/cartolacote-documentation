@@ -51,7 +51,7 @@ clic droit sur un sommet permet de le supprimer.
 Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
 GPX.
 
-Pour les lignes il est également possible d'ajouter une flèche selon un direction (avant, derrière, double) sur :
+Pour les lignes il est également possible d'ajouter une flèche selon une direction (avant, derrière, double) sur :
 
 - le premier segment
 - le dernier segment

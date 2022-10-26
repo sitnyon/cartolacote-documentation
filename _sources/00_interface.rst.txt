@@ -11,7 +11,7 @@ Ajuster la largeur des panneaux
 -------------------------------
 
 Les panneaux de sélection de données et d'outils sont ajustables en largeur.
-Au survol de la barre latérale un curseur à double flèches s'affiche, il faut ensuite cliquer et glisser pour adapter la largeur.
+Au survol de la barre latérale un curseur à double flèche s'affiche, il faut ensuite cliquer et glisser pour adapter la largeur.
 Pour le panneaux d'outils il faut au préalable ouvrir un outil.
 
 
