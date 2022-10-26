@@ -32,10 +32,12 @@ Icône                       Action                Icône                       
 Un double clic permet de terminer la saisie d’une ligne ou d’un polygone. Certaines propriétés
 des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.
 
-Il est possible d'ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner 
-le champ ci-dessous : 
+Il est possible d'ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner
+le champ ci-dessous :
 
 .. image:: _static/dessiner_avec_mesure.png
+  :width: 1000
+
 
 L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
 complète les annotations et fait office d’outil de mesure.
@@ -44,9 +46,22 @@ Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le sup
 clic droit sur un sommet permet de le supprimer.
 
 .. image:: _static/dessin_clic_droit.png
+  :width: 1000
 
 Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
 GPX.
+
+Pour les lignes il est également possible d'ajouter une flèche selon un direction (avant, derrière, double) sur :
+
+- le premier segment
+- le dernier segment
+- chaque segment
+
+.. image:: _static/dessiner_fleche.png
+  :width: 1000
+
+Lorsque vous dessinez un objet vous avez la possiblité d'accrocher votre dessin à une autre géométrie.
+Le point s'accorche automatiquement à une géométrie précédement lorsqu'il est à une certaine distance de celle-ci.
 
 Profil altimétrique
 -------------------
@@ -66,16 +81,17 @@ le terrain et en vert les éléments de surface (bâtiments, végétation, etc.)
 Sélection
 ---------
 
-Il est possible de sélectionner les objets sur la carte de différentes manières : 
+Il est possible de sélectionner les objets sur la carte de différentes manières :
 
 - Point : un seul objet est sélectionné
 - Rectangle : les objets contenus dans le rectangle sont sélectionnés
 - Polygone : les objets contenus dans le polygone sont sélectionnés
 
-Lorsque "Remplacer" est coché, la sélection précédente est remplacée par la nouvelle et 
-lorsque "Supprimer" est coché, les objets sont supprimés de la sélection. 
+Lorsque "Remplacer" est coché, la sélection précédente est remplacée par la nouvelle et
+lorsque "Supprimer" est coché, les objets sont supprimés de la sélection.
 
 .. image:: _static/selection_polygone.png
+  :width: 1000
 
 Street View
 -----------
@@ -94,12 +110,12 @@ Il est possible d’ajouter différentes données externes à la carte :
 
 * Géoservices (WMS ou WMTS)
 
-* Fichier local (KML ou GPX)
+* Fichier local (KML ou GPX) (en cliquant sur le bouton correspondant à l'outil ou en faisant un glisser-déposer sur la carte)
 
 
-Certains serveurs WMS (confédération, canton) sont préconfigurés (liste accessible en tapant
-la lettre « h ») mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
+Certains serveurs WMS (confédération, canton) sont préconfigurés mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
 entrant leur adresse dans le formulaire.
+Lorsqu'un WMS ou WMTS est chargé sur la carte la légende s'affiche et les objets de la couche sont interrogeables.
 
 .. raw:: html
 
@@ -123,6 +139,7 @@ affichées, pour autant que la surface ne soit pas trop petite ni trop grande.
 Recentrer
 ---------
 
-Il est possible de recentrer la carte selon l'étendue d'une commune du district. 
+Il est possible de recentrer la carte selon l'étendue d'une commune du district.
 
 .. image:: _static/recentrer.png
+  :width: 1000
