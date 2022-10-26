@@ -6,13 +6,15 @@
 Bienvenue sur la documentation du géoportail Cartolacôte!
 =========================================================
 
-.. image:: _static/geoportail_cartolacote.png
-  :alt: Géoportail Cartolacôte
+.. raw:: html
+
+    <img alt="Géoportail Cartolacôte" src="https://cartolacote.ch/wp-content/uploads/2022/10/presentation_geoportail.gif" style="width: 600px;">
 
 .. toctree::
    :maxdepth: 1
    :caption: Documentation
    
+   00_interface
    01_navigation
    02_donnees
    03_localisation_recherche

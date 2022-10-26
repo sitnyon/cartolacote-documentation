@@ -143,6 +143,12 @@
       </p>
       <ul class="current">
         
+          <li class="toctree-l1 "><a href="00_interface.html" class="reference internal ">Interface</a>
+
+            
+          </li>
+
+        
           <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
 
             
@@ -328,14 +334,23 @@ carte.</p>
 des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.</p>
 <p>Il est possible d’ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner
 le champ ci-dessous :</p>
-<img alt="_images/dessiner_avec_mesure.png" src="_images/dessiner_avec_mesure.png" />
+<a class="reference internal image-reference" href="_images/dessiner_avec_mesure.png"><img alt="_images/dessiner_avec_mesure.png" src="_images/dessiner_avec_mesure.png" style="width: 1000px;" /></a>
 <p>L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
 complète les annotations et fait office d’outil de mesure.</p>
 <p>Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le supprimer alors qu’un
 clic droit sur un sommet permet de le supprimer.</p>
-<img alt="_images/dessin_clic_droit.png" src="_images/dessin_clic_droit.png" />
+<a class="reference internal image-reference" href="_images/dessin_clic_droit.png"><img alt="_images/dessin_clic_droit.png" src="_images/dessin_clic_droit.png" style="width: 1000px;" /></a>
 <p>Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
 GPX.</p>
+<p>Pour les lignes il est également possible d’ajouter une flèche selon un direction (avant, derrière, double) sur :</p>
+<ul class="simple">
+<li><p>le premier segment</p></li>
+<li><p>le dernier segment</p></li>
+<li><p>chaque segment</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/dessiner_fleche.png"><img alt="_images/dessiner_fleche.png" src="_images/dessiner_fleche.png" style="width: 1000px;" /></a>
+<p>Lorsque vous dessinez un objet vous avez la possiblité d’accrocher votre dessin à une autre géométrie.
+Le point s’accorche automatiquement à une géométrie précédement lorsqu’il est à une certaine distance de celle-ci.</p>
 </div>
 <div class="section" id="profil-altimetrique">
 <h2>Profil altimétrique<a class="headerlink" href="#profil-altimetrique" title="Lien permanent vers ce titre">¶</a></h2>
@@ -355,7 +370,7 @@ le terrain et en vert les éléments de surface (bâtiments, végétation, etc.)
 </ul>
 <p>Lorsque « Remplacer » est coché, la sélection précédente est remplacée par la nouvelle et
 lorsque « Supprimer » est coché, les objets sont supprimés de la sélection.</p>
-<img alt="_images/selection_polygone.png" src="_images/selection_polygone.png" />
+<a class="reference internal image-reference" href="_images/selection_polygone.png"><img alt="_images/selection_polygone.png" src="_images/selection_polygone.png" style="width: 1000px;" /></a>
 </div>
 <div class="section" id="street-view">
 <h2>Street View<a class="headerlink" href="#street-view" title="Lien permanent vers ce titre">¶</a></h2>
@@ -367,11 +382,11 @@ charger la vue 3D. La carte est synchronisée avec la vue 3D et vice-versa.</p>
 <p>Il est possible d’ajouter différentes données externes à la carte :</p>
 <ul class="simple">
 <li><p>Géoservices (WMS ou WMTS)</p></li>
-<li><p>Fichier local (KML ou GPX)</p></li>
+<li><p>Fichier local (KML ou GPX) (en cliquant sur le bouton correspondant à l’outil ou en faisant un glisser-déposer sur la carte)</p></li>
 </ul>
-<p>Certains serveurs WMS (confédération, canton) sont préconfigurés (liste accessible en tapant
-la lettre « h ») mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
-entrant leur adresse dans le formulaire.</p>
+<p>Certains serveurs WMS (confédération, canton) sont préconfigurés mais il est tout à fait possible de se connecter à d’autres serveurs WMS, en
+entrant leur adresse dans le formulaire.
+Lorsqu’un WMS ou WMTS est chargé sur la carte la légende s’affiche et les objets de la couche sont interrogeables.</p>
 <p><video width="600" controls><source src="_static/donnees_externes.mp4" type="video/mp4"></video></p></div>
 <div class="section" id="statistiques">
 <h2>Statistiques<a class="headerlink" href="#statistiques" title="Lien permanent vers ce titre">¶</a></h2>
@@ -384,7 +399,7 @@ affichées, pour autant que la surface ne soit pas trop petite ni trop grande.</
 <div class="section" id="recentrer">
 <h2>Recentrer<a class="headerlink" href="#recentrer" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Il est possible de recentrer la carte selon l’étendue d’une commune du district.</p>
-<img alt="_images/recentrer.png" src="_images/recentrer.png" />
+<a class="reference internal image-reference" href="_images/recentrer.png"><img alt="_images/recentrer.png" src="_images/recentrer.png" style="width: 1000px;" /></a>
 </div>
 </div>
 

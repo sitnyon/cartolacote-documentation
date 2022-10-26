@@ -9,9 +9,19 @@ clic sur le résultat permet de recentrer la carte sur l’objet ou d’ajouter 
 
 La croix à droite de la zone de saisie permet de désactiver la mise en évidence de l’objet.
 
+
 .. raw:: html
 
     <p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p><br>
+
+Il est également possible de changer la couleur du résultat en cliquant sur l'icône goutte.
+
+.. image:: _static/personaliser_couleur_recherche.png
+  :width: 1000
+
+Objets paramétrés pour la recherche
+-----------------------------------
+
 
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Thème         | Mot-clé         | Format de la recherche | Exemple               | Action                  | Accès      | Etendue géographique      |
