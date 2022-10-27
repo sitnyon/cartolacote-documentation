@@ -3,6 +3,15 @@
 Versions
 ========
 
+.. _historique_version_20221026
+
+Version du 26 octobre 2022
+--------------------------
+
+.. raw:: html
+
+    <li>Mise à jour du géoportail vers la 2.7 de GMF : <a href="https://geomapfish.org/roadmap" target=_blank>voir toutes les nouvelles fonctionnalités</a></li>
+
 .. _historique_version_20220706:
 
 Version du 6 juillet 2022
