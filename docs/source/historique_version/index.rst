@@ -3,7 +3,7 @@
 Versions
 ========
 
-.. _historique_version_20221130
+.. _historique_version_20221130:
 
 Version du 30 octobre 2022
 --------------------------
@@ -19,7 +19,7 @@ Version du 30 octobre 2022
     <li>Correction de la sécuristation des couches de cotations 500 (pour extract)</li>
     <li>Changement de l'opacité pour la couche des repères (électricité)</li>
 
-.. _historique_version_20221026
+.. _historique_version_20221026:
 
 Version du 26 octobre 2022
 --------------------------
