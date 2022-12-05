@@ -3,6 +3,22 @@
 Versions
 ========
 
+.. _historique_version_20221130
+
+Version du 30 octobre 2022
+--------------------------
+
+.. raw:: html
+
+    <li>Adaptation de la symbologie pour les zones piétonnes de la couche <a href="https://map.cartolacote.ch/s/OXzS" target=_blank>Voie de circulation (surfaces)</a></li>
+    <li>Correction de l'aire maximale pour l'outil de statistique</li>
+    <li>Résolution d'erreurs de traduction</li>
+    <li>Ajout du format dans l'impression</li>
+    <li>Correction sur les restrictions géographiques pour les couches sécurisées</li>
+    <li>Ajout des problèmes connus sur la page README du projet github</li>
+    <li>Correction de la sécuristation des couches de cotations 500 (pour extract)</li>
+    <li>Changement de l'opacité pour la couche des repères (électricité)</li>
+
 .. _historique_version_20221026
 
 Version du 26 octobre 2022
