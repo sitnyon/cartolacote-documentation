@@ -3,6 +3,19 @@
 Versions
 ========
 
+.. _historique_version_20221221:
+
+Version du 21 décembre 2022
+---------------------------
+
+.. raw:: html
+
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/s/KYsB" target=_blank>Orthophoto 2021</a></li>
+    <li>Edition des données pompiers SDIS Nyon-Dôle</li>
+    <li>Supression de la couche "Toilettes accueillantes"</li>
+    <li>Statistiques du mois de novembre</li>
+    <li>Mise à jour du script sql pour la full text search</li>
+
 .. _historique_version_20221130:
 
 Version du 30 octobre 2022
