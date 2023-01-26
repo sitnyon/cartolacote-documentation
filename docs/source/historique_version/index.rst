@@ -5,7 +5,7 @@ Versions
 
 .. _historique_version_20230123:
 
-Version du 23 janvier 2023
+Version du 25 janvier 2023
 --------------------------
 
 .. raw:: html
