@@ -3,6 +3,29 @@
 Versions
 ========
 
+.. _historique_version_20230123:
+
+Version du 23 janvier 2023
+--------------------------
+
+.. raw:: html
+
+    <li>Version beta de la storymap Projets territoriaux</li>
+    <li>Suppression de la classe "Gland-Serine" pour la couche <a href="https://map.cartolacote.ch/s/WLMg" target=_blank>Personnel d'intervention</a></li>
+    <li>Ajout des classes "Forêt", "Mulching" et "Toitures végétalisées" pour la couche <a href="https://map.cartolacote.ch/s/LgOe" target=_blank>Surfaces d'entretien différencié</a></li>
+    <li>Déplacement de la couche Schémas détaillés : de Electricité (plan d'ouvrage) à Electricité (géoschématique)</li>
+    <li>Correction de fautes d'orthographe dans le nom d'attributs et de couches</li>
+	<li>Adaptation de l'échelle de visualisation de la couche Rues</li>
+	<li>Correction de la légende des POI</li>
+	<li>Correction de la vue pour la full text search (recherche)</li>
+	<li>Nouvelles données pour le thème Mobilité : <a href="https://map.cartolacote.ch/s/oom3" target=_blank>Bus par ligne (23 couches) et Train par ligne (4 couches)</a></li>
+	<li>Version démo des données SITSE (Assainissement)</li>
+	<li>Archivage des données sur les Etudes d'impact sur l'environnement</li>
+	<li>Nouvelles données pour le thème Espaces verts : <a href="https://map.cartolacote.ch/s/hRMT" target=_blank>Haies</a> (en accès restreint)</li>
+	<li>Ajout des données des Clés (Pompiers) dans le WFS-T pour l'édition dans QField</li>
+	<li>Ajout de 5 nouvelles classes (Commerce zéro déchets, Conteneurs à déchets ménagers, Réparation, Seconde-main et Service de ramassage) pour l'édition des POI Déchets et changements de couleur des symboles</li>
+	<li>Nouvelles données pour le thème Déchets : <a href="https://map.cartolacote.ch/s/CzV4" target=_blank>Conteneurs à déchets ménagers</a></li>
+
 .. _historique_version_20221221:
 
 Version du 21 décembre 2022
