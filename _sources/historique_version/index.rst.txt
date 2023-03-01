@@ -3,9 +3,28 @@
 Versions
 ========
 
-.. _historique_version_20230123:
+.. _historique_version_20230301:
 
-Version du 23 janvier 2023
+Version du 01 mars 2023
+-----------------------
+
+.. raw:: html
+
+    <li>Suppression de la couche Terrasses provisoires</li>
+	<li>Nouvelles données pour le thème Dangers naturels : <a href="https://map.cartolacote.ch/s/gMxB" target=_blank>Inondations - Remontée de lac</a></li>
+    <li>Ajout du filtre pour la couche des tracés pour le téléréseau</li>
+    <li>Impression avec le logo uniquement en accès sécurisé</li>
+    <li>Résolution de bugs sur l'outil d'édition (affichage du bouton)</li>
+    <li>Amélioration du style du carrousel pour les documents</li>
+    <li>Suppression des backups sql</li>
+    <li>Adaptation de la symologie des bâtiments (Thème patrimoine)</li>
+	<li>Changement du pictogramme pour les pharmacies</li>
+	<li>Renommage de la couche Courbes de niveau 2015 (1 m) en Courbes de niveau (1 m)</li>
+	<li>Adaptation de la symbologie des clés (édition) pour le contrôle sur qfield</li>
+
+.. _historique_version_20230125:
+
+Version du 25 janvier 2023
 --------------------------
 
 .. raw:: html
