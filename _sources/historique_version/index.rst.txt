@@ -3,6 +3,20 @@
 Versions
 ========
 
+.. _historique_version_20230309:
+
+Version du 09 mars 2023
+-----------------------
+
+.. raw:: html
+
+    <li>Extension des données des  <a href="https://map.cartolacote.ch/s/7TnU" target=_blank>défibrillateurs</a> sur tout le district</li>
+	<li>Résolution de la position du bouton géolocalisation et de la fenêtre des résultats (iframe)</li>
+    <li>Résolution de l'affichage des couleurs pour la personalisation de la recherche (mobile) </li>
+    <li>Résolution de l'affichage des résultats de la recherche (mobile) </li>
+    <li>Résolution du chargement de la police d'écriture pour le webservices des documents</li>
+    <li>Statistiques de février 2023</li>
+
 .. _historique_version_20230301:
 
 Version du 01 mars 2023
