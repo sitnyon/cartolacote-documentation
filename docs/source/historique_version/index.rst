@@ -3,6 +3,27 @@
 Versions
 ========
 
+.. _historique_version_20230406:
+
+Version du 06 avril 2023
+------------------------
+
+.. raw:: html
+
+    <li>Amélioration de la représentation des points d'intérêts (clustering)</li>
+	<li>Nouvelles données dans le thème Energie pour le <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Plan OSTRAL</a></li>
+	<li>Diffusion des données de GAZNAT SA dans le thème Gaz</li>
+    <li>Division du thème Réseaux souterrains en 5 nouveaux thèmes : 
+	<a href="https://map.cartolacote.ch/theme/assainissement" target=_blank>Assainissement</a>, 
+	<a href="https://map.cartolacote.ch/theme/eau_potable" target=_blank>Eau potable</a>, 
+	<a href="https://map.cartolacote.ch/theme/electricite" target=_blank>Electricité</a>, <a href="https://map.cartolacote.ch/theme/gaz" target=_blank>Gaz</a> et <a href="https://map.cartolacote.ch/theme/telecommunication" target=_blank>Télécommunication</a></li>
+    <li>Changement de la vignette pour le thème de l'Energie</li>
+    <li>Activation de l'option d'accrochage sur les couches : Objets divers, Bâtiments, Projetés ou non cadastrés et Parcelles (dans le thème Cadastre)</li>
+    <li>Statistiques de mars 2023</li>
+    <li>Renommage du nom technique pour des couches des thèmes Aménagement du territoire et Patrimoine</li>
+    <li>Résolution de bugs sur la sécuristation de la couche Permis de construire projeté</li>
+
+
 .. _historique_version_20230309:
 
 Version du 09 mars 2023
