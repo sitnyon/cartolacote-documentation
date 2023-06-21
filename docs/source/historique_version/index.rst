@@ -3,6 +3,26 @@
 Versions
 ========
 
+
+.. _historique_version_20230621:
+
+Version du 21 juin 2023
+-----------------------
+
+.. raw:: html
+
+    <li>Refonte des données du thème <a href="https://map.cartolacote.ch/theme/stationnement" target=_blank>Stationnement</a> (mise à jour et représentation)</li>
+	<li>Nouveau groupe "Mobilité partagée" comprenant trois nouvelles couches : <a href="https://map.cartolacote.ch/s/eTap" target=_blank>Vélos en libre-service, Voiture libre-service et les recharges électrique</a> en temps réel</li>
+	<li>Amélioration des l'édition des chantiers et perturbations de trafic</li>
+    <li>Ajout du curseur temporal pour la couche "Relevé d'éclairement" (comprenant les données de 2017 et 2023)</li>
+    <li>Résolution d'erreurs sur la représentation des données du thème Chantiers et perturbations de trafic</li>
+    <li>Résolution du problème d'affichage des copyrights pour l'interface Planit</li>
+    <li>Autorisation de l'adresse IP pour Inventsys</li>
+    <li>Résolution de bugs dans les mapfiles liés à la mise à jour de Mapserver 7.6.5</li>
+    <li>Suppression du thème COVID</li>
+    <li>Résolution du problème d'affichage de la fenêtre des résultats pour l'API</li>
+    <li>Suppression du webvservice Propriétaires</li>
+
 .. _historique_version_20230406:
 
 Version du 06 avril 2023
