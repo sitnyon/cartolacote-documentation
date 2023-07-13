@@ -3,6 +3,15 @@
 Versions
 ========
 
+.. _historique_version_20230621:
+
+Version du 13 juillet 2023
+--------------------------
+
+.. raw:: html
+
+    <li>Adaptation de la représentation pour les données Pompiers Paléo</li>
+	<li>Nouvelle couche :  <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophotos 2023</a></li>
 
 .. _historique_version_20230621:
 
