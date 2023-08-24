@@ -33,7 +33,7 @@ Version du 28 juin 2023
 .. raw:: html
 
     <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
-    <li>Nouvelles données Paléo (Sécurité pompiers)<a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li>
+    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li>
 
 .. _historique_version_20230621:
 
