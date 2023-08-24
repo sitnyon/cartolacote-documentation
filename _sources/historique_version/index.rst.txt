@@ -3,7 +3,19 @@
 Versions
 ========
 
-.. _historique_version_20230621:
+.. _historique_version_20230824:
+
+Version du 24 août 2023
+-----------------------
+
+.. raw:: html
+
+    <li>Résolution d'erreurs sur les tuiles pour les couches WMTS</li>
+    <li>La couche "Entretien communal" est éditable</li>
+    <li>Renommage de la couche "Puits, réservoirs" en "Réserves d'eau" et ajout de nouvelles données</li>
+    <li>Utilisation du WMS du Canton de Vaud pour le recensement architectural</li>
+
+.. _historique_version_20230713:
 
 Version du 13 juillet 2023
 --------------------------
@@ -11,7 +23,17 @@ Version du 13 juillet 2023
 .. raw:: html
 
     <li>Adaptation de la représentation pour les données Pompiers Paléo</li>
-	<li>Nouvelle couche :  <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophotos 2023</a></li>
+    <li>Nouvelle couche :  <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophotos 2023</a></li>
+
+.. _historique_version_20230628:
+
+Version du 28 juin 2023
+-----------------------
+
+.. raw:: html
+
+    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
+    <li>Nouvelles données Paléo (Sécurité pompiers)<a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li>
 
 .. _historique_version_20230621:
 
