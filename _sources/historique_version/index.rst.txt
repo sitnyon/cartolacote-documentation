@@ -3,6 +3,22 @@
 Versions
 ========
 
+
+.. _historique_version_20231002:
+
+Version du 2 octobre 2023
+-------------------------
+
+.. raw:: html
+
+    <li>Changement du nom d'un attribut pour la couche des arbres</li>
+    <li>Suppression de traductions et d'images inutilisées</li>
+    <li>Amélioration du thème Sécurité : nouveau groupe Ambulances et nouvelle couche Dossiers d'intervention pour les ambulances</li>
+    <li>Utilisation du webservice du canton pour la couches des PRU</li>
+    <li>Résolution d'une erreur sur la symbologie pour les POIs Gares</li>
+    <li>Ajout de deux nouvelles classes (Hôtel, auberge de jeunesse et Centre commercial) pour les POIs Sports, Loisirs</li>
+    <li>Ajout de l'altitude radier pour les regards de visites et les chambres avec grille</li>
+
 .. _historique_version_20230824:
 
 Version du 24 août 2023
