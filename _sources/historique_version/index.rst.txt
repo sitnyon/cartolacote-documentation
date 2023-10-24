@@ -3,6 +3,18 @@
 Versions
 ========
 
+.. _historique_version_20231018:
+
+Version du 18 octobre 2023
+--------------------------
+
+.. raw:: html
+
+    <li>Nouvelle données : <a href="https://map.cartolacote.ch/s/rMUY" target=_blank>Découpage orthophoto 2023</a></li>
+    <li>Suppression des couches pour les cotations et repères au 1/500 (EXTRACT)</li>
+    <li>Résolution d'erreur sur les droits d'accès au fichier (ambulances)</li>
+    <li>Résolution d'erreur sur la représentation des POI Sport, loisirs</li>
+
 
 .. _historique_version_20231002:
 
