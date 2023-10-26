@@ -109,6 +109,11 @@ Objets paramétrés pour la recherche
 |               |                 |                        |                       | et activation de la     |            |                           |
 |               |                 |                        |                       | couche **Cours d'eau**  |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Espaces verts | Arbre           | Arbre + numéro de      | Arbre 1               | Zoom sur l'arbre        | Public     | Nyon                      |
+|               |                 | de l'arbre             |                       | et activation de la     |            |                           |
+|               |                 |                        |                       | couche **Arbre sur**    |            |                           |
+|               |                 |                        |                       | **domaine public**      |            |                           |
++---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Mobilité      | Arrêt           | Arrêt + nom de l'arrêt | Arrêt Changins        | Zoom sur l'arrêt ou la  | Public     | District de Nyon          |
 |               |                 | bus ou nom de la gare  | ou Arrêt Arzier       | gare et activation      |            |                           |
 |               |                 |                        |                       | de la couche            |            |                           |
@@ -145,6 +150,11 @@ Objets paramétrés pour la recherche
 | Réseaux       | BH              | BH + numéro de la BH   | BH 3                  | Zoom sur la BH et       | Restreint  | District de Nyon          |
 | souterrains   |                 |                        |                       | activation de la couche | et         |                           |
 | (eau)         |                 |                        |                       | **Hydrantes**           | Public     |                           |
++---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
+| Réseaux       | Armoire         | Armoire +              | Armoire               | Zoom sur l'amoire de    | Restreint  | Nyon                      |
+| souterrains   |                 | nom de l'armoire       | Dortu                 | distribution et         |            |                           |
+| (électricité) |                 |                        |                       | activation de la        |            |                           |
+|               |                 |                        |                       | couche **Distributeurs**|            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Réseaux       | Station         | Station électrique +   | Station électrique    | Zoom sur la station     | Restreint  | Nyon                      |
 | souterrains   | électrique      | nom de la station      | STAND                 | électrique et           |            |                           |
