@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20231207:
+
+Version du 7 décembre 2023
+--------------------------
+
+.. raw:: html
+
+    <li>Nouvel outil de profil LiDAR</li>
+    <li>Changement du symbol pour les "hôtels à insectes" de la couche Installations</li>
+    <li>Changement du logo de la SEIC</li>
+
 .. _historique_version_20231018:
 
 Version du 18 octobre 2023
