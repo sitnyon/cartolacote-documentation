@@ -184,6 +184,8 @@
                 
                   <li class="toctree-l2"><a href="#profil-altimetrique" class="reference internal">Profil altimétrique</a></li>
                 
+                  <li class="toctree-l2"><a href="#profil-lidar" class="reference internal">Profil LiDAR</a></li>
+                
                   <li class="toctree-l2"><a href="#selection" class="reference internal">Sélection</a></li>
                 
                   <li class="toctree-l2"><a href="#street-view" class="reference internal">Street View</a></li>
@@ -357,8 +359,18 @@ Le point s’accorche automatiquement à une géométrie précédement lorsqu’
 <p>Il est possible de tracer un profil en long en se basant sur les modèles numériques de terrain
 et de surface (MNT et MNS).</p>
 <p><video width="600" controls><source src="_static/outils_profil.mp4" type="video/mp4"></video></p><p>Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
-un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
+un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l’écran, avec en brun
 le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).</p>
+</div>
+<div class="section" id="profil-lidar">
+<h2>Profil LiDAR<a class="headerlink" href="#profil-lidar" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible de tracer un profil en long en se basant sur les données obtenues lors du relevé LiDAR 2023.</p>
+<p><video width="600" controls><source src="_static/profil_lidar.mp4" type="video/mp4"></video></p><p>Après avoir activé l’outil de profil LiDAR, il faut dessiner sur la carte le profil désiré et terminer avec
+un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l’écran. Le profil représente un
+nuage de points bruts classifiés selon 9 catégories : non classifié, sol, végétation basse et bruit, végétation
+moyenne, végétation haute, bâtiments, points en-dessous du sol, eau et ponts et passerelles.
+Dans le panneau à droite, il est possible d’activer ou de désactiver une ou plusieurs classes, de mesurer
+directement dans le profil ou encore d’exporter au format CSV ou PNG le profil.</p>
 </div>
 <div class="section" id="selection">
 <h2>Sélection<a class="headerlink" href="#selection" title="Lien permanent vers ce titre">¶</a></h2>

@@ -74,8 +74,27 @@ et de surface (MNT et MNS).
     <p><video width="600" controls><source src="_static/outils_profil.mp4" type="video/mp4"></video></p>
 
 Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
-un double clic. Le profil, qui est interactif avec la carte, s’affiche ensuite à l’écran, avec en brun
+un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l’écran, avec en brun
 le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).
+
+
+Profil LiDAR
+------------
+
+Il est possible de tracer un profil en long en se basant sur les données obtenues lors du relevé LiDAR 2023.
+
+
+.. raw:: html
+
+    <p><video width="600" controls><source src="_static/profil_lidar.mp4" type="video/mp4"></video></p>
+
+Après avoir activé l’outil de profil LiDAR, il faut dessiner sur la carte le profil désiré et terminer avec
+un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l’écran. Le profil représente un 
+nuage de points bruts classifiés selon 9 catégories : non classifié, sol, végétation basse et bruit, végétation 
+moyenne, végétation haute, bâtiments, points en-dessous du sol, eau et ponts et passerelles. 
+Dans le panneau à droite, il est possible d'activer ou de désactiver une ou plusieurs classes, de mesurer 
+directement dans le profil ou encore d'exporter au format CSV ou PNG le profil. 
+
 
 
 Sélection
