@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20230111:
+
+Version du 11 janvier 2023
+--------------------------
+
+.. raw:: html
+
+    <li>Mise à jour GMF pour correction de l'interrogation des couches WMS du canton de Vaud</li>
+    <li>Nouvelle couche des <a href="https://map.cartolacote.ch/s/q4Xq" target=_blank>Parcs publics</a></li>
+    <li>Ajout d'une nouvelle zone pour les macarons (Stationnement)</li>
+
 .. _historique_version_20231207:
 
 Version du 7 décembre 2023
