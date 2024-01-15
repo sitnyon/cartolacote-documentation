@@ -70,7 +70,7 @@ La structure des dossiers dans les deux branches n'est pas la même c'est pour c
   cd html
   rm -rf docs
   rm README.rst
-  git checkout gh-pages-private
+  git checkout gh-pages
 
 Les deux dossiers sont mis en place. 
 
