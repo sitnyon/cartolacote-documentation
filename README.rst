@@ -5,12 +5,48 @@ Cartolacôte documentation
 Prérequis
 ---------
 
-* console linux
-* sudo apt-get install python3-sphinx
-* sudo apt install make
-* sudo apt-get update
-* sudo apt install python3-pip
-* pip3 install PyStemmer
+* Installer le Windows Terminal (depuis Microsoft Store)
+
+Activer la virtualisation sur Windows : 
+
+* Ouvrir le terminal 
+* Executer les deux lignes de commandes ci-dessous (conseil : effectuer le redemarrage après la deuxième commande): 
+
+:: 
+
+  Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+* Ouvrir le Windows Terminal 
+* Executer la commande suivante : ``wsl.exe --set-default-version 2``
+* Installer Ubuntu (dernière LTS, depuis Microsoft)
+* Depuis le menu windows, lancer Ubuntu
+* Indiquer un nom d'utilisateur et un mot de passe 
+* Fermer le terminal et la fenêtre linux 
+* Relancer le terminal
+* Verifier que la console linux apparaît dans la liste des consoles 
+
+  * Si ce n'est pas le cas, ajouter la console dans le ficher suivant ``%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\``
+  
+:: 
+
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "C:\\Users\\fanguin.p"
+            },
+
+
+Effectuer les mise à jour et installer les dépendances linux : 
+:: 
+
+  sudo apt-get update
+  sudo apt-get install python3-sphinx
+  sudo apt install make
+  sudo apt install python3-pip
+  pip3 install PyStemmer
 
 Installation
 ------------
@@ -32,13 +68,11 @@ La structure des dossiers dans les deux branches n'est pas la même c'est pour c
   cd cartolacote-docs-build
   git clone https://github.com/sitnyon/cartolacote-documentation.git html
   cd html
-  git branch gh-pages
-  git symbolic-ref HEAD refs/heads/gh-pages
-  rm .git/index
-  git clean -fdx
-  touch .nojekyll
-  cd ../../cartolacote-documentation/docs
-  make html
+  rm -rf docs
+  rm README.rst
+  git checkout gh-pages-private
+
+Les deux dossiers sont mis en place. 
 
 Compiler les fichiers html
 --------------------------
