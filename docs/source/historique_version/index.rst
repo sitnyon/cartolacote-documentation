@@ -3,9 +3,27 @@
 Versions
 ========
 
-.. _historique_version_20230111:
+.. _historique_version_20240208:
 
-Version du 11 janvier 2023
+Version du 8 février 2024
+-------------------------
+
+.. raw:: html
+
+    <li>Suppression du webservice des locaux</li>
+    <li>Adaptation de la représentation de la couche "Documents" (thème Patrimoine)</li>
+    <li>Mise en place du carrousel de documents pour les mises à l'enquête (thème Police des constructions) et les bâtiments (thème Patrimoine)</li>
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/cartolacote" target=_blank>ThermorésÔ Nyon Sa</a> (nouveau partenaire)</li>
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophoto 2023 (10 cm)</a></li>
+    <li>Nouvelles couches <a href="https://map.cartolacote.ch/theme/sports_loisirs" target=_blank>Itinéraires hiver et été SuisseMobile</a></li>
+    <li>Changement de l'échelle d'affichage des labels pour les candélabres (thème électricité)</li>
+    <li>Ajout de plusieurs attributs pour les données de l'électricité</li>
+    <li>Ajout du logo pour le sondage sur les géoportails dans la bannière</li>
+    <li>Suppression des données light des réseaux souterrains pour les utilisateurs externes</li>
+
+.. _historique_version_20240111:
+
+Version du 11 janvier 2024
 --------------------------
 
 .. raw:: html
