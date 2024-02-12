@@ -2,25 +2,24 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
       <title>Localisation et recherche</title>
     
-      <link rel="stylesheet" href="_static/pygments.css">
-      <link rel="stylesheet" href="_static/theme.css">
-      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
           <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
       
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-
       <!-- sphinx script_files -->
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
         <script src="_static/translations.js"></script>
 
       
-      <script src="_static/theme-vendors.js"></script>
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
       <script src="_static/theme.js" defer></script>
     
   <link rel="index" title="Index" href="genindex.html" />
@@ -30,15 +29,13 @@
   </head>
 
   <body>
-    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
-  <div class="home-link-container">
-      <router-link to="index.html" class="home-link">
-      
-        <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
-      
-        <span class="site-name">Géoportail Cartolacôte</span>
-    </router-link>
-  </div>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
+    
+  </router-link>
 
   <div class="links">
     <navlinks class="can-hide">
@@ -65,14 +62,14 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
@@ -111,25 +108,25 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Recherche</span>
+  <div class="caption"><span class="caption-text">Recherche rapide</span>
     <div class="searchformwrapper">
-      <form autocomplete="off" class="search" action="search.html" method="get">
-        <input type="text" name="q" autocomplete="off" />
-        <input type="submit" value="Go" />
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Recherche" />
         <input type="hidden" name="check_keywords" value="yes" />
         <input type="hidden" name="area" value="default" />
       </form>
@@ -143,25 +140,37 @@
       </p>
       <ul class="current">
         
-          <li class="toctree-l1 "><a href="00_interface.html" class="reference internal ">Interface</a>
+          <li class="toctree-l1 ">
+            
+              <a href="00_interface.html" class="reference internal ">Interface</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="01_navigation.html" class="reference internal ">Navigation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+          <li class="toctree-l1 ">
+            
+              <a href="02_donnees.html" class="reference internal ">Données</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Localisation et recherche</a>
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Localisation et recherche</a>
+            
 
             
               <ul>
@@ -173,49 +182,73 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="05_outils.html" class="reference internal ">Outils</a>
+          <li class="toctree-l1 ">
+            
+              <a href="05_outils.html" class="reference internal ">Outils</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+          <li class="toctree-l1 ">
+            
+              <a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="07_connexion.html" class="reference internal ">Connexion</a>
+          <li class="toctree-l1 ">
+            
+              <a href="07_connexion.html" class="reference internal ">Connexion</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+          <li class="toctree-l1 ">
+            
+              <a href="08_edition.html" class="reference internal ">Edition</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+          <li class="toctree-l1 ">
+            
+              <a href="09_filtres.html" class="reference internal ">Filtres</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+          <li class="toctree-l1 ">
+            
+              <a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+          <li class="toctree-l1 ">
+            
+              <a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+            
 
             
           </li>
@@ -230,7 +263,10 @@
       </p>
       <ul class="">
         
-          <li class="toctree-l1 "><a href="historique_version/index.html" class="reference internal ">Versions</a>
+          <li class="toctree-l1 ">
+            
+              <a href="historique_version/index.html" class="reference internal ">Versions</a>
+            
 
             
           </li>
@@ -265,9 +301,9 @@
   
 </div>
 <hr>
-          <div class="content" role="main">
+          <div class="content" role="main" v-pre>
             
-  <div class="section" id="localisation-et-recherche">
+  <section id="localisation-et-recherche">
 <h1>Localisation et recherche<a class="headerlink" href="#localisation-et-recherche" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Un outil de recherche plein texte permet de se localiser sur un emplacement ou sur un objet
 spécifique, ou encore d’ajouter des données (couches et thèmes).</p>
@@ -276,7 +312,7 @@ clic sur le résultat permet de recentrer la carte sur l’objet ou d’ajouter 
 <p>La croix à droite de la zone de saisie permet de désactiver la mise en évidence de l’objet.</p>
 <p><video width="600" controls><source src="_static/recherche.mp4" type="video/mp4"></video></p><br><p>Il est également possible de changer la couleur du résultat en cliquant sur l’icône goutte.</p>
 <a class="reference internal image-reference" href="_images/personaliser_couleur_recherche.png"><img alt="_images/personaliser_couleur_recherche.png" src="_images/personaliser_couleur_recherche.png" style="width: 1000px;" /></a>
-<div class="section" id="objets-parametres-pour-la-recherche">
+<section id="objets-parametres-pour-la-recherche">
 <h2>Objets paramétrés pour la recherche<a class="headerlink" href="#objets-parametres-pour-la-recherche" title="Lien permanent vers ce titre">¶</a></h2>
 <table class="docutils align-default">
 <colgroup>
@@ -727,8 +763,8 @@ activation de la couche
 </tr>
 </tbody>
 </table>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>
@@ -745,12 +781,12 @@ activation de la couche
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
 </div>
             </div>
           </div>
       </page>
-    </div>
+    </div></div>
     
     
   </body>

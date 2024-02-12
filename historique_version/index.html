@@ -2,25 +2,24 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
       <title>Versions</title>
     
-      <link rel="stylesheet" href="../_static/pygments.css">
-      <link rel="stylesheet" href="../_static/theme.css">
-      <link rel="stylesheet" href="../_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
           <link rel="stylesheet" href="../_static/cartolacote.css" type="text/css" />
       
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-
       <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
         <script src="../_static/translations.js"></script>
 
       
-      <script src="../_static/theme-vendors.js"></script>
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
       <script src="../_static/theme.js" defer></script>
     
   <link rel="index" title="Index" href="../genindex.html" />
@@ -29,15 +28,13 @@
   </head>
 
   <body>
-    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
-  <div class="home-link-container">
-      <router-link to="../index.html" class="home-link">
-      
-        <img class="logo" src="../_static/logo_cartolacote.png" alt="logo"/>
-      
-        <span class="site-name">Géoportail Cartolacôte</span>
-    </router-link>
-  </div>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <img class="logo" src="../_static/logo_cartolacote.png" alt="logo"/>
+    
+  </router-link>
 
   <div class="links">
     <navlinks class="can-hide">
@@ -64,14 +61,14 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
@@ -110,25 +107,25 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Recherche</span>
+  <div class="caption"><span class="caption-text">Recherche rapide</span>
     <div class="searchformwrapper">
-      <form autocomplete="off" class="search" action="../search.html" method="get">
-        <input type="text" name="q" autocomplete="off" />
-        <input type="submit" value="Go" />
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Recherche" />
         <input type="hidden" name="check_keywords" value="yes" />
         <input type="hidden" name="area" value="default" />
       </form>
@@ -142,73 +139,109 @@
       </p>
       <ul class="">
         
-          <li class="toctree-l1 "><a href="../00_interface.html" class="reference internal ">Interface</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../00_interface.html" class="reference internal ">Interface</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../01_navigation.html" class="reference internal ">Navigation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../01_navigation.html" class="reference internal ">Navigation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../02_donnees.html" class="reference internal ">Données</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../02_donnees.html" class="reference internal ">Données</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../04_interrogation.html" class="reference internal ">Interrogation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../04_interrogation.html" class="reference internal ">Interrogation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../05_outils.html" class="reference internal ">Outils</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../05_outils.html" class="reference internal ">Outils</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../06_impression_export.html" class="reference internal ">Impression et export</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../06_impression_export.html" class="reference internal ">Impression et export</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../07_connexion.html" class="reference internal ">Connexion</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../07_connexion.html" class="reference internal ">Connexion</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../08_edition.html" class="reference internal ">Edition</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../08_edition.html" class="reference internal ">Edition</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../09_filtres.html" class="reference internal ">Filtres</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../09_filtres.html" class="reference internal ">Filtres</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../10_version_mobile.html" class="reference internal ">Version mobile</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../10_version_mobile.html" class="reference internal ">Version mobile</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="../11_api_iframe.html" class="reference internal ">Iframe / API</a>
+          <li class="toctree-l1 ">
+            
+              <a href="../11_api_iframe.html" class="reference internal ">Iframe / API</a>
+            
 
             
           </li>
@@ -223,12 +256,17 @@
       </p>
       <ul class="current">
         
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Versions</a>
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Versions</a>
+            
 
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#version-du-11-janvier-2023" class="reference internal">Version du 11 janvier 2023</a></li>
+                  <li class="toctree-l2"><a href="#version-du-8-fevrier-2024" class="reference internal">Version du 8 février 2024</a></li>
+                
+                  <li class="toctree-l2"><a href="#version-du-11-janvier-2024" class="reference internal">Version du 11 janvier 2024</a></li>
                 
                   <li class="toctree-l2"><a href="#version-du-7-decembre-2023" class="reference internal">Version du 7 décembre 2023</a></li>
                 
@@ -352,27 +390,39 @@
   
 </div>
 <hr>
-          <div class="content" role="main">
+          <div class="content" role="main" v-pre>
             
-  <div class="section" id="versions">
+  <section id="versions">
 <span id="historique-version"></span><h1>Versions<a class="headerlink" href="#versions" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="section" id="version-du-11-janvier-2023">
-<span id="historique-version-20230111"></span><h2>Version du 11 janvier 2023<a class="headerlink" href="#version-du-11-janvier-2023" title="Lien permanent vers ce titre">¶</a></h2>
+<section id="version-du-8-fevrier-2024">
+<span id="historique-version-20240208"></span><h2>Version du 8 février 2024<a class="headerlink" href="#version-du-8-fevrier-2024" title="Lien permanent vers ce titre">¶</a></h2>
+<li>Suppression du webservice des locaux</li>
+<li>Adaptation de la représentation de la couche "Documents" (thème Patrimoine)</li>
+<li>Mise en place du carrousel de documents pour les mises à l'enquête (thème Police des constructions) et les bâtiments (thème Patrimoine)</li>
+<li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/cartolacote" target=_blank>ThermorésÔ Nyon Sa</a> (nouveau partenaire)</li>
+<li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophoto 2023 (10 cm)</a></li>
+<li>Nouvelles couches <a href="https://map.cartolacote.ch/theme/sports_loisirs" target=_blank>Itinéraires hiver et été SuisseMobile</a></li>
+<li>Changement de l'échelle d'affichage des labels pour les candélabres (thème électricité)</li>
+<li>Ajout de plusieurs attributs pour les données de l'électricité</li>
+<li>Ajout du logo pour le sondage sur les géoportails dans la bannière</li>
+<li>Suppression des données light des réseaux souterrains pour les utilisateurs externes</li></section>
+<section id="version-du-11-janvier-2024">
+<span id="historique-version-20240111"></span><h2>Version du 11 janvier 2024<a class="headerlink" href="#version-du-11-janvier-2024" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Mise à jour GMF pour correction de l'interrogation des couches WMS du canton de Vaud</li>
 <li>Nouvelle couche des <a href="https://map.cartolacote.ch/s/q4Xq" target=_blank>Parcs publics</a></li>
-<li>Ajout d'une nouvelle zone pour les macarons (Stationnement)</li></div>
-<div class="section" id="version-du-7-decembre-2023">
+<li>Ajout d'une nouvelle zone pour les macarons (Stationnement)</li></section>
+<section id="version-du-7-decembre-2023">
 <span id="historique-version-20231207"></span><h2>Version du 7 décembre 2023<a class="headerlink" href="#version-du-7-decembre-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvel outil de profil LiDAR</li>
 <li>Changement du symbol pour les "hôtels à insectes" de la couche Installations</li>
-<li>Changement du logo de la SEIC</li></div>
-<div class="section" id="version-du-18-octobre-2023">
+<li>Changement du logo de la SEIC</li></section>
+<section id="version-du-18-octobre-2023">
 <span id="historique-version-20231018"></span><h2>Version du 18 octobre 2023<a class="headerlink" href="#version-du-18-octobre-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelle données : <a href="https://map.cartolacote.ch/s/rMUY" target=_blank>Découpage orthophoto 2023</a></li>
 <li>Suppression des couches pour les cotations et repères au 1/500 (EXTRACT)</li>
 <li>Résolution d'erreur sur les droits d'accès au fichier (ambulances)</li>
-<li>Résolution d'erreur sur la représentation des POI Sport, loisirs</li></div>
-<div class="section" id="version-du-2-octobre-2023">
+<li>Résolution d'erreur sur la représentation des POI Sport, loisirs</li></section>
+<section id="version-du-2-octobre-2023">
 <span id="historique-version-20231002"></span><h2>Version du 2 octobre 2023<a class="headerlink" href="#version-du-2-octobre-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Changement du nom d'un attribut pour la couche des arbres</li>
 <li>Suppression de traductions et d'images inutilisées</li>
@@ -380,22 +430,22 @@
 <li>Utilisation du webservice du canton pour la couches des PRU</li>
 <li>Résolution d'une erreur sur la symbologie pour les POIs Gares</li>
 <li>Ajout de deux nouvelles classes (Hôtel, auberge de jeunesse et Centre commercial) pour les POIs Sports, Loisirs</li>
-<li>Ajout de l'altitude radier pour les regards de visites et les chambres avec grille</li></div>
-<div class="section" id="version-du-24-aout-2023">
+<li>Ajout de l'altitude radier pour les regards de visites et les chambres avec grille</li></section>
+<section id="version-du-24-aout-2023">
 <span id="historique-version-20230824"></span><h2>Version du 24 août 2023<a class="headerlink" href="#version-du-24-aout-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Résolution d'erreurs sur les tuiles pour les couches WMTS</li>
 <li>La couche "Entretien communal" est éditable</li>
 <li>Renommage de la couche "Puits, réservoirs" en "Réserves d'eau" et ajout de nouvelles données</li>
-<li>Utilisation du WMS du Canton de Vaud pour le recensement architectural</li></div>
-<div class="section" id="version-du-13-juillet-2023">
+<li>Utilisation du WMS du Canton de Vaud pour le recensement architectural</li></section>
+<section id="version-du-13-juillet-2023">
 <span id="historique-version-20230713"></span><h2>Version du 13 juillet 2023<a class="headerlink" href="#version-du-13-juillet-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Adaptation de la représentation pour les données Pompiers Paléo</li>
-<li>Nouvelle couche :  <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophotos 2023</a></li></div>
-<div class="section" id="version-du-28-juin-2023">
+<li>Nouvelle couche :  <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Orthophotos 2023</a></li></section>
+<section id="version-du-28-juin-2023">
 <span id="historique-version-20230628"></span><h2>Version du 28 juin 2023<a class="headerlink" href="#version-du-28-juin-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
-<li>Nouvelles données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li></div>
-<div class="section" id="version-du-21-juin-2023">
+<li>Nouvelles données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li></section>
+<section id="version-du-21-juin-2023">
 <span id="historique-version-20230621"></span><h2>Version du 21 juin 2023<a class="headerlink" href="#version-du-21-juin-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Refonte des données du thème <a href="https://map.cartolacote.ch/theme/stationnement" target=_blank>Stationnement</a> (mise à jour et représentation)</li>
     <li>Nouveau groupe "Mobilité partagée" comprenant trois nouvelles couches : <a href="https://map.cartolacote.ch/s/eTap" target=_blank>Vélos en libre-service, Voiture libre-service et les recharges électrique</a> en temps réel</li>
@@ -407,8 +457,8 @@
 <li>Résolution de bugs dans les mapfiles liés à la mise à jour de Mapserver 7.6.5</li>
 <li>Suppression du thème COVID</li>
 <li>Résolution du problème d'affichage de la fenêtre des résultats pour l'API</li>
-<li>Suppression du webvservice Propriétaires</li></div>
-<div class="section" id="version-du-06-avril-2023">
+<li>Suppression du webvservice Propriétaires</li></section>
+<section id="version-du-06-avril-2023">
 <span id="historique-version-20230406"></span><h2>Version du 06 avril 2023<a class="headerlink" href="#version-du-06-avril-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Amélioration de la représentation des points d'intérêts (clustering)</li>
     <li>Nouvelles données dans le thème Energie pour le <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Plan OSTRAL</a></li>
@@ -421,16 +471,16 @@
 <li>Activation de l'option d'accrochage sur les couches : Objets divers, Bâtiments, Projetés ou non cadastrés et Parcelles (dans le thème Cadastre)</li>
 <li>Statistiques de mars 2023</li>
 <li>Renommage du nom technique pour des couches des thèmes Aménagement du territoire et Patrimoine</li>
-<li>Résolution de bugs sur la sécuristation de la couche Permis de construire projeté</li></div>
-<div class="section" id="version-du-09-mars-2023">
+<li>Résolution de bugs sur la sécuristation de la couche Permis de construire projeté</li></section>
+<section id="version-du-09-mars-2023">
 <span id="historique-version-20230309"></span><h2>Version du 09 mars 2023<a class="headerlink" href="#version-du-09-mars-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Extension des données des  <a href="https://map.cartolacote.ch/s/7TnU" target=_blank>défibrillateurs</a> sur tout le district</li>
     <li>Résolution de la position du bouton géolocalisation et de la fenêtre des résultats (iframe)</li>
 <li>Résolution de l'affichage des couleurs pour la personalisation de la recherche (mobile) </li>
 <li>Résolution de l'affichage des résultats de la recherche (mobile) </li>
 <li>Résolution du chargement de la police d'écriture pour le webservices des documents</li>
-<li>Statistiques de février 2023</li></div>
-<div class="section" id="version-du-01-mars-2023">
+<li>Statistiques de février 2023</li></section>
+<section id="version-du-01-mars-2023">
 <span id="historique-version-20230301"></span><h2>Version du 01 mars 2023<a class="headerlink" href="#version-du-01-mars-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Suppression de la couche Terrasses provisoires</li>
     <li>Nouvelles données pour le thème Dangers naturels : <a href="https://map.cartolacote.ch/s/gMxB" target=_blank>Inondations - Remontée de lac</a></li>
@@ -442,8 +492,8 @@
 <li>Adaptation de la symologie des bâtiments (Thème patrimoine)</li>
     <li>Changement du pictogramme pour les pharmacies</li>
     <li>Renommage de la couche Courbes de niveau 2015 (1 m) en Courbes de niveau (1 m)</li>
-    <li>Adaptation de la symbologie des clés (édition) pour le contrôle sur qfield</li></div>
-<div class="section" id="version-du-25-janvier-2023">
+    <li>Adaptation de la symbologie des clés (édition) pour le contrôle sur qfield</li></section>
+<section id="version-du-25-janvier-2023">
 <span id="historique-version-20230125"></span><h2>Version du 25 janvier 2023<a class="headerlink" href="#version-du-25-janvier-2023" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Version beta de la storymap Projets territoriaux</li>
 <li>Suppression de la classe "Gland-Serine" pour la couche <a href="https://map.cartolacote.ch/s/WLMg" target=_blank>Personnel d'intervention</a></li>
@@ -459,15 +509,15 @@
     <li>Nouvelles données pour le thème Espaces verts : <a href="https://map.cartolacote.ch/s/hRMT" target=_blank>Haies</a> (en accès restreint)</li>
     <li>Ajout des données des Clés (Pompiers) dans le WFS-T pour l'édition dans QField</li>
     <li>Ajout de 5 nouvelles classes (Commerce zéro déchets, Conteneurs à déchets ménagers, Réparation, Seconde-main et Service de ramassage) pour l'édition des POI Déchets et changements de couleur des symboles</li>
-    <li>Nouvelles données pour le thème Déchets : <a href="https://map.cartolacote.ch/s/CzV4" target=_blank>Conteneurs à déchets ménagers</a></li></div>
-<div class="section" id="version-du-21-decembre-2022">
+    <li>Nouvelles données pour le thème Déchets : <a href="https://map.cartolacote.ch/s/CzV4" target=_blank>Conteneurs à déchets ménagers</a></li></section>
+<section id="version-du-21-decembre-2022">
 <span id="historique-version-20221221"></span><h2>Version du 21 décembre 2022<a class="headerlink" href="#version-du-21-decembre-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelle couche <a href="https://map.cartolacote.ch/s/KYsB" target=_blank>Orthophoto 2021</a></li>
 <li>Edition des données pompiers SDIS Nyon-Dôle</li>
 <li>Supression de la couche "Toilettes accueillantes"</li>
 <li>Statistiques du mois de novembre</li>
-<li>Mise à jour du script sql pour la full text search</li></div>
-<div class="section" id="version-du-30-octobre-2022">
+<li>Mise à jour du script sql pour la full text search</li></section>
+<section id="version-du-30-octobre-2022">
 <span id="historique-version-20221130"></span><h2>Version du 30 octobre 2022<a class="headerlink" href="#version-du-30-octobre-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Adaptation de la symbologie pour les zones piétonnes de la couche <a href="https://map.cartolacote.ch/s/OXzS" target=_blank>Voie de circulation (surfaces)</a></li>
 <li>Correction de l'aire maximale pour l'outil de statistique</li>
@@ -476,50 +526,50 @@
 <li>Correction sur les restrictions géographiques pour les couches sécurisées</li>
 <li>Ajout des problèmes connus sur la page README du projet github</li>
 <li>Correction de la sécuristation des couches de cotations 500 (pour extract)</li>
-<li>Changement de l'opacité pour la couche des repères (électricité)</li></div>
-<div class="section" id="version-du-26-octobre-2022">
+<li>Changement de l'opacité pour la couche des repères (électricité)</li></section>
+<section id="version-du-26-octobre-2022">
 <span id="historique-version-20221026"></span><h2>Version du 26 octobre 2022<a class="headerlink" href="#version-du-26-octobre-2022" title="Lien permanent vers ce titre">¶</a></h2>
-<li>Mise à jour du géoportail vers la 2.7 de GMF : <a href="https://geomapfish.org/roadmap" target=_blank>voir toutes les nouvelles fonctionnalités</a></li></div>
-<div class="section" id="version-du-6-juillet-2022">
+<li>Mise à jour du géoportail vers la 2.7 de GMF : <a href="https://geomapfish.org/roadmap" target=_blank>voir toutes les nouvelles fonctionnalités</a></li></section>
+<section id="version-du-6-juillet-2022">
 <span id="historique-version-20220706"></span><h2>Version du 6 juillet 2022<a class="headerlink" href="#version-du-6-juillet-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles données : <a href="https://map.cartolacote.ch/s/uCAM" target=_blank>Prise d'arrosage SANE</a></li>
     <li>Configuration de TinyOws pour les couches WFS-T</li>
-    <li>Uniformisation de la convention de nommage des couches</li></div>
-<div class="section" id="version-du-1-juin-2022">
+    <li>Uniformisation de la convention de nommage des couches</li></section>
+<section id="version-du-1-juin-2022">
 <span id="historique-version-20220601"></span><h2>Version du 1 juin 2022<a class="headerlink" href="#version-du-1-juin-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles données : <a href="https://map.cartolacote.ch/s/OHqz" target=_blank>Modèle numérique de surface 2019</a></li>
-    <li>Adaptation de la symbologie des lieux géographiques (ajout de nouvelles catégories de lieux)</li></div>
-<div class="section" id="version-du-18-mai-2022">
+    <li>Adaptation de la symbologie des lieux géographiques (ajout de nouvelles catégories de lieux)</li></section>
+<section id="version-du-18-mai-2022">
 <span id="historique-version-20220518"></span><h2>Version du 18 mai 2022<a class="headerlink" href="#version-du-18-mai-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Ajout de traductions manquantes pour Nature en ville</li>
     <li>Résolution de l'erreur d'affichage des Points fixes planimétriques</li>
 <li>Adaptation des métadonnées des Cartes Siegfried et Dufour</li>
 <li>Amélioration technique du WMS</li>
-<li>Electricité : nouvelles couches <a href="https://map.cartolacote.ch/s/OprO" target=_blank>Bornes de recharges</a>, <a href="https://map.cartolacote.ch/s/qSAO" target=_blank>panneaux photovoltaïque</a>, séparation des couches Stations et Distributeurs et refonte des droits d'accès</li></div>
-<div class="section" id="version-du-4-mai-2022">
+<li>Electricité : nouvelles couches <a href="https://map.cartolacote.ch/s/OprO" target=_blank>Bornes de recharges</a>, <a href="https://map.cartolacote.ch/s/qSAO" target=_blank>panneaux photovoltaïque</a>, séparation des couches Stations et Distributeurs et refonte des droits d'accès</li></section>
+<section id="version-du-4-mai-2022">
 <span id="historique-version-20220504"></span><h2>Version du 4 mai 2022<a class="headerlink" href="#version-du-4-mai-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Amélioration des webservices des pharmacies de garde et de la liste des couches par interface</li>
     <li>Version 1.1 de planit</li>
-<li>Adaptation de l'icone de Région de Nyon (couche Points d'intérêt)</li></div>
-<div class="section" id="version-du-31-mars-2022">
+<li>Adaptation de l'icone de Région de Nyon (couche Points d'intérêt)</li></section>
+<section id="version-du-31-mars-2022">
 <span id="historique-version-20220331"></span><h2>Version du 31 mars 2022<a class="headerlink" href="#version-du-31-mars-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Extension des données des <a href="https://map.cartolacote.ch/s/UdiH" target=_blank>Adresses</a> et des <a href="https://map.cartolacote.ch/s/UdiH" target=_blank>Rues</a></li>
     <li>Mise en place du carrousel d'image pour les réseaux souterrains</li>
-<li>Résolution des erreurs sur les légendes</li></div>
-<div class="section" id="version-du-23-mars-2022">
+<li>Résolution des erreurs sur les légendes</li></section>
+<section id="version-du-23-mars-2022">
 <span id="historique-version-20220323"></span><h2>Version du 23 mars 2022<a class="headerlink" href="#version-du-23-mars-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Ajout de la ligne de bus nocture TPN 891</li>
     <li>Résolution de la configuration apache (conversion des fichiers .mako en .tmpl)</li>
-<li>Nouvelle interface planit</li></div>
-<div class="section" id="version-du-9-mars-2022">
+<li>Nouvelle interface planit</li></section>
+<section id="version-du-9-mars-2022">
 <span id="historique-version-20220309"></span><h2>Version du 9 mars 2022<a class="headerlink" href="#version-du-9-mars-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Statistiques de février 2022</li>
-<li>Correctifs sur les branchements d'abonnés (plan d'ouvrage et géoschématique)</li></div>
-<div class="section" id="version-du-9-fevrier-2022">
+<li>Correctifs sur les branchements d'abonnés (plan d'ouvrage et géoschématique)</li></section>
+<section id="version-du-9-fevrier-2022">
 <span id="historique-version-20220209"></span><h2>Version du 9 février 2022<a class="headerlink" href="#version-du-9-fevrier-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Statistiques de décembre 2021 et janvier 2022</li>
-    <li>Publication des données de Vich (aménagement du territoire, réseaux d'assainissement et d'eau, lieux géographiques et propriétés communales)</li></div>
-<div class="section" id="version-du-26-janvier-2022">
+    <li>Publication des données de Vich (aménagement du territoire, réseaux d'assainissement et d'eau, lieux géographiques et propriétés communales)</li></section>
+<section id="version-du-26-janvier-2022">
 <span id="historique-version-20220126"></span><h2>Version du 26 janvier 2022<a class="headerlink" href="#version-du-26-janvier-2022" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/22PH" target=_blank>Projets de mobilité</a> (en accès sécurisé)</li>
 <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/WKic" target=_blank>Eléctricité (plan lumière)</a> (en accès sécurisé)</li>
@@ -529,42 +579,42 @@
     <li>Renommage du thème Sport en Sports et loisirs</li>
     <li>Ajout de l'attribut Itinéraires (Google Maps) pour les défibrillateurs</li>
     <li>Correction du problème d'affichage de la légende de Points d'intérêt</li>
-    <li>Ajout de l'attribut gestionnaire pour le réseau d'eau</li></div>
-<div class="section" id="version-du-8-decembre-2021">
+    <li>Ajout de l'attribut gestionnaire pour le réseau d'eau</li></section>
+<section id="version-du-8-decembre-2021">
 <span id="historique-version-20211208"></span><h2>Version du 8 décembre 2021<a class="headerlink" href="#version-du-8-decembre-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Ajout d'une classe "hors-service" pour les bornes hydrantes (thème sécurité)</li>
 <li>Ajout des statistiques d'utilisation du géoportail pour les mois de juillet à novembre</li>
 <li>Ajout d'une icône d'information sur la barre de recherche avec redirection vers la doc (recherche)</li>
     <li>Renommage de deux classes pour la couche "Tracés en service"</li>
-    <li>Adaptation de la full-text search pour les Bornes hydrantes eca, la couche "Détection" et "Plan des zones"</li></div>
-<div class="section" id="version-du-4-novembre-2021">
+    <li>Adaptation de la full-text search pour les Bornes hydrantes eca, la couche "Détection" et "Plan des zones"</li></section>
+<section id="version-du-4-novembre-2021">
 <span id="historique-version-20211104"></span><h2>Version du 4 novembre 2021<a class="headerlink" href="#version-du-4-novembre-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Découpage orthophoto 2018</a></li>
 <li>Résolution de l'erreur sur l'arbre des couches dans l'iframe</li>
 <li>Nouvelle fonctionnalité de géolocalisation sur Desktop</li>
     <li>Adaptation de la symbologie du réseau électrique</li>
     <li>Activation de l'outil de filtre pour tous les thèmes</li>
-    <li>Ajout d'images statiques pour les légendes des points d'intérêts (impression)</li></div>
-<div class="section" id="version-du-29-septembre-2021">
+    <li>Ajout d'images statiques pour les légendes des points d'intérêts (impression)</li></section>
+<section id="version-du-29-septembre-2021">
 <span id="historique-version-20210929"></span><h2>Version du 29 septembre 2021<a class="headerlink" href="#version-du-29-septembre-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/ecoles_accueil_jour" target=_blank>Secteurs d'enclassement</a></li>
 <li>Mise à jour de la couche <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Potentiel photovoltaïque par toiture</a></li>
-<li>Adaptation des noms des rôles</li></div>
-<div class="section" id="version-du-25-aout-2021">
+<li>Adaptation des noms des rôles</li></section>
+<section id="version-du-25-aout-2021">
 <span id="historique-version-20210825"></span><h2>Version du 25 août 2021<a class="headerlink" href="#version-du-25-aout-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles couches <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Lieux géographiques</a>, <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Carrés potagers</a>,
 <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Jardins potagers</a> et <a href="https://map.cartolacote.ch/s/1ftc" target=_blank>Jardins collectifs</a></li>
-<li>Le groupe "Agriculture urbaine" devient "Potagers urbains"</li></div>
-<div class="section" id="version-du-19-juillet-2021">
+<li>Le groupe "Agriculture urbaine" devient "Potagers urbains"</li></section>
+<section id="version-du-19-juillet-2021">
 <span id="historique-version-20210719"></span><h2>Version du 19 juillet 2021<a class="headerlink" href="#version-du-19-juillet-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Ensemble des données Pompier en édition pour le SDIS Terre-Sainte</li>
 <li>Changement du wmts du SITG en wms</li>
 <li>Corrections des traductions</li>
-<li>Corrections sur de base de donnée nyon_prod</li></div>
-<div class="section" id="version-du-8-juillet-2021">
+<li>Corrections sur de base de donnée nyon_prod</li></section>
+<section id="version-du-8-juillet-2021">
 <span id="historique-version-20210708"></span><h2>Version du 8 juillet 2021<a class="headerlink" href="#version-du-8-juillet-2021" title="Lien permanent vers ce titre">¶</a></h2>
-<li>Mise à jour de GMF version 2.5</li></div>
-<div class="section" id="version-du-6-juin-2021">
+<li>Mise à jour de GMF version 2.5</li></section>
+<section id="version-du-6-juin-2021">
 <span id="historique-version-20210617"></span><h2>Version du 6 juin 2021<a class="headerlink" href="#version-du-6-juin-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Correction de la date du MNS SITG</li>
 <li>Nouvelle symbologie pour la couche <a href="https://map.cartolacote.ch/s/ovKp" target=_blank>Personnel d'intervention</a> et ajout des données du SDIS Gland-Serine</li>
@@ -573,78 +623,78 @@
 <li>Adaptation de la symbologie pour la couche <a href="https://map.cartolacote.ch/s/uDn3" target=_blank>Zones humides</a></li>
 <li>Ajout des données de Coppet pour la couche <a href="https://map.cartolacote.ch/s/9ZNo" target=_blank>Arbres sur domaine public</a></li>
 <li>Changement de l'url pour les services de l'ASIT (asitvd.ch -> viageo.ch)</li>
-<li>Restriction d'accès pour les couches <a href="https://map.cartolacote.ch/s/642f" target=_blank>Parcelles d'intérêt public</a> et <a href="https://map.cartolacote.ch/s/piIL" target=_blank>Parcelles d'intérêt communales</a></li></div>
-<div class="section" id="version-du-19-mai-2021">
+<li>Restriction d'accès pour les couches <a href="https://map.cartolacote.ch/s/642f" target=_blank>Parcelles d'intérêt public</a> et <a href="https://map.cartolacote.ch/s/piIL" target=_blank>Parcelles d'intérêt communales</a></li></section>
+<section id="version-du-19-mai-2021">
 <span id="historique-version-20210519"></span><h2>Version du 19 mai 2021<a class="headerlink" href="#version-du-19-mai-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Mise à jour des fonds de plan couleur et gris (agrandissement des numéros d'entrée, nouvel ombrage)</li>
 <li>Configuration des couches WMTS avec une dimension DATE</li>
 <li>Publication des données de l'assaisnissment de la commune de Perroy</li>
 <li>Mise à jour des données MNT (2019)</li>
-<li>Nouvelle couche <a href="https://map.cartolacote.ch/s/gvak" target=_blank>Perturbations de trafic en cours (véh. prioritaires)</a></li></div>
-<div class="section" id="version-du-28-avril-2021">
+<li>Nouvelle couche <a href="https://map.cartolacote.ch/s/gvak" target=_blank>Perturbations de trafic en cours (véh. prioritaires)</a></li></section>
+<section id="version-du-28-avril-2021">
 <span id="historique-version-20210428"></span><h2>Version du 28 avril 2021<a class="headerlink" href="#version-du-28-avril-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Ajout des couches <a href="https://map.cartolacote.ch/s/Rqeh" target=_blank>Ambulances Service SA</a> et <a href="https://map.cartolacote.ch/s/qYoh" target=_blank>SDIS Terre-Sainte</a></li>
 <li>Résolution de l'impression avec les logos des partenaires</li>
 <li>Ajout de la catégorie Teqball pour les points d'intérêt Sport, loisirs</li>
-<li>Résolution de l'affichage pour les changements de fond de plan (petits écrans)</li></div>
-<div class="section" id="version-du-15-avril-2021">
+<li>Résolution de l'affichage pour les changements de fond de plan (petits écrans)</li></section>
+<section id="version-du-15-avril-2021">
 <span id="historique-version-20210415"></span><h2>Version du 15 avril 2021<a class="headerlink" href="#version-du-15-avril-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Mise à jour des données des <a href="https://map.cartolacote.ch/theme/energie" target=_blank>Besoins énergétiques</a></li>
 <li>Résolution de l'impression avec les données provenant du service WMTS des SITG</li>
 <li>Ajout des icônes pour les raccourcis (iOS, Windows et Android)</li>
 <li>Publication des données des communes partenaires Cartolacôte (Coppet, Gland, Mies, Prangins)</li>
 <li>Suppression du disclaimer sur l'interface Iframe</li>
-<li>Amélioration du style pour la fenêtre de résultats</li></div>
-<div class="section" id="version-du-31-mars-2021">
+<li>Amélioration du style pour la fenêtre de résultats</li></section>
+<section id="version-du-31-mars-2021">
 <span id="historique-version-20210331"></span><h2>Version du 31 mars 2021<a class="headerlink" href="#version-du-31-mars-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Adaptation de la position des boutons pour les outils de mesure pour la version mobile</li>
 <li>Adapation des points d'intérêt afin d'être intérrogables dans l'API</li>
-<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore acutelle</a>, <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore historique</a> et <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Renouées du Japon</a></li></div>
-<div class="section" id="version-du-25-mars-2021">
+<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore acutelle</a>, <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Flore historique</a> et <a href="https://map.cartolacote.ch/s/0Y2Y" target=_blank>Renouées du Japon</a></li></section>
+<section id="version-du-25-mars-2021">
 <span id="historique-version-20210325"></span><h2>Version du 25 mars 2021<a class="headerlink" href="#version-du-25-mars-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Edition en ligne pour tous les points d'intérêt</li>
-<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/GRLC" target=_blank>Réseau potager</a> et <a href="https://map.cartolacote.ch/s/HaOb" target=_blank>Installations</a></li></div>
-<div class="section" id="version-du-11-mars-2021">
+<li>Amélioration de la symbologie pour les couches : <a href="https://map.cartolacote.ch/s/GRLC" target=_blank>Réseau potager</a> et <a href="https://map.cartolacote.ch/s/HaOb" target=_blank>Installations</a></li></section>
+<section id="version-du-11-mars-2021">
 <span id="historique-version-20210304"></span><h2>Version du 11 mars 2021<a class="headerlink" href="#version-du-11-mars-2021" title="Lien permanent vers ce titre">¶</a></h2>
-<li>Amélioration du QR code dans l'outil de partage</li></div>
-<div class="section" id="version-du-4-mars-2021">
+<li>Amélioration du QR code dans l'outil de partage</li></section>
+<section id="version-du-4-mars-2021">
 <h2>Version du 4 mars 2021<a class="headerlink" href="#version-du-4-mars-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles fonctionnalités : Intégrer la carte et ajout du QR code dans l'outil de partage</li>
 <li>Changement des urls pour les services de l'ASIT</li>
-<li>Ajout d'un service pour les métadonnées des copyrights</li></div>
-<div class="section" id="version-du-10-fevrier-2021">
+<li>Ajout d'un service pour les métadonnées des copyrights</li></section>
+<section id="version-du-10-fevrier-2021">
 <span id="historique-version-20210210"></span><h2>Version du 10 février 2021<a class="headerlink" href="#version-du-10-fevrier-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles couches Organisation pompiers : <a href="https://map.cartolacote.ch/s/udYA" target=_blank>Sites</a> et <a href="https://map.cartolacote.ch/s/udYA" target=_blank>Secteurs d'organisation</a></li>
 <li>Nouvelle couche <a href="https://map.cartolacote.ch/s/JoyH" target=_blank>Bornes hydrantes ECA</a></li>
-<li>Ajout de l'attribut photo pour les couches du groupe <a href="https://map.cartolacote.ch/theme/espaces_publics" target=_blank>Affichage sur domaine public</a></li></div>
-<div class="section" id="version-du-3-fevrier-2021">
+<li>Ajout de l'attribut photo pour les couches du groupe <a href="https://map.cartolacote.ch/theme/espaces_publics" target=_blank>Affichage sur domaine public</a></li></section>
+<section id="version-du-3-fevrier-2021">
 <span id="historique-version-20210203"></span><h2>Version du 3 février 2021<a class="headerlink" href="#version-du-3-fevrier-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelles couches d'édition <a href="https://map.cartolacote.ch/s/swur" target=_blank>Clés</a> et <a href="https://map.cartolacote.ch/s/7MeN" target=_blank>Dossiers d'intervention</a></li>
 <li>Ajout de la fonctionnalité "Partage de la carte" pour la version mobile</li>
-<li>Ajout de la sélection de fond de plan sur la carte pour la version mobile</li></div>
-<div class="section" id="version-du-27-janvier-2021">
+<li>Ajout de la sélection de fond de plan sur la carte pour la version mobile</li></section>
+<section id="version-du-27-janvier-2021">
 <span id="historique-version-20210127"></span><h2>Version du 27 janvier 2021<a class="headerlink" href="#version-du-27-janvier-2021" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouveau thème <a href="https://map.cartolacote.ch/theme/covid" target=_blank>COVID</a></li>
 <li>Ajout du lien CAMAC pour les permis de construire</li>
-<li>Adaptation de la symbologie pour les points d'intérêt "Santé, sécurité"</li></div>
-<div class="section" id="version-du-17-decembre-2020">
+<li>Adaptation de la symbologie pour les points d'intérêt "Santé, sécurité"</li></section>
+<section id="version-du-17-decembre-2020">
 <span id="historique-version-20201217"></span><h2>Version du 17 décembre 2020<a class="headerlink" href="#version-du-17-decembre-2020" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Migration du thème Patrimoine communal vers un nouveau thème <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Patrimoine</a></li>
 <li>Nouvelles couches : <a href="https://map.cartolacote.ch/s/8ZKL" target=_blank>Salles communales</a>, <a href="https://map.cartolacote.ch/s/EBuB" target=_blank>Permis de construire - Projeté</a>, <a href="https://map.cartolacote.ch/s/vzg5" target=_blank>Périmètre fondés sur l'ISOS</a></li>
 <li>Nouveau thème <a href="https://map.cartolacote.ch/theme/documents" target=_blank>Documents</a></li>
 <li>Mise à jour des données (ensemble du district) du <a href="https://map.cartolacote.ch/s/Fqtf" target=_blank>Recensement architectural</a></li>
-<li>Nouvelles images des thèmes</li></div>
-<div class="section" id="version-du-3-decembre-2020">
+<li>Nouvelles images des thèmes</li></section>
+<section id="version-du-3-decembre-2020">
 <span id="historique-version-20201203"></span><h2>Version du 3 décembre 2020<a class="headerlink" href="#version-du-3-decembre-2020" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Nouvelle symbologie pour le groupe de couche <a href="https://map.cartolacote.ch/s/GvGG" target=_blank>Stationnement public</a></li>
-<li>Ajout d'un nouvelle classe  <a href="https://map.cartolacote.ch/s/ME7p" target=_blank>Arbres remarquables</a></li></div>
-<div class="section" id="version-du-13-novembre-2020">
+<li>Ajout d'un nouvelle classe  <a href="https://map.cartolacote.ch/s/ME7p" target=_blank>Arbres remarquables</a></li></section>
+<section id="version-du-13-novembre-2020">
 <span id="historique-version-20201113"></span><h2>Version du 13 novembre 2020<a class="headerlink" href="#version-du-13-novembre-2020" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Mise à jour de l'applicatiom GMF à la version 2.4.2.17 (Résolution de l'erreur de l'impression avec les couches du Canton de Vaud)</li>
 <li>Mise à jour des métadonnées des copyrights</li>
 <li>Nouvelle bannière avec ajout d'un lien vers la documentation</li>
-<li>Affichage de la légende désactivé lorsqu'une couche n'est pas visible</li></div>
-<div class="section" id="version-du-14-octobre-2020">
+<li>Affichage de la légende désactivé lorsqu'une couche n'est pas visible</li></section>
+<section id="version-du-14-octobre-2020">
 <span id="historique-version-20201014"></span><h2>Version du 14 octobre 2020<a class="headerlink" href="#version-du-14-octobre-2020" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Résolution du style du bouton pour l'export GPX</li>
 <li>Changement du nom des couches ASIT VD à ASIT</li>
@@ -652,17 +702,17 @@
 <li>Ajout d'une nouvelle couche <a href="https://map.cartolacote.ch/theme/altimetrie" target=_blank>Courbes de niveau 2015</a></li>
 <li>Ajout d'une nouvelle couche <a href="https://map.cartolacote.ch/theme/altimetrie" target=_blank>Ombrage de surface 2019</a></li>
 <li>Ajout d'une nouvelle couche <a href="https://map.cartolacote.ch/s/xW62" target=_blank>Orthophoto 2019</a></li>
-<li>Extension des données géologiques : <a href="https://map.cartolacote.ch/theme/geologie" target=_blank>Sondages publics</a></li></div>
-<div class="section" id="version-du-5-octobre-2020">
+<li>Extension des données géologiques : <a href="https://map.cartolacote.ch/theme/geologie" target=_blank>Sondages publics</a></li></section>
+<section id="version-du-5-octobre-2020">
 <span id="historique-version-20201005"></span><h2>Version du 5 octobre 2020<a class="headerlink" href="#version-du-5-octobre-2020" title="Lien permanent vers ce titre">¶</a></h2>
 <li>Mise en production du géoportail Cartolacôte</li>
 <li>Ajout d'un nouveau thème <a href="https://map.cartolacote.ch/theme/cartolacote" target=_blank>Cartolacôte</a></li>
 <li>Nouvelle fonctionnalité pour se déplacer vers l'étendue d'une commune</li>
-<li>Nouvelle fonctionnalité pour imprimer avec le logo d'un partenaire</li></div>
-<div class="section" id="version-du-28-septembre-2020">
+<li>Nouvelle fonctionnalité pour imprimer avec le logo d'un partenaire</li></section>
+<section id="version-du-28-septembre-2020">
 <span id="historique-version-20200928"></span><h2>Version du 28 septembre 2020<a class="headerlink" href="#version-du-28-septembre-2020" title="Lien permanent vers ce titre">¶</a></h2>
-<li>Résolution d'erreur sur le filtre de la couche <a href="https://map.cartolacote.ch/s/pvTf" target=_blank>Perturbations de trafic</a></li></div>
-</div>
+<li>Résolution d'erreur sur le filtre de la couche <a href="https://map.cartolacote.ch/s/pvTf" target=_blank>Perturbations de trafic</a></li></section>
+</section>
 
 
           </div>
@@ -675,12 +725,12 @@
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
 </div>
             </div>
           </div>
       </page>
-    </div>
+    </div></div>
     
     
   </body>

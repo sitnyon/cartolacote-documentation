@@ -2,25 +2,24 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
       <title>Données</title>
     
-      <link rel="stylesheet" href="_static/pygments.css">
-      <link rel="stylesheet" href="_static/theme.css">
-      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
           <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
       
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-
       <!-- sphinx script_files -->
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
         <script src="_static/translations.js"></script>
 
       
-      <script src="_static/theme-vendors.js"></script>
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
       <script src="_static/theme.js" defer></script>
     
   <link rel="index" title="Index" href="genindex.html" />
@@ -30,15 +29,13 @@
   </head>
 
   <body>
-    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
-  <div class="home-link-container">
-      <router-link to="index.html" class="home-link">
-      
-        <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
-      
-        <span class="site-name">Géoportail Cartolacôte</span>
-    </router-link>
-  </div>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
+    
+  </router-link>
 
   <div class="links">
     <navlinks class="can-hide">
@@ -65,14 +62,14 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
@@ -111,25 +108,25 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Recherche</span>
+  <div class="caption"><span class="caption-text">Recherche rapide</span>
     <div class="searchformwrapper">
-      <form autocomplete="off" class="search" action="search.html" method="get">
-        <input type="text" name="q" autocomplete="off" />
-        <input type="submit" value="Go" />
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Recherche" />
         <input type="hidden" name="check_keywords" value="yes" />
         <input type="hidden" name="area" value="default" />
       </form>
@@ -143,13 +140,28 @@
       </p>
       <ul class="current">
         
-          <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="00_interface.html" class="reference internal ">Interface</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Données</a>
+          <li class="toctree-l1 ">
+            
+              <a href="01_navigation.html" class="reference internal ">Navigation</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Données</a>
+            
 
             
               <ul>
@@ -167,55 +179,82 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+          <li class="toctree-l1 ">
+            
+              <a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="05_outils.html" class="reference internal ">Outils</a>
+          <li class="toctree-l1 ">
+            
+              <a href="05_outils.html" class="reference internal ">Outils</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+          <li class="toctree-l1 ">
+            
+              <a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="07_connexion.html" class="reference internal ">Connexion</a>
+          <li class="toctree-l1 ">
+            
+              <a href="07_connexion.html" class="reference internal ">Connexion</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+          <li class="toctree-l1 ">
+            
+              <a href="08_edition.html" class="reference internal ">Edition</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+          <li class="toctree-l1 ">
+            
+              <a href="09_filtres.html" class="reference internal ">Filtres</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+          <li class="toctree-l1 ">
+            
+              <a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+          <li class="toctree-l1 ">
+            
+              <a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+            
 
             
           </li>
@@ -230,7 +269,10 @@
       </p>
       <ul class="">
         
-          <li class="toctree-l1 "><a href="historique_version/index.html" class="reference internal ">Versions</a>
+          <li class="toctree-l1 ">
+            
+              <a href="historique_version/index.html" class="reference internal ">Versions</a>
+            
 
             
           </li>
@@ -265,11 +307,11 @@
   
 </div>
 <hr>
-          <div class="content" role="main">
+          <div class="content" role="main" v-pre>
             
-  <div class="section" id="donnees">
+  <section id="donnees">
 <h1>Données<a class="headerlink" href="#donnees" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="section" id="fonds-de-plan">
+<section id="fonds-de-plan">
 <h2>Fonds de plan<a class="headerlink" href="#fonds-de-plan" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le choix du fond de plan se fait à l’aide de la liste de vignettes
 se trouvant en bas à gauche de l’interface.
@@ -295,16 +337,16 @@ placer le curseur de la souris sur le copyright</p>
 <li><p>Swisstopo : Photos aériennes</p></li>
 <li><p>OSM : Données OpenStreetMap</p></li>
 </ul>
-</div>
-<div class="section" id="themes">
+</section>
+<section id="themes">
 <h2>Thèmes<a class="headerlink" href="#themes" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les données sont réparties dans différents thèmes classés alphabétiquement, accessibles
 depuis le sélecteur de thème qui se trouve en haut à gauche de l’interface.</p>
 <p><video width="600" controls><source src="_static/theme_selection.mp4" type="video/mp4"></video></p><p>Les thèmes disponibles sont affichés selon les autorisations de l’utilisateur connecté car
 certaines données ne sont pas publiques et nécessitent une authentification.
 Vous pouvez consulter la liste des données disponbiles via l’url suivante <a class="reference external" href="https://cartolacote.ch/donnees">cartolacote.ch/donnees</a></p>
-</div>
-<div class="section" id="organisation-des-couches">
+</section>
+<section id="organisation-des-couches">
 <h2>Organisation des couches<a class="headerlink" href="#organisation-des-couches" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Une fois le thème sélectionné, les données, qui peuvent être réparties dans différents
 groupes, sont ajoutées dans l’arbre des couches à gauche et sur la carte.
@@ -381,8 +423,8 @@ selon ce tableau récapitulatif :</p>
 </tr>
 </tbody>
 </table>
-<p><video width="600" controls><source src="_static/organisation_couches.mp4" type="video/mp4"></video></p></div>
-<div class="section" id="comparaison">
+<p><video width="600" controls><source src="_static/organisation_couches.mp4" type="video/mp4"></video></p></section>
+<section id="comparaison">
 <h2>Comparaison<a class="headerlink" href="#comparaison" title="Lien permanent vers ce titre">¶</a></h2>
 <p>L’outil de comparaison permet de comparer deux cartes différentes, pour cela il faut activer deux couches et cliquer
 sur l’engrenage visible au survol du nom de la première couche activée. Cliquer ensuite sur « Comparer cette couche ».</p>
@@ -390,8 +432,8 @@ sur l’engrenage visible au survol du nom de la première couche activée. Cliq
 <p>Une barre verticale apparaît au milieu de la carte. Afin de déplacer ce curseur vertical, il suffit de cliquer dessus
 et de déplacer la souris à gauche ou à droite.</p>
 <img alt="_images/comparaison_couches_curseur.png" src="_images/comparaison_couches_curseur.png" />
-</div>
-</div>
+</section>
+</section>
 
 
           </div>
@@ -408,12 +450,12 @@ et de déplacer la souris à gauche ou à droite.</p>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
 </div>
             </div>
           </div>
       </page>
-    </div>
+    </div></div>
     
     
   </body>

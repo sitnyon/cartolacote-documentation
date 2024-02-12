@@ -2,43 +2,40 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
       <title>Navigation</title>
     
-      <link rel="stylesheet" href="_static/pygments.css">
-      <link rel="stylesheet" href="_static/theme.css">
-      <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
           <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
       
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-
       <!-- sphinx script_files -->
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
         <script src="_static/translations.js"></script>
 
       
-      <script src="_static/theme-vendors.js"></script>
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
       <script src="_static/theme.js" defer></script>
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Recherche" href="search.html" />
   <link rel="next" title="Données" href="02_donnees.html" />
-  <link rel="prev" title="Bienvenue sur la documentation du géoportail Cartolacôte!" href="index.html" /> 
+  <link rel="prev" title="Interface" href="00_interface.html" /> 
   </head>
 
   <body>
-    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
-  <div class="home-link-container">
-      <router-link to="index.html" class="home-link">
-      
-        <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
-      
-        <span class="site-name">Géoportail Cartolacôte</span>
-    </router-link>
-  </div>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/logo_cartolacote.png" alt="logo"/>
+    
+  </router-link>
 
   <div class="links">
     <navlinks class="can-hide">
@@ -65,14 +62,14 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
@@ -111,25 +108,25 @@
     <div class="nav-item">
       <a href="https://map.cartolacote.ch"
         class="nav-link external">
-          map.cartolacote.ch <outboundlink/>
+          map.cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
     <div class="nav-item">
       <a href="https://cartolacote.ch"
         class="nav-link external">
-          cartolacote.ch <outboundlink/>
+          cartolacote.ch <outboundlink></outboundlink>
       </a>
     </div>
   
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Recherche</span>
+  <div class="caption"><span class="caption-text">Recherche rapide</span>
     <div class="searchformwrapper">
-      <form autocomplete="off" class="search" action="search.html" method="get">
-        <input type="text" name="q" autocomplete="off" />
-        <input type="submit" value="Go" />
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Recherche" />
         <input type="hidden" name="check_keywords" value="yes" />
         <input type="hidden" name="area" value="default" />
       </form>
@@ -143,7 +140,19 @@
       </p>
       <ul class="current">
         
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Navigation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="00_interface.html" class="reference internal ">Interface</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Navigation</a>
+            
 
             
               <ul>
@@ -159,61 +168,91 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+          <li class="toctree-l1 ">
+            
+              <a href="02_donnees.html" class="reference internal ">Données</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+          <li class="toctree-l1 ">
+            
+              <a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+          <li class="toctree-l1 ">
+            
+              <a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="05_outils.html" class="reference internal ">Outils</a>
+          <li class="toctree-l1 ">
+            
+              <a href="05_outils.html" class="reference internal ">Outils</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+          <li class="toctree-l1 ">
+            
+              <a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="07_connexion.html" class="reference internal ">Connexion</a>
+          <li class="toctree-l1 ">
+            
+              <a href="07_connexion.html" class="reference internal ">Connexion</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+          <li class="toctree-l1 ">
+            
+              <a href="08_edition.html" class="reference internal ">Edition</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+          <li class="toctree-l1 ">
+            
+              <a href="09_filtres.html" class="reference internal ">Filtres</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+          <li class="toctree-l1 ">
+            
+              <a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+            
 
             
           </li>
 
         
-          <li class="toctree-l1 "><a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+          <li class="toctree-l1 ">
+            
+              <a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+            
 
             
           </li>
@@ -228,7 +267,10 @@
       </p>
       <ul class="">
         
-          <li class="toctree-l1 "><a href="historique_version/index.html" class="reference internal ">Versions</a>
+          <li class="toctree-l1 ">
+            
+              <a href="historique_version/index.html" class="reference internal ">Versions</a>
+            
 
             
           </li>
@@ -252,8 +294,8 @@
 
   <ul class="page-nav">
   <li class="prev">
-    <a href="index.html"
-       title="Chapitre précédent">← Bienvenue sur la documentation du géoportail Cartolacôte!</a>
+    <a href="00_interface.html"
+       title="Chapitre précédent">← Interface</a>
   </li>
   <li class="next">
     <a href="02_donnees.html"
@@ -263,15 +305,15 @@
   
 </div>
 <hr>
-          <div class="content" role="main">
+          <div class="content" role="main" v-pre>
             
-  <div class="section" id="navigation">
+  <section id="navigation">
 <h1>Navigation<a class="headerlink" href="#navigation" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="section" id="deplacement">
+<section id="deplacement">
 <h2>Déplacement<a class="headerlink" href="#deplacement" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le déplacement dans la carte se fait à l’aide de la souris avec le « drag and drop »</p>
-<p><video width="600" controls><source src="_static/deplacement_carte.mp4" type="video/mp4"></video></p></div>
-<div class="section" id="zoom">
+<p><video width="600" controls><source src="_static/deplacement_carte.mp4" type="video/mp4"></video></p></section>
+<section id="zoom">
 <h2>Zoom<a class="headerlink" href="#zoom" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le zoom dans la carte peut se faire de plusieurs façons :</p>
 <ul class="simple">
@@ -280,28 +322,28 @@
 <li><p>À l’aide du clavier et de la souris</p></li>
 <li><p>À l’aide du sélecteur d’échelle en bas à gauche de l’interface</p></li>
 </ul>
-<div class="section" id="a-laide-de-la-souris">
+<section id="a-laide-de-la-souris">
 <h3>À l’aide de la souris<a class="headerlink" href="#a-laide-de-la-souris" title="Lien permanent vers ce titre">¶</a></h3>
 <ul class="simple">
 <li><p>Avec la roulette</p></li>
 <li><p>Avec un double clic</p></li>
 </ul>
-<p><video width="600" controls><source src="_static/zoom_double_clic.mp4" type="video/mp4"></video></p></div>
-<div class="section" id="a-laide-des-boutons-en-haut-a-gauche-de-la-carte">
+<p><video width="600" controls><source src="_static/zoom_double_clic.mp4" type="video/mp4"></video></p></section>
+<section id="a-laide-des-boutons-en-haut-a-gauche-de-la-carte">
 <h3>À l’aide des boutons en haut à gauche de la carte<a class="headerlink" href="#a-laide-des-boutons-en-haut-a-gauche-de-la-carte" title="Lien permanent vers ce titre">¶</a></h3>
-<p><video width="600" controls><source src="_static/zoom_bouton.mp4" type="video/mp4"></video></p></div>
-<div class="section" id="a-laide-du-clavier-et-de-la-souris">
+<p><video width="600" controls><source src="_static/zoom_bouton.mp4" type="video/mp4"></video></p></section>
+<section id="a-laide-du-clavier-et-de-la-souris">
 <h3>À l’aide du clavier et de la souris<a class="headerlink" href="#a-laide-du-clavier-et-de-la-souris" title="Lien permanent vers ce titre">¶</a></h3>
 <ul class="simple">
 <li><p>En dessinant un rectangle avec la touche SHIFT enfoncée</p></li>
 </ul>
-<p><video width="600" controls><source src="_static/zoom_shift_selection.mp4" type="video/mp4"></video></p></div>
-<div class="section" id="a-laide-du-selecteur-dechelle-en-bas-a-gauche-de-linterface">
+<p><video width="600" controls><source src="_static/zoom_shift_selection.mp4" type="video/mp4"></video></p></section>
+<section id="a-laide-du-selecteur-dechelle-en-bas-a-gauche-de-linterface">
 <h3>À l’aide du sélecteur d’échelle en bas à gauche de l’interface<a class="headerlink" href="#a-laide-du-selecteur-dechelle-en-bas-a-gauche-de-linterface" title="Lien permanent vers ce titre">¶</a></h3>
 <img alt="_images/zoom_echelle.png" src="_images/zoom_echelle.png" />
-</div>
-</div>
-<div class="section" id="coordonnees">
+</section>
+</section>
+<section id="coordonnees">
 <h2>Coordonnées<a class="headerlink" href="#coordonnees" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les coordonnées (choix du système de coordonnées avec la liste déroulante) du curseur sont
 indiquées danns le pied de page, en bas à droite :</p>
@@ -310,16 +352,16 @@ indiquées danns le pied de page, en bas à droite :</p>
 <img alt="_images/affichage_coordonees_details.png" src="_images/affichage_coordonees_details.png" />
 <p>Il est également possible d’afficher cet endroit dans Google Street View ou Google Earth, pour
 autant que des données existent.</p>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
   <li class="prev">
-    <a href="index.html"
-       title="Chapitre précédent">← Bienvenue sur la documentation du géoportail Cartolacôte!</a>
+    <a href="00_interface.html"
+       title="Chapitre précédent">← Interface</a>
   </li>
   <li class="next">
     <a href="02_donnees.html"
@@ -328,12 +370,12 @@ autant que des données existent.</p>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with <a href="https://github.com/romnnn/sphinx_press_theme">Press Theme</a>.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
 </div>
             </div>
           </div>
       </page>
-    </div>
+    </div></div>
     
     
   </body>
