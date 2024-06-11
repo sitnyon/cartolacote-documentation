@@ -3,6 +3,27 @@
 Versions
 ========
 
+.. _historique_version_20240527:
+
+Version du 27 mai 2024
+----------------------
+
+.. raw:: html
+
+    <li>Mise à jour de GeoMapFish avec la version 2.8</li>
+
+.. _historique_version_20240515:
+
+Version du 15 mai 2024
+----------------------
+
+.. raw:: html
+
+    <li>Ajout des données du stationnement pour la commune de Vich</li>
+
+Versions
+========
+
 .. _historique_version_20240326:
 
 Version du 26 mars 2024
