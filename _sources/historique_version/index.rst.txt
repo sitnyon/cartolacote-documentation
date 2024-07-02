@@ -3,6 +3,16 @@
 Versions
 ========
 
+.. _historique_version_20240702:
+
+Version du 27 mai 2024
+----------------------
+
+.. raw:: html
+
+    <li>Nouvelle donnée <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Inventaire des biens culturels</a></li>
+    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Paléo (montage)</a> (accès restreint)</li>
+
 .. _historique_version_20240527:
 
 Version du 27 mai 2024
@@ -138,8 +148,8 @@ Version du 28 juin 2023
 
 .. raw:: html
 
-    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
-    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Paléo (Sécurité pompiers)</a></li>
+    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
+    <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Paléo (Sécurité pompiers)</a></li>
 
 .. _historique_version_20230621:
 
