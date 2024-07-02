@@ -5,8 +5,8 @@ Versions
 
 .. _historique_version_20240702:
 
-Version du 27 mai 2024
-----------------------
+Version du 1 juillet 2024
+-------------------------
 
 .. raw:: html
 
@@ -30,9 +30,6 @@ Version du 15 mai 2024
 .. raw:: html
 
     <li>Ajout des données du stationnement pour la commune de Vich</li>
-
-Versions
-========
 
 .. _historique_version_20240326:
 
