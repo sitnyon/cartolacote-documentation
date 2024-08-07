@@ -3,6 +3,19 @@
 Versions
 ========
 
+.. _historique_version_20240807:
+
+Version du 7 août 2024
+----------------------
+
+.. raw:: html
+
+    <li>Amélioration de l'interface utilisateur : ajout des cases à cocher dans l'arbre des couches et ajout d'un panneau pour les liens externes</li>
+    <li>Résolution de l'affichage des copyrights sur l'interface mobile</li>
+    <li>Adaptation de la représentation pour les crèches</li>
+    <li>Adaptation du symbole pompiers (Points d'intérêt)</li>
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Cantonale FVJC</a> (accès restreint)</li>
+
 .. _historique_version_20240702:
 
 Version du 1 juillet 2024
@@ -10,7 +23,7 @@ Version du 1 juillet 2024
 
 .. raw:: html
 
-    <li>Nouvelle donnée <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Inventaire des biens culturels</a></li>
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/patrimoine" target=_blank>Inventaire des biens culturels</a></li>
     <li>Nouvelles données <a href="https://map.cartolacote.ch/theme/securite" target=_blank>Paléo (montage)</a> (accès restreint)</li>
 
 .. _historique_version_20240527:
