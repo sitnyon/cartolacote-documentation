@@ -3,10 +3,10 @@
 Versions
 ========
 
-.. _historique_version_20240807:
+.. _historique_version_20240812:
 
-Version du 7 août 2024
-----------------------
+Version du 12 août 2024
+-----------------------
 
 .. raw:: html
 
