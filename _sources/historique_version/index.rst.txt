@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20240903:
+
+Version du 3 septembre 2024
+---------------------------
+
+.. raw:: html
+
+    <li>Nouveau thème <a href="https://map.cartolacote.ch/theme/strategie_territoriale" target=_blank>Stratégie territoriale</a></li>
+    <li>Nouveau theme <a href="https://map.cartolacote.ch/theme/planification" target=_blank>Planification</a>(accès restreint)</li>
+    <li>Adaptation de la représentation des repères pour les réseaux souterrains</li>
+
 .. _historique_version_20240812:
 
 Version du 12 août 2024
