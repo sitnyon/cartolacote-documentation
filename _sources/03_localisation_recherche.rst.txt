@@ -41,14 +41,14 @@ Objets paramétrés pour la recherche
 | Cadastre      | EGID            | EGID + numéro EGID     | EGID 812679           | Zoom sur l'emplacement  | Public     | Nyon                      |
 |               |                 |                        |                       | du bâtiment et          |            |                           |
 |               |                 |                        |                       | activation de la        |            |                           |
-|               |                 |                        |                       | couche **Registre**     |            |                           |
+|               |                 |                        |                       | couche **Registre **    |            |                           |
 |               |                 |                        |                       | **des bâtiments (RCB)** |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | DDP             | DDP + numéro du DPP    | DDP 4306              | Zoom sur l'emplacement  | Public     | District de Nyon          |
 |               |                 | + Commune              | Gland                 | du DDP et activation    |            |                           |
 |               |                 |                        |                       | de la couche            |            |                           |
 |               |                 |                        |                       | **Droit distinct**      |            |                           |
-|               |                 |                        |                       | **et permanent**        |            |                           |
+|               |                 |                        |                       | ** et permanent**       |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | x               | Rue + Commune          | Route de Montelly     | Zoom sur la rue et      | Public     | District de Nyon          |
 |               |                 |                        | Perroy                | mise en surbrillance    |            |                           |
@@ -67,10 +67,10 @@ Objets paramétrés pour la recherche
 |               |                 | EGRID                  |                       | mise en surbrillance    |            |                           |
 |               |                 |                        |                       | de la parcelle et       |            |                           |
 |               |                 |                        |                       | activation des couches  |            |                           |
-|               |                 |                        |                       | **Domaine public**      |            |                           |
+|               |                 |                        |                       | **Domaine public **     |            |                           |
 |               |                 |                        |                       | **communal** et         |            |                           |
 |               |                 |                        |                       | **Domaine public**      |            |                           |
-|               |                 |                        |                       | **cantonal** si la      |            |                           |
+|               |                 |                        |                       | ** cantonal** si la     |            |                           |
 |               |                 |                        |                       | parcelle est sur le DP  |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | PPE             | PPE + numéro de PPE    | PPE 57                | Zoom sur la parcelle et | Public     | Nyon                      |
@@ -94,12 +94,12 @@ Objets paramétrés pour la recherche
 | Cadastre      | PFP             | PFP + numéro du PFP    | PFP 1241 121 0        | Zoom sur le PFP et      | Public     | District de Nyon          |
 |               |                 |                        |                       | activation de la couche |            |                           |
 |               |                 |                        |                       | **Points fixes**        |            |                           |
-|               |                 |                        |                       | **planimétriques**      |            |                           |
+|               |                 |                        |                       | ** planimétriques**     |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Cadastre      | PFA             | PFA + numéro du PFA    | PFA 1241G041A         | Zoom sur le PFA et      | Public     | District de Nyon          |
 |               |                 |                        |                       | activation de la couche |            |                           |
 |               |                 |                        |                       | **Points fixes**        |            |                           |
-|               |                 |                        |                       | **altimétriques**       |            |                           |
+|               |                 |                        |                       | ** altimétriques**      |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Ecoles et     | AMF             | AMF + nom de l'AMF     | AMF Pierre Martin     | Zoom sur la             | Restreint  | Nyon                      |
 | accueil de    |                 |                        |                       | localisation de l'AMF   |            |                           |
@@ -111,7 +111,7 @@ Objets paramétrés pour la recherche
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Espaces verts | Arbre           | Arbre + numéro de      | Arbre 1               | Zoom sur l'arbre        | Public     | Nyon                      |
 |               |                 | de l'arbre             |                       | et activation de la     |            |                           |
-|               |                 |                        |                       | couche **Arbre sur**    |            |                           |
+|               |                 |                        |                       | couche **Arbre sur **   |            |                           |
 |               |                 |                        |                       | **domaine public**      |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Mobilité      | Arrêt           | Arrêt + nom de l'arrêt | Arrêt Changins        | Zoom sur l'arrêt ou la  | Public     | District de Nyon          |
@@ -123,7 +123,7 @@ Objets paramétrés pour la recherche
 | Patrimoine    | x               | Nom de la Salle        | Salle de la Bretèche  | Zoom sur la salle       | Public     | Nyon                      |
 |               |                 | communale              |                       | communale et activation |            |                           |
 |               |                 |                        |                       | de la couche **Salles** |            |                           |
-|               |                 |                        |                       | **communales**          |            |                           |
+|               |                 |                        |                       | ** communales**         |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Plan de ville | x               | Nom du point d'intérêt | Ranch Zangalisa       | Zoom sur le point       | Public     | District de Nyon          |
 |               |                 |                        |                       | d'intérêt et activation |            |                           |
@@ -168,7 +168,7 @@ Objets paramétrés pour la recherche
 | Réseaux       | BAG             | BAG + nom de la BAG    | BAG 601               | Zoom sur la BAG et      | Restreint  | Nyon                      |
 | souterrains   |                 |                        |                       | activation de la couche |            |                           |
 | (gaz)         |                 |                        |                       | **Balise de**           |            |                           |
-|               |                 |                        |                       | **signalisation**       |            |                           |
+|               |                 |                        |                       | ** signalisation**      |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Sécurité      | SDIS            | SDIS + numéro de       | A05043 Parking les    | Zoom sur la détection   | Restreint  | SDIS Nyon Dôle et         |
 | (pompiers)    |                 | détections +           | Foulis                | et activation de la     |            | SDIS Gland-Serine         |

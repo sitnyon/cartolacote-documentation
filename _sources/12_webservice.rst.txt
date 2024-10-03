@@ -1,0 +1,17 @@
+Webservices
+===========
+
+Chantiers et perturbations de trafic
+------------------------------------
+
+Le webservice des chantiers permet de renvoyer une liste des chantiers et des perturbations trafic lié à celui-ci. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+
+URL
+***
+
+`` https://map.cartolacote.ch/webservice/chantiers?entite={nom_entite} ``
+
+
+Liste des attributs 
+*******************
+

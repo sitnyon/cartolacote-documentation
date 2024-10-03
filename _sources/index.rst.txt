@@ -26,6 +26,7 @@ Bienvenue sur la documentation du géoportail Cartolacôte!
    09_filtres
    10_version_mobile
    11_api_iframe
+   12_webservices
 
 .. toctree::
    :maxdepth: 1

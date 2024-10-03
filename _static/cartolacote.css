@@ -66,3 +66,15 @@ a, p a code {
 	line-height: unset;
 	font-size: 14px
 }
+
+table.align-default {
+    text-align: left !important;
+}
+
+blockquote {
+    font-size: inherit;
+    color: inherit;
+    border-left: inherit;
+    margin: inherit;
+    padding: inherit;
+}
