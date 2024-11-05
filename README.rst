@@ -18,6 +18,7 @@ Activer la virtualisation sur Windows :
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 * Ouvrir le Windows Terminal 
+* Mettre à jour WSL ``wsl --update``
 * Executer la commande suivante : ``wsl.exe --set-default-version 2``
 * Installer Ubuntu (dernière LTS, depuis Microsoft)
 * Depuis le menu windows, lancer Ubuntu
@@ -46,7 +47,14 @@ Effectuer les mise à jour et installer les dépendances linux :
   sudo apt-get install python3-sphinx
   sudo apt install make
   sudo apt install python3-pip
+
+Pour installer PyStemmer, il faut d'abord créer un environnement virtuel : 
+::
+  
+  sudo apt install python3-venv
+  python3 -m venv .venv
   pip3 install PyStemmer
+  deactivate
 
 Installation
 ------------
