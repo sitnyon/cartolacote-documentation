@@ -17,6 +17,7 @@ Version du 25 novembre 2024
     <li>Ajout d'une catégorie "Stockage batterie" pour les objets Dangers (Pompiers)</li>
     <li>Changement des noms de classe pour le PGA de Coppet</li>
     <li>Ajout de l'iframe Geocat dans les métadonnées</li>
+    <li>Ajout d'un webservice "Chantiers"</li>
 
 
 .. _historique_version_20240903:
