@@ -32,7 +32,8 @@ Liste des attributs
 *******************
 
 * **evenement (obligatoire)** : nom de l'évènement 
-* **type_evenement (obligatoire)** : type de chantier (uniquement Chantier)
+* **type_evenement (obligatoire)** : type de chantier
+* **etat (obligatoire)** : état du chantier (En cours, Futur)
 * **service_pilote (obligatoire)** : nom du service pilote 
 * **telephone_contact** : numéro de téléphone du service pilote
 * **email_contact** : adresse e-mail du service pilote
@@ -49,6 +50,15 @@ Liste des attributs
 	* **date_fin_secours** : Date de fin des travaux (uniquement pour les secours)
 	* **etat_public** : état de la perturbation (Passé, En cours, Futur) 
 	* **etat_secours** : état de la perturbation (Passé, En cours, Futur) (uniquement pour les secours)
+	* **heure_debut** : heure de début de la perturbation
+	* **heure_fin** : heure de fin de la perturbation
+	* **lundi** : la perturbation a lieu le lundi (oui, non)
+	* **mardi** : la perturbation a lieu le mardi (oui, non)
+	* **mercredi** : la perturbation a lieu le mercredi (oui, non)
+	* **jeudi** : la perturbation a lieu le jeudi (oui, non)
+	* **vendredi** : la perturbation a lieu le vendredi (oui, non)
+	* **samedi** : la perturbation a lieu le samedi (oui, non)
+	* **dimanche** : la perturbation a lieu le dimanche (oui, non)
 
 * **coordonnee_x (obligatoire)** : coordonnées x du point de l'évènement 
 * **coordonnee_y (obligatoire)** : coordonnées y du point de l'évènement 

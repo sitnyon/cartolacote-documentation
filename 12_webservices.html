@@ -2,7 +2,7 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <title>Webservices</title>
     
@@ -11,11 +11,10 @@
           <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
       
       <!-- sphinx script_files -->
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/translations.js"></script>
+        <script src="_static/documentation_options.js?v=5cd26065"></script>
+        <script src="_static/doctools.js?v=9bcbadda"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=e6b791cb"></script>
 
       
       <!-- bundled in js (rollup iife) -->
@@ -313,22 +312,17 @@
           <div class="content" role="main" v-pre>
             
   <section id="webservices">
-<h1>Webservices<a class="headerlink" href="#webservices" title="Lien permanent vers ce titre">¶</a></h1>
+<h1>Webservices<a class="headerlink" href="#webservices" title="Lien vers cette rubrique">¶</a></h1>
 <section id="chantiers-et-perturbations-de-trafic">
-<h2>Chantiers et perturbations de trafic<a class="headerlink" href="#chantiers-et-perturbations-de-trafic" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Chantiers et perturbations de trafic<a class="headerlink" href="#chantiers-et-perturbations-de-trafic" title="Lien vers cette rubrique">¶</a></h2>
 <p>Le webservice des chantiers permet de renvoyer une liste des chantiers et des perturbations trafic lié à celui-ci . C’est un service uniquement dédié aux partenaires Cartolacôte.</p>
 <section id="url">
-<h3>URL<a class="headerlink" href="#url" title="Lien permanent vers ce titre">¶</a></h3>
+<h3>URL<a class="headerlink" href="#url" title="Lien vers cette rubrique">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">https://map.cartolacote.ch/webservice/chantiers?entite={nom_entite}</span></code></p>
 </section>
 <section id="parametre">
-<h3>Paramètre<a class="headerlink" href="#parametre" title="Lien permanent vers ce titre">¶</a></h3>
+<h3>Paramètre<a class="headerlink" href="#parametre" title="Lien vers cette rubrique">¶</a></h3>
 <table class="docutils align-default">
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 32%" />
-<col style="width: 42%" />
-</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Paramètre</p></th>
 <th class="head"><p>Description</p></th>
@@ -357,10 +351,11 @@ vich</p></td>
 </table>
 </section>
 <section id="liste-des-attributs">
-<h3>Liste des attributs<a class="headerlink" href="#liste-des-attributs" title="Lien permanent vers ce titre">¶</a></h3>
+<h3>Liste des attributs<a class="headerlink" href="#liste-des-attributs" title="Lien vers cette rubrique">¶</a></h3>
 <ul>
 <li><p><strong>evenement (obligatoire)</strong> : nom de l’évènement</p></li>
-<li><p><strong>type_evenement (obligatoire)</strong> : type de chantier (uniquement Chantier)</p></li>
+<li><p><strong>type_evenement (obligatoire)</strong> : type de chantier</p></li>
+<li><p><strong>etat (obligatoire)</strong> : état du chantier (En cours, Futur)</p></li>
 <li><p><strong>service_pilote (obligatoire)</strong> : nom du service pilote</p></li>
 <li><p><strong>telephone_contact</strong> : numéro de téléphone du service pilote</p></li>
 <li><p><strong>email_contact</strong> : adresse e-mail du service pilote</p></li>
@@ -378,6 +373,15 @@ vich</p></td>
 <li><p><strong>date_fin_secours</strong> : Date de fin des travaux (uniquement pour les secours)</p></li>
 <li><p><strong>etat_public</strong> : état de la perturbation (Passé, En cours, Futur)</p></li>
 <li><p><strong>etat_secours</strong> : état de la perturbation (Passé, En cours, Futur) (uniquement pour les secours)</p></li>
+<li><p><strong>heure_debut</strong> : heure de début de la perturbation</p></li>
+<li><p><strong>heure_fin</strong> : heure de fin de la perturbation</p></li>
+<li><p><strong>lundi</strong> : la perturbation a lieu le lundi (oui, non)</p></li>
+<li><p><strong>mardi</strong> : la perturbation a lieu le mardi (oui, non)</p></li>
+<li><p><strong>mercredi</strong> : la perturbation a lieu le mercredi (oui, non)</p></li>
+<li><p><strong>jeudi</strong> : la perturbation a lieu le jeudi (oui, non)</p></li>
+<li><p><strong>vendredi</strong> : la perturbation a lieu le vendredi (oui, non)</p></li>
+<li><p><strong>samedi</strong> : la perturbation a lieu le samedi (oui, non)</p></li>
+<li><p><strong>dimanche</strong> : la perturbation a lieu le dimanche (oui, non)</p></li>
 </ul>
 </div></blockquote>
 </li>
@@ -403,7 +407,7 @@ vich</p></td>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 8.1.3 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.9.1.
 </div>
             </div>
           </div>

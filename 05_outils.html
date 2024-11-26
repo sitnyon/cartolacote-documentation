@@ -2,7 +2,7 @@
 <html  lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <title>Outils</title>
     
@@ -11,11 +11,10 @@
           <link rel="stylesheet" href="_static/cartolacote.css" type="text/css" />
       
       <!-- sphinx script_files -->
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/translations.js"></script>
+        <script src="_static/documentation_options.js?v=5cd26065"></script>
+        <script src="_static/doctools.js?v=9bcbadda"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=e6b791cb"></script>
 
       
       <!-- bundled in js (rollup iife) -->
@@ -236,7 +235,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="08_edition.html" class="reference internal ">Edition</a>
+              <a href="08_edition.html" class="reference internal ">Édition</a>
             
 
             
@@ -264,6 +263,15 @@
           <li class="toctree-l1 ">
             
               <a href="11_api_iframe.html" class="reference internal ">Iframe / API</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="12_webservices.html" class="reference internal ">Webservices</a>
             
 
             
@@ -320,23 +328,17 @@
           <div class="content" role="main" v-pre>
             
   <section id="outils">
-<h1>Outils<a class="headerlink" href="#outils" title="Lien permanent vers ce titre">¶</a></h1>
+<h1>Outils<a class="headerlink" href="#outils" title="Lien vers cette rubrique">¶</a></h1>
 <p>Les outils sont regroupés sur la barre verticale à droite de l’interface.</p>
 <section id="integrer-la-carte">
-<span id="id1"></span><h2>Intégrer la carte<a class="headerlink" href="#integrer-la-carte" title="Lien permanent vers ce titre">¶</a></h2>
+<span id="id1"></span><h2>Intégrer la carte<a class="headerlink" href="#integrer-la-carte" title="Lien vers cette rubrique">¶</a></h2>
 <p>Le géoportail Cartolacôte peut être intégré dans n’importe quelle page internet sous forme d’iframe.</p>
 <p><video width="600" controls><source src="_static/integrer_la_carte.mp4" type="video/mp4"></video></p></section>
 <section id="mesure-dessin">
-<h2>Mesure &amp; Dessin<a class="headerlink" href="#mesure-dessin" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Mesure &amp; Dessin<a class="headerlink" href="#mesure-dessin" title="Lien vers cette rubrique">¶</a></h2>
 <p>Des outils de mesure et de dessin permettent d’effectuer des annotations et mesures sur la
 carte.</p>
 <table class="docutils align-default">
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 22%" />
-<col style="width: 28%" />
-<col style="width: 23%" />
-</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Icône</p></th>
 <th class="head"><p>Action</p></th>
@@ -372,12 +374,14 @@ carte.</p>
 des objets dessinés peuvent être définies, telles que la couleur, l’épaisseur ou l’opacité.</p>
 <p>Il est possible d’ajouter une mesure prédéfinie pour chaque segment du dessin. Pour cela il suffit de renseigner
 le champ ci-dessous :</p>
-<a class="reference internal image-reference" href="_images/dessiner_avec_mesure.png"><img alt="_images/dessiner_avec_mesure.png" src="_images/dessiner_avec_mesure.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/dessiner_avec_mesure.png"><img alt="_images/dessiner_avec_mesure.png" src="_images/dessiner_avec_mesure.png" style="width: 1000px;" />
+</a>
 <p>L’affichage d’une information géométrique (coordonnées, longueur, surface, azimut)
 complète les annotations et fait office d’outil de mesure.</p>
 <p>Le clic droit sur un objet dessiné permet de le déplacer, le tourner ou le supprimer alors qu’un
 clic droit sur un sommet permet de le supprimer.</p>
-<a class="reference internal image-reference" href="_images/dessin_clic_droit.png"><img alt="_images/dessin_clic_droit.png" src="_images/dessin_clic_droit.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/dessin_clic_droit.png"><img alt="_images/dessin_clic_droit.png" src="_images/dessin_clic_droit.png" style="width: 1000px;" />
+</a>
 <p>Il est également possible de nommer les annotations et de les exporter aux formats KML et/ou
 GPX.</p>
 <p>Pour les lignes il est également possible d’ajouter une flèche selon une direction (avant, derrière, double) sur :</p>
@@ -386,12 +390,13 @@ GPX.</p>
 <li><p>le dernier segment</p></li>
 <li><p>chaque segment</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/dessiner_fleche.png"><img alt="_images/dessiner_fleche.png" src="_images/dessiner_fleche.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/dessiner_fleche.png"><img alt="_images/dessiner_fleche.png" src="_images/dessiner_fleche.png" style="width: 1000px;" />
+</a>
 <p>Lorsque vous dessinez un objet vous avez la possiblité d’accrocher votre dessin à une autre géométrie.
 Le point s’accorche automatiquement à une géométrie précédement lorsqu’il est à une certaine distance de celle-ci.</p>
 </section>
 <section id="profil-altimetrique">
-<h2>Profil altimétrique<a class="headerlink" href="#profil-altimetrique" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Profil altimétrique<a class="headerlink" href="#profil-altimetrique" title="Lien vers cette rubrique">¶</a></h2>
 <p>Il est possible de tracer un profil en long en se basant sur les modèles numériques de terrain
 et de surface (MNT et MNS).</p>
 <p><video width="600" controls><source src="_static/outils_profil.mp4" type="video/mp4"></video></p><p>Après avoir activé l’outil de profil, il faut dessiner sur la carte le profil désiré et terminer avec
@@ -399,7 +404,7 @@ un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l
 le terrain et en vert les éléments de surface (bâtiments, végétation, etc.).</p>
 </section>
 <section id="profil-lidar">
-<h2>Profil LiDAR<a class="headerlink" href="#profil-lidar" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Profil LiDAR<a class="headerlink" href="#profil-lidar" title="Lien vers cette rubrique">¶</a></h2>
 <p>Il est possible de tracer un profil en long en se basant sur les données obtenues lors du relevé LiDAR 2023.</p>
 <p><video width="600" controls><source src="_static/profil_lidar.mp4" type="video/mp4"></video></p><p>Après avoir activé l’outil de profil LiDAR, il faut dessiner sur la carte le profil désiré et terminer avec
 un double clic. Le profil, qui interagit avec la carte, s’affiche ensuite à l’écran. Le profil représente un
@@ -409,7 +414,7 @@ Dans le panneau à droite, il est possible d’activer ou de désactiver une ou 
 directement dans le profil ou encore d’exporter au format CSV ou PNG le profil.</p>
 </section>
 <section id="selection">
-<h2>Sélection<a class="headerlink" href="#selection" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Sélection<a class="headerlink" href="#selection" title="Lien vers cette rubrique">¶</a></h2>
 <p>Il est possible de sélectionner les objets sur la carte de différentes manières :</p>
 <ul class="simple">
 <li><p>Point : un seul objet est sélectionné</p></li>
@@ -418,15 +423,16 @@ directement dans le profil ou encore d’exporter au format CSV ou PNG le profil
 </ul>
 <p>Lorsque « Remplacer » est coché, la sélection précédente est remplacée par la nouvelle et
 lorsque « Supprimer » est coché, les objets sont supprimés de la sélection.</p>
-<a class="reference internal image-reference" href="_images/selection_polygone.png"><img alt="_images/selection_polygone.png" src="_images/selection_polygone.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/selection_polygone.png"><img alt="_images/selection_polygone.png" src="_images/selection_polygone.png" style="width: 1000px;" />
+</a>
 </section>
 <section id="street-view">
-<h2>Street View<a class="headerlink" href="#street-view" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Street View<a class="headerlink" href="#street-view" title="Lien vers cette rubrique">¶</a></h2>
 <p>Pour activer l’affichage Street View, une fois l’outil sélectionné, il faut cliquer sur la carte pour
 charger la vue 3D. La carte est synchronisée avec la vue 3D et vice-versa.</p>
 <p><video width="600" controls><source src="_static/street_view.mp4" type="video/mp4"></video></p></section>
 <section id="donnees-externes">
-<h2>Données externes<a class="headerlink" href="#donnees-externes" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Données externes<a class="headerlink" href="#donnees-externes" title="Lien vers cette rubrique">¶</a></h2>
 <p>Il est possible d’ajouter différentes données externes à la carte :</p>
 <ul class="simple">
 <li><p>Géoservices (WMS ou WMTS)</p></li>
@@ -437,7 +443,7 @@ entrant leur adresse dans le formulaire.
 Lorsqu’un WMS ou WMTS est chargé sur la carte la légende s’affiche et les objets de la couche sont interrogeables.</p>
 <p><video width="600" controls><source src="_static/donnees_externes.mp4" type="video/mp4"></video></p></section>
 <section id="statistiques">
-<h2>Statistiques<a class="headerlink" href="#statistiques" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Statistiques<a class="headerlink" href="#statistiques" title="Lien vers cette rubrique">¶</a></h2>
 <p>Un outil de statistiques, accessible uniquement en étant connecté, permet de calculer des
 statistiques sur la population, les emplois, les logements et l’énergie sur un secteur spécifique.</p>
 <p>Pour effectuer un calcul, après avoir activé l’outil, il faut dessiner sur la carte un périmètre et
@@ -445,9 +451,10 @@ terminer la saisie par un double clic. Les différentes valeurs vont ensuite êt
 affichées, pour autant que la surface ne soit pas trop petite ni trop grande.</p>
 <p><video width="600" controls><source src="_static/statistiques.mp4" type="video/mp4"></video></p></section>
 <section id="recentrer">
-<h2>Recentrer<a class="headerlink" href="#recentrer" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Recentrer<a class="headerlink" href="#recentrer" title="Lien vers cette rubrique">¶</a></h2>
 <p>Il est possible de recentrer la carte selon l’étendue d’une commune du district.</p>
-<a class="reference internal image-reference" href="_images/recentrer.png"><img alt="_images/recentrer.png" src="_images/recentrer.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/recentrer.png"><img alt="_images/recentrer.png" src="_images/recentrer.png" style="width: 1000px;" />
+</a>
 </section>
 </section>
 
@@ -466,7 +473,7 @@ affichées, pour autant que la surface ne soit pas trop petite ni trop grande.</
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
-    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 8.1.3 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.9.1.
 </div>
             </div>
           </div>
