@@ -3,6 +3,22 @@
 Versions
 ========
 
+.. _historique_version_20241125:
+
+Version du 25 novembre 2024
+---------------------------
+
+.. raw:: html
+
+    <li>Amélioration de la fenêtre contextuelle (ajout du texte "non disponible" lorsque les données sont vides)</li>
+    <li>Ajout du lien "Géoportail 3D" sous "Voir l'emplacement sur" dans la fenêtre contextuelle</li>
+    <li>Suppression des données SITSE de démo</li>
+    <li>Changement de source (swisstopo) pour les données PRU</li>
+    <li>Ajout d'une catégorie "Stockage batterie" pour les objets Dangers (Pompiers)</li>
+    <li>Changement des noms de classe pour le PGA de Coppet</li>
+    <li>Ajout de l'iframe Geocat dans les métadonnées</li>
+
+
 .. _historique_version_20240903:
 
 Version du 3 septembre 2024
