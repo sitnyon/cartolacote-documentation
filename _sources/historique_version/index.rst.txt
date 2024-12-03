@@ -3,6 +3,19 @@
 Versions
 ========
 
+.. _historique_version_20241203:
+
+Version du 3 décembre 2024
+--------------------------
+
+.. raw:: html
+
+    <li>Amélioration des données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
+    <li>Archivage de la couche "Jardins de poche"</li>
+	<li>Résolution de l'affichage de l'icône "plus d'info"</li>
+	<li>Résolution de traductions manquantes</li>
+
+
 .. _historique_version_20241125:
 
 Version du 25 novembre 2024
