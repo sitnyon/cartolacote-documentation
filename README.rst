@@ -55,6 +55,7 @@ Pour installer PyStemmer, il faut d'abord créer un environnement virtuel :
   python3 -m venv .venv
   source .venv/bin/activate
   pip3 install PyStemmer
+  pip3 install sphinx-press-theme
   deactivate
 
 Installation
@@ -90,8 +91,10 @@ Les modifications des fichiers ``rst`` doivent être faites dans le dossier ``ca
 
 :: 
 
+  source .venv/bin/activate
   cd  cartolacote-documentation/docs/
   make html
+  deactivate
 
 Pour tester les modifications aller sous : ``cartolacote-docs-build/html/`` et ouvrir le fichier index.html
 
