@@ -10,9 +10,10 @@ Version du 23 janvier 2025
 
 .. raw:: html
 
-    <li>Amélioration des données <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank>Chauffage à distance (ThermorésÔ Nyon SA)</a></li>
+    <li>Nouveau thème <a href="https://map.cartolacote.ch/theme/photos_rues" target=_blank>Photos des rues</a></li>
     <li>Suppression des données Ambulances Service SA</li>
     <li>Suppression des conduites hors-service pour le CAD</li>
+
 
 
 .. _historique_version_20241203:
