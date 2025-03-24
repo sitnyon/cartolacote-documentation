@@ -12,7 +12,6 @@ Version du 24 mars 2025
 
     <li>Publication des données de Founex : Espaces publics, Patrimoine communal et Espaces verts</li>
     <li>Mise à jour des données des <a href="https://map.cartolacote.ch/theme/mobilite" target=_blank>transports publics</a> et refonte de la représentation</li>
-    <li>Nouveau groupe <a href="https://map.cartolacote.ch/theme/electricite" target=_blank> Eclairage public</a></li>
     <li>Nouvelles données dans le thème Chauffage à distance <a href="https://map.cartolacote.ch/theme/chauffage_a_distance" target=_blank> Centrales en production et Planification du réseau</a></li>
 	<li>Nouvelles données dans le thème Environnement <a href="https://map.cartolacote.ch/theme/environnement" target=_blank> Infrastructure écologique du Grand Genève et Trame noire du Grand Genève</a></li>
     <li>Nouveau groupe <a href="https://map.cartolacote.ch/theme/electricite" target=_blank> Eclairage public</a></li>
