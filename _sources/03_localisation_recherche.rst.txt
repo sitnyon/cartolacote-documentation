@@ -162,7 +162,7 @@ Objets paramétrés pour la recherche
 |               |                 |                        |                       | couche **Stations**     |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Réseaux       | CD              | CD + nom de la CD      | CD 7                  | Zoom sur la CD et       | Restreint  | Nyon                      |
-| souterrains   |                 |                        |                       | activation de la couche |            |                           |
+| souterrains   |                 | + Commune              | Prangins              | activation de la couche |            |                           |
 | (gaz)         |                 |                        |                       | **Postes de détente**   |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Réseaux       | BAG             | BAG + nom de la BAG    | BAG 601               | Zoom sur la BAG et      | Restreint  | Nyon                      |
