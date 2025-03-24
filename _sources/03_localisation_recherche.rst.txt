@@ -148,7 +148,7 @@ Objets paramétrés pour la recherche
 |               |                 |                        |                       | permis                  |            |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Réseaux       | BH              | BH + numéro de la BH   | BH 3                  | Zoom sur la BH et       | Restreint  | District de Nyon          |
-| souterrains   |                 |                        |                       | activation de la couche | et         |                           |
+| souterrains   |                 | + Commune              | Vich                  | activation de la couche | et         |                           |
 | (eau)         |                 |                        |                       | **Hydrantes**           | Public     |                           |
 +---------------+-----------------+------------------------+-----------------------+-------------------------+------------+---------------------------+
 | Réseaux       | Armoire         | Armoire +              | Armoire               | Zoom sur l'amoire de    | Restreint  | Nyon                      |
