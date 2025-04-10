@@ -3,6 +3,21 @@
 Versions
 ========
 
+.. _historique_version_20250410:
+
+Version du 10 avril 2025
+------------------------
+
+.. raw:: html
+
+    <li>Ajout d'attributs pour l'édition des données des accès immeubles</li>
+    <li>Ajout de la catégorie football pour les points d'intérêts "Sport, loisirs"</li>
+	<li>Suppression des anciennes couches du fond de plan</li>
+    <li>Suppression des affiches de plan de ville dans le thème "Plan de ville"</li>
+    <li>Ajout des données de lampes dans le thème électricité</li>
+    <li>Ajout des traductions manquantes</li>
+    <li>Ajout des en-têtes pour autoriser l'authentification sur GeoGirafe</li>
+
 .. _historique_version_20250324:
 
 Version du 24 mars 2025
