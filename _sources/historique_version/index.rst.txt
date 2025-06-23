@@ -3,6 +3,31 @@
 Versions
 ========
 
+.. _historique_version_20250605:
+
+Version du 5 juin 2025
+----------------------
+
+.. raw:: html
+
+    <li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/electricite" target=_blank>Repères</a> pour le thème Électricité</li>
+    <li>Ajout des données de Bursins</li>
+	<li>Nouvelles couches <a href="https://map.cartolacote.ch/theme/assainissement" target=_blank>Protocole séparatif et État du séparatif</a></li>
+
+.. _historique_version_20250527:
+
+Version du 27 mai 2025
+----------------------
+
+.. raw:: html
+
+    <li>Ajout d'un champ vidéo pour les données des chantiers en édition</li>
+    <li>Changement de l'url pour la demo (nouveau serveur)</li>
+	<li>Amélioration des mapfiles pour les réseaux souterrains</li>
+	<li>Changement de la symbologie pour le Chauffage à distance</li>
+	<li>Ajout des données SIL pour le gaz</li>
+	<li>Nouvelle couche <a href="https://map.cartolacote.ch/theme/eau_potable" target=_blank>Conduites par zone de pression</a> pour le thème Eau potable</li>
+
 .. _historique_version_20250410:
 
 Version du 10 avril 2025
