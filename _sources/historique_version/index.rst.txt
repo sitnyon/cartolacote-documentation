@@ -3,6 +3,19 @@
 Versions
 ========
 
+.. _historique_version_20250708:
+
+Version du 8 juillet 2025
+-------------------------
+
+.. raw:: html
+
+    <li>Nouvelles couches pour le thème Stratégie territoriale avec les données issues de la <a href="https://map.cartolacote.ch/theme/electricite" target=_blank>Stratégie de végétalisation</a> de la Ville de Nyon</li>
+    <li>Ajout du lien vers le géoportail LiDAR Cartolacôte dans la fenêtre contextuelle</li>
+	<li>Correction de la position des numéros de pagination dans le carrousel de document</li>
+	<li>Ajout d'un champ vidéo pour toutes les données en édition du thème Chantiers et perturbations de trafic</li>
+	<li>Résolution du problème d'impression au format A2</li>
+
 .. _historique_version_20250605:
 
 Version du 5 juin 2025

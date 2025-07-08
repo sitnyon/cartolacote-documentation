@@ -4,14 +4,14 @@ Webservices
 Adresse
 -------
 
-Le webservice des adresses permet de renvoyer un adresse selon un identifiant. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice des adresses permet de renvoyer un adresse selon un identifiant. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
 
 ``https://map.cartolacote.ch/webservice/adresse?fid={identifiant}``
 
-Paramètre 
+Paramètre
 *********
 
 +---------------+------------------+------------------------+
@@ -31,7 +31,7 @@ Liste des attributs
 Adresses
 --------
 
-Le webservice des adresses permet de renvoyer la liste des adresses sur l'ensemble du district de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice des adresses permet de renvoyer la liste des adresses sur l'ensemble du district de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
@@ -56,14 +56,14 @@ Liste des attributs
 Chantiers et perturbations de trafic
 ------------------------------------
 
-Le webservice des chantiers permet de renvoyer une liste des chantiers et des perturbations trafic lié à celui-ci. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice des chantiers permet de renvoyer une liste des chantiers et des perturbations trafic lié à celui-ci. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
 
 ``https://map.cartolacote.ch/webservice/chantiers?entite={nom_entite}``
 
-Paramètre 
+Paramètre
 *********
 
 +---------------+------------------+------------------------+
@@ -82,10 +82,10 @@ Paramètre
 Liste des attributs
 *******************
 
-* **evenement (obligatoire)** : nom de l'évènement 
+* **evenement (obligatoire)** : nom de l'évènement
 * **type_evenement (obligatoire)** : type de chantier
 * **etat (obligatoire)** : état du chantier (En cours, Futur)
-* **service_pilote (obligatoire)** : nom du service pilote 
+* **service_pilote (obligatoire)** : nom du service pilote
 * **telephone_contact** : numéro de téléphone du service pilote
 * **email_contact** : adresse e-mail du service pilote
 * **horaire_travaux** : horaires des travaux (jour, nuit ou les deux)
@@ -99,7 +99,7 @@ Liste des attributs
 	* **periode_secours** : période pendant laquelle a lieu la perturbation (uniquement pour les secours)
 	* **date_debut_secours** : Date de début des travaux (uniquement pour les secours)
 	* **date_fin_secours** : Date de fin des travaux (uniquement pour les secours)
-	* **etat_public** : état de la perturbation (Passé, En cours, Futur) 
+	* **etat_public** : état de la perturbation (Passé, En cours, Futur)
 	* **etat_secours** : état de la perturbation (Passé, En cours, Futur) (uniquement pour les secours)
 	* **heure_debut** : heure de début de la perturbation
 	* **heure_fin** : heure de fin de la perturbation
@@ -111,8 +111,8 @@ Liste des attributs
 	* **samedi** : la perturbation a lieu le samedi (oui, non)
 	* **dimanche** : la perturbation a lieu le dimanche (oui, non)
 
-* **coordonnee_x (obligatoire)** : coordonnées x du point de l'évènement 
-* **coordonnee_y (obligatoire)** : coordonnées y du point de l'évènement 
+* **coordonnee_x (obligatoire)** : coordonnées x du point de l'évènement
+* **coordonnee_y (obligatoire)** : coordonnées y du point de l'évènement
 
 
 Catalogue
@@ -125,7 +125,7 @@ URL
 
 ``https://map.cartolacote.ch/layer_interface?interface={nom_interface}``
 
-Paramètre 
+Paramètre
 *********
 
 +---------------+------------------+------------------------+
@@ -139,14 +139,14 @@ Paramètre
 Documents
 ---------
 
-Le webservice Documents permet de renvoyer un carrousel d'images ou de fichiers. 
+Le webservice Documents permet de renvoyer un carrousel d'images ou de fichiers.
 
 URL
 ***
 
 ``https://map.cartolacote.ch/docs/{type_document}/{identifiant}``
 
-Paramètre 
+Paramètre
 *********
 
 +---------------+------------------+------------------------+
@@ -164,7 +164,7 @@ Paramètre
 Enquêtes publiques
 ------------------
 
-Le webservice des enquêtes publiques permet de renvoyer la liste des avis d'enquêtes en cours sur la commune de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice des enquêtes publiques permet de renvoyer la liste des avis d'enquêtes en cours sur la commune de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
@@ -208,10 +208,10 @@ Liste des attributs
 * **url** : lien vers les conditions d'utilisation
 
 
-Nature en ville 
+Nature en ville
 ---------------
 
-Le webservice nature en ville permet de renvoyer la liste des balades nature en ville sur la commune de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice nature en ville permet de renvoyer la liste des balades nature en ville sur la commune de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
@@ -235,7 +235,7 @@ Liste des attributs
 Rues
 ----
 
-Le webservice des rues permet de renvoyer la liste des adresses sur l'ensemble du district de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte. 
+Le webservice des rues permet de renvoyer la liste des adresses sur l'ensemble du district de Nyon. C'est un service uniquement dédié aux partenaires Cartolacôte.
 
 URL
 ***
