@@ -15,9 +15,9 @@ Version du 11 septembre 2025
     <li>Nouvelle <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Ortophoto 2024 (4 cm) </a>du SITG</li>
 	<li>Ajout de l'état des collecteurs et conduites pour la commune de Bursins</li>
 	<li>Nouvelle couche en édition pour les projets du Service de l'environnement (Ville de Nyon)</li>
-	<li>Refonte des couches bâtiment dans le thème Patrimoine</li>
+	<li>Refonte de la couche bâtiment dans le thème Patrimoine</li>
 	<li>Nouvelle couche pour les surfaces d'entretien Coppet</li>
-	<li>Ajout d'attribut pour les données du gaz</li>
+	<li>Ajout d'attributs pour les données du gaz</li>
 
 .. _historique_version_20250708:
 
