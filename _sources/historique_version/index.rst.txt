@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20251103:
+
+Version du 3 novembre 2025
+--------------------------
+
+.. raw:: html
+
+    <li>Mise à jour de GeoMapFish avec la version 2.9</li>
+	<li>Ajout du front-end GeoGirafe (desktop et mobile)</li>
+	<li>Ajout du plan cadastral dans QGIS Server</li>
+
 .. _historique_version_20250911:
 
 Version du 11 septembre 2025
