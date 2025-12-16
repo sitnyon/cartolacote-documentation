@@ -3,6 +3,31 @@
 Versions
 ========
 
+.. _historique_version_20251211:
+
+Version du 11 décembre 2025
+---------------------------
+
+.. raw:: html
+
+    <li>Mise à jour des données des transports publics 2026, ajout d'une couche : <a href="https://map.cartolacote.ch/theme/mobilite" target=_blank>Réseau de bus (ancien)</a></li>
+	<li>Adaptation des couches Logements</li>
+	<li>Nouvelle couche : <a href="https://map.cartolacote.ch/theme/eau_potable" target=_blank>Vannes de régulation</a></li>
+	<li>Correction de bugs pour l'entretien communale</li>
+	<li>Ajout d'un attribut pour les BH</li>
+
+
+.. _historique_version_20251126:
+
+Version du 26 novembre 2025
+---------------------------
+
+.. raw:: html
+
+    <li>Adapation représentation des données du cadastre solaire</li>
+	<li>Ajout d'un nouveau thème Culture et d'une couche édition pour les balades artistiques</li>
+	<li>Correction des bugs sur l'affichage des réseaux souterrains</li>
+
 .. _historique_version_20251103:
 
 Version du 3 novembre 2025
