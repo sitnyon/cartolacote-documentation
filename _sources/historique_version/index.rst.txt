@@ -3,6 +3,17 @@
 Versions
 ========
 
+.. _historique_version_20260128:
+
+Version du 28 janvier 2026
+--------------------------
+
+.. raw:: html
+
+    <li>Ajout de la couche <a href="https://map.cartolacote.ch/theme/cartolacote" target=_blank>SITSE</a></li>
+	<li>Mise de GeoGirafe sur la v1 LTR</li>
+
+
 .. _historique_version_20251211:
 
 Version du 11 décembre 2025
