@@ -3,6 +3,28 @@
 Versions
 ========
 
+.. _historique_version_20260312:
+
+Version du 12 mars 2026
+-----------------------
+
+.. raw:: html
+
+    <li>Suppression de la couche Cantonale FVJC (WMTS)</li>
+	<li>Suppression et renommage des attributs de la couche Bâtiments (Patrimoine)</li>
+	<li>Résolutions d'erreurs</li>
+	<li>Ajout d'attributs pour les enquêtes publiques</li>
+	<li>Suppression de la couche  rayonnement solaire (WMTS)</li>
+	<li>Autorisation du nom de domaine demo.geogirafe.org</li>
+	<li>Ajout des couches du thème Cartolacôte dans l'API</li>
+	<li>Ajout de l'url du service WMS Raster du Canton de Vaud (outil ajout de données externes)</li>
+	<li>Nouvelles couches : <a href="https://map.cartolacote.ch/s/LyKk" target=_blank>Limites des constructions et Bandes d'implantation (données cantonales)</a></li>
+	<li>Refonte des données sur les Arbres, édition des données en WFS</li>
+	<li>Ajout de filtres pour les données du cadastre solaire</li>
+	<li>Nouvelles couches : <a href="https://map.cartolacote.ch/theme/photos_aeriennes" target=_blank>Photos aériennes historiques de 1934, 1954, 1968 et 1973</a></li>
+	<li>Nouvelle couche (éditable en ligne) : <a href="https://map.cartolacote.ch/theme/espaces_publics" target=_blank>Espaces frais</a></li>
+
+
 .. _historique_version_20260128:
 
 Version du 28 janvier 2026
