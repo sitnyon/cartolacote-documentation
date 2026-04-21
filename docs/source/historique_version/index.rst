@@ -3,6 +3,18 @@
 Versions
 ========
 
+.. _historique_version_20260409:
+
+Version du 9 avril 2026
+-----------------------
+
+.. raw:: html
+
+    <li>Publication des données SITSE : assaisnissment et eau potable</li>
+    <li>Autorisation de cartolacote.ch pour l'utilisation de l'API</li>
+    <li>Activation de l'option d'accrochage pour les données des réseaux souterrains</li>
+
+
 .. _historique_version_20260312:
 
 Version du 12 mars 2026
