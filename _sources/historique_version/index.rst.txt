@@ -2,6 +2,21 @@
 
 Versions
 ========
+.. _historique_version_20260409:
+
+Version du 28 mai 2026
+----------------------
+
+.. raw:: html
+
+    <li>Nouveau service OGC pour le plan cadastral</li>
+    <li>Ajout d'un Webcomponent GeoGirafe pour les métadonnées des fonds de plan</li>
+    <li>Nouvelle couche dans le thème Police des constructions : Projets CEDU (accès restreint)</li>
+    <li>Nouvelles couches dans le thème Chauffage à distance : Etat des raccordements et Suivi commercial (accès restreint)</li>
+    <li>Nouveau partenaire : ThermorésÔ Gland</li>
+    <li>Nouvelle couche dans le thème Espaces verts : Arbres remarquables candidats pour l'inventaire cantonal (accès restreint)</li>
+    <li>Ajout des données de l'eau potable du SIDERE</li>
+
 
 .. _historique_version_20260409:
 
