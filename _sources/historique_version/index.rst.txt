@@ -2,7 +2,21 @@
 
 Versions
 ========
-.. _historique_version_20260409:
+
+.. _historique_version_20260611:
+
+Version du 11 juin 2026
+-----------------------
+
+.. raw:: html
+
+    <li>Ajout des logos manquants pour Founex et Mont-sur-Rolle</li>
+    <li>Adaptation de la représentation des conduites pour le chauffage à distance</li>
+    <li>Nouvelles couches d'édition pour le réseau d'arrosage (Nyon)</li>
+    <li>Ajout des données de l'assainissement et électricité pour Mont-sur-Rolle</li>
+
+
+.. _historique_version_20260528:
 
 Version du 28 mai 2026
 ----------------------
