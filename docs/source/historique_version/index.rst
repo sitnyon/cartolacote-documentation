@@ -3,6 +3,23 @@
 Versions
 ========
 
+.. _historique_version_20260811:
+
+Version du 11 août 2026
+-----------------------
+
+.. raw:: html
+
+    <li>Publication des <a href="https://map.cartolacote.ch/s/yDpw" target=_blank>couches du cadastre énergétique cantonal des bâtiments</a> sur le district de Nyon</li>
+    <li>Ajout des <a href="https://map.cartolacote.ch/s/yDpw" target=_blank>installations photovoltaïques</a> sur le district de Nyon (OFEN)</li>
+    <li>Nouvelle couche du <a href="https://map.cartolacote.ch/s/jbfO" target=_blank>potentiel de régulation des eaux pluviales dans le sous-sol</a> (Nyon)</li>
+    <li>Mise à jour des <a href="https://map.cartolacote.ch/s/500B" target=_blank>itinéraires SuisseMobile été et hiver</a> sur le district de Nyon</li>
+    <li>Publication des parkings vélos et parkings P+R sur le district de Nyon dans le thème <a href="https://map.cartolacote.ch/s/LvMk" target=_blank>Stationnement</a> et le thème <a href="https://map.cartolacote.ch/s/IESi" target=_blank>Mobilité</a></li>
+    <li>Ajout de la couche des regards pour les données d'arrosage et de drainage (accès restreint)</li>
+    <li>Ajout de la catégorie 'Séparé avec remarque'dans la couche 'Bâtiments - état du séparatif' (accès restreint)</li>
+    <li>Mise à jour GeoGirafe v1.1</li>
+
+
 .. _historique_version_20260611:
 
 Version du 11 juin 2026
