@@ -13,7 +13,7 @@ Version du 4 novembre 2026
     <li>Ajout des tableaux de commande (espaces verts) dans l'édition</li>
     <li>Nouvelle couche dans le thème Espaces verts : Bacs Paléo</li>
     <li>Résolution d'erreur dans la représentation des itinéraires Suisse mobile</li>
-    <li>Resilution d'erreur dans le représentation des données du fond de plan (qgisserver)</li>
+    <li>Resilution d'erreur dans la représentation des données du fond de plan (qgisserver)</li>
     <li>Archives des anciennes données pour les fonds de plan</li>
 
 .. _historique_version_20260903:
@@ -23,9 +23,9 @@ Version du 3 septembre 2026
 
 .. raw:: html
 
-    <li>Modification des données des stationnements et mobilité en temps réel (suppresion Publibike)</li>
+    <li>Modification des données de stationnement et mobilité en temps réel (suppresion Publibike)</li>
     <li>Ajout des données du Cadastre projeté pour tout le district, modification du Registre des bâtiments</li>
-    <li>Ajout des Chantiers archivés dans la couche d'éditon Chantiers</li>
+    <li>Ajout des Chantiers archivés dans la couche d'édition Chantiers</li>
     <li>Nouvelle couche dans le thème Chauffage à distance : Secteurs de prospection/déploiement</li>
     <li>Modification de la symbologie pour Chambres récolte eaux toitures</li>
     <li>Ajout d'un nouveau partenaire : SDIS Etraz-Région</li>
